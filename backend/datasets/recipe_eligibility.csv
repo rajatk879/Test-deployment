@@ -1,0 +1,9 @@
+flour_type,recipe_id,default_allocation_pct
+Superior,R1,0.6
+Superior,R2,0.4
+Bakery,R2,0.5
+Bakery,R4,0.5
+Patent,R2,0.7
+Patent,R5,0.3
+Brown,R3,1.0
+Superior Brown,R3,1.0

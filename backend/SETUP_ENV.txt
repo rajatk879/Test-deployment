@@ -1,0 +1,38 @@
+===========================================
+ENVIRONMENT VARIABLES SETUP
+===========================================
+
+Please create or edit the file: backend/.env
+
+Add the following content:
+
+-------------------------------------------
+# SMTP Email Configuration (for sending emails)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=arp290825@gmail.com
+SMTP_PASSWORD=qldpwxqboyqvuuon
+ALERT_EMAIL=maheshwaripranjal784@gmail.com,shubhh2003@gmail.com,arp290825@gmail.com,monisha992002@gmail.com
+
+# IMAP Configuration (for reference - stored but SMTP is used for sending)
+IMAP_HOST=imap.gmail.com
+IMAP_PORT=993
+SENDER_EMAIL=arp290825@gmail.com
+EMAIL_PASSWORD=qldpwxqboyqvuuon
+ALERT_EMAILS=maheshwaripranjal784@gmail.com,shubhh2003@gmail.com,arp290825@gmail.com,monisha992002@gmail.com
+-------------------------------------------
+
+IMPORTANT NOTES:
+1. The password "qldp wxqb oyqv uyon" has been converted to "qldpwxqboyqvuuon" (spaces removed)
+2. For sending emails, SMTP is used (not IMAP)
+3. The code will automatically use SENDER_EMAIL and EMAIL_PASSWORD if SMTP_USER/SMTP_PASSWORD are not set
+4. After creating/editing .env, restart your backend server
+
+To create the file, run:
+cd backend
+nano .env
+# or
+vim .env
+# or use any text editor
+
+Then paste the content above and save.

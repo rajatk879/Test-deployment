@@ -1,0 +1,634 @@
+{
+  "global_rules": {
+    "sql_dialect": "sqlite",
+    "case_insensitive_matching": "SQLite does not support ILIKE. Always use LOWER(column) LIKE '%value%'",
+    "critical_warnings": [
+      "NEVER invent or guess column names, table names, or values - use ONLY what is provided in this metadata",
+      "NEVER use columns or tables that are not explicitly listed in the schema below",
+      "If a column or table is not in the metadata, it does NOT exist - do not use it",
+      "Use case-insensitive matching for mill_id, recipe_id, sku_id, and flour_type unless an exact ID is provided"
+    ],
+    "anti_hallucination_rules": [
+      "ONLY use tables and columns explicitly defined in the schema below",
+      "ONLY use sample values provided in the metadata - do not invent values",
+      "If unsure about a column name, check the exact spelling in the metadata",
+      "If a user asks about data not in the schema, inform them it's not available rather than guessing"
+    ]
+  },
+  "tables": {
+    "sku_forecast": {
+      "description": "SKU-level daily forecast data showing forecasted tons for each SKU by date. Includes confidence level for forecast accuracy.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Forecast date for the SKU forecast.",
+          "type": "date",
+          "semantic_role": "forecast_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "sku_id": {
+          "description": "Unique SKU identifier. Format: SKU001, SKU002, etc. Join with sku_master for SKU details.",
+          "type": "string",
+          "semantic_role": "product_identifier",
+          "matching_rule": "Use exact match unless user specifies otherwise",
+          "example_values": ["SKU001", "SKU002", "SKU003"]
+        },
+        "forecast_tons": {
+          "description": "Forecasted tons for the SKU on the given date.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "confidence_level": {
+          "description": "Confidence level of the forecast (0.0 to 1.0, where 1.0 is highest confidence).",
+          "type": "real",
+          "semantic_role": "forecast_confidence",
+          "example_values": [0.85, 0.89, 0.9]
+        }
+      }
+    },
+    "sku_master": {
+      "description": "Master data table mapping SKUs to flour types, pack sizes, and brands. Use this to join SKU information with forecasts and other tables.",
+      "writable": false,
+      "columns": {
+        "sku_id": {
+          "description": "Unique SKU identifier. Format: SKU001, SKU002, etc. This is the primary key for joining with other tables.",
+          "type": "string",
+          "semantic_role": "product_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["SKU001", "SKU002", "SKU003"]
+        },
+        "sku_name": {
+          "description": "Full name/description of the SKU.",
+          "type": "string",
+          "example_values": ["FOOM Superior Flour 45kg", "FOOM Bakery Flour 10kg"]
+        },
+        "pack_size_kg": {
+          "description": "Pack size in kilograms.",
+          "type": "integer",
+          "example_values": [1, 10, 45]
+        },
+        "flour_type": {
+          "description": "Type of flour (Superior, Bakery, Patent, Brown, Superior Brown). Join with recipe tables to understand recipe allocations.",
+          "type": "string",
+          "semantic_role": "flour_type",
+          "matching_rule": "Use case-insensitive partial match",
+          "sql_rule_sqlite": "LOWER(flour_type) LIKE '%value%'",
+          "example_values": ["Superior", "Bakery", "Patent", "Brown", "Superior Brown"],
+          "allowed_values": ["Superior", "Bakery", "Patent", "Brown", "Superior Brown"]
+        },
+        "brand": {
+          "description": "Brand name (FOOM, Miller, etc.).",
+          "type": "string",
+          "example_values": ["FOOM", "Miller"]
+        }
+      }
+    },
+    "recipe_master": {
+      "description": "Master data table for recipes. Contains recipe identifiers, names, base production rates, and cost information.",
+      "writable": false,
+      "columns": {
+        "recipe_id": {
+          "description": "Unique recipe identifier. Format: R1, R2, R3, etc. Join with mill_recipe_rates and recipe_demand tables.",
+          "type": "string",
+          "semantic_role": "recipe_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["R1", "R2", "R3", "R4", "R5"]
+        },
+        "recipe_name": {
+          "description": "Name/description of the recipe.",
+          "type": "string",
+          "example_values": ["80/70 Blend", "80 Straight", "Brown Recipe", "Standard Blend", "Premium Blend"]
+        },
+        "base_tons_per_hour": {
+          "description": "Base production rate in tons per hour for this recipe.",
+          "type": "real",
+          "example_values": [10.5, 12.0, 8.5, 11.0, 9.5]
+        },
+        "cost_index": {
+          "description": "Cost index multiplier for this recipe (higher = more expensive).",
+          "type": "real",
+          "example_values": [1.0, 1.05, 1.1, 1.08]
+        },
+        "notes": {
+          "description": "Additional notes about the recipe.",
+          "type": "string",
+          "example_values": ["High quality, slower", "Faster, higher cost", "Standard brown"]
+        }
+      }
+    },
+    "recipe_eligibility": {
+      "description": "Mapping table showing which recipes can produce which flour types and their default allocation percentages.",
+      "writable": false,
+      "columns": {
+        "flour_type": {
+          "description": "Type of flour (Superior, Bakery, Patent, Brown, Superior Brown).",
+          "type": "string",
+          "semantic_role": "flour_type",
+          "matching_rule": "Use case-insensitive partial match",
+          "sql_rule_sqlite": "LOWER(flour_type) LIKE '%value%'",
+          "example_values": ["Superior", "Bakery", "Patent", "Brown", "Superior Brown"]
+        },
+        "recipe_id": {
+          "description": "Recipe identifier that can produce this flour type. Format: R1, R2, etc.",
+          "type": "string",
+          "semantic_role": "recipe_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["R1", "R2", "R3", "R4", "R5"]
+        },
+        "default_allocation_pct": {
+          "description": "Default allocation percentage for this recipe-flour combination (0.0 to 1.0).",
+          "type": "real",
+          "example_values": [0.4, 0.5, 0.6, 0.7, 1.0]
+        }
+      }
+    },
+    "mill_master": {
+      "description": "Master data table for mills. Contains mill identifiers, names, regions, capacity, and operational parameters.",
+      "writable": false,
+      "columns": {
+        "mill_id": {
+          "description": "Unique mill identifier. Format: M1, M2, M3, etc. This is the primary key for joining with mill load, capacity, and schedule tables.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "mill_name": {
+          "description": "Name of the mill.",
+          "type": "string",
+          "example_values": ["Dammam Mill", "Medina Mill", "Al-Kharj Mill"]
+        },
+        "region": {
+          "description": "Geographic region where the mill is located.",
+          "type": "string",
+          "example_values": ["Eastern Region", "Medina", "Central Region"]
+        },
+        "hours_per_day": {
+          "description": "Standard operating hours per day for this mill.",
+          "type": "integer",
+          "example_values": [18, 20]
+        },
+        "daily_capacity_tons": {
+          "description": "Daily production capacity in tons.",
+          "type": "integer",
+          "example_values": [600, 1200, 1350]
+        },
+        "silo_capacity_tons": {
+          "description": "Silo storage capacity in tons.",
+          "type": "integer",
+          "example_values": [10000, 60000, 80000]
+        }
+      }
+    },
+    "mill_load": {
+      "description": "Daily mill load data showing scheduled hours, available hours, maintenance status, overload, and utilization percentage for each mill by date.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date of the mill load record.",
+          "type": "date",
+          "semantic_role": "load_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "mill_id": {
+          "description": "Mill identifier. Format: M1, M2, M3. Join with mill_master for mill details.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "scheduled_hours": {
+          "description": "Hours scheduled for production on this date.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "available_hours": {
+          "description": "Hours available for production (may be reduced due to maintenance).",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "is_maintenance": {
+          "description": "Boolean flag indicating if the mill was under maintenance (True/False).",
+          "type": "boolean",
+          "semantic_role": "maintenance_indicator",
+          "allowed_values": [true, false]
+        },
+        "overload_hours": {
+          "description": "Overload hours (negative values indicate underutilization, positive indicate overload).",
+          "type": "real",
+          "aggregation_rule": "SUM",
+          "semantic_role": "capacity_utilization"
+        },
+        "utilization_pct": {
+          "description": "Utilization percentage (scheduled_hours / available_hours * 100).",
+          "type": "real",
+          "semantic_role": "utilization_metric",
+          "example_values": [92.85, 95.0, 94.44]
+        }
+      }
+    },
+    "mill_load_weekly": {
+      "description": "Weekly aggregated mill load data showing scheduled hours, available hours, and overload hours by week and mill.",
+      "writable": false,
+      "columns": {
+        "week": {
+          "description": "Week identifier in format YYYY-W## (e.g., 2020-W01).",
+          "type": "string",
+          "semantic_role": "week_identifier",
+          "example_values": ["2020-W01", "2020-W02"]
+        },
+        "mill_id": {
+          "description": "Mill identifier. Format: M1, M2, M3.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "scheduled_hours": {
+          "description": "Total scheduled hours for the week.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "available_hours": {
+          "description": "Total available hours for the week.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "overload_hours": {
+          "description": "Total overload hours for the week (negative = underutilization, positive = overload).",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        }
+      }
+    },
+    "mill_load_monthly": {
+      "description": "Monthly aggregated mill load data showing scheduled hours, available hours, and overload hours by month and mill.",
+      "writable": false,
+      "columns": {
+        "month": {
+          "description": "Month identifier in format YYYY-MM (e.g., 2020-01).",
+          "type": "string",
+          "semantic_role": "month_identifier",
+          "example_values": ["2020-01", "2020-02"]
+        },
+        "mill_id": {
+          "description": "Mill identifier. Format: M1, M2, M3.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "scheduled_hours": {
+          "description": "Total scheduled hours for the month.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "available_hours": {
+          "description": "Total available hours for the month.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "overload_hours": {
+          "description": "Total overload hours for the month (negative = underutilization, positive = overload).",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        }
+      }
+    },
+    "mill_load_yearly": {
+      "description": "Yearly aggregated mill load data showing scheduled hours, available hours, and overload hours by year and mill.",
+      "writable": false,
+      "columns": {
+        "year": {
+          "description": "Year (e.g., 2020, 2021, 2022).",
+          "type": "integer",
+          "semantic_role": "year_identifier",
+          "example_values": [2020, 2021, 2022]
+        },
+        "mill_id": {
+          "description": "Mill identifier. Format: M1, M2, M3.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "scheduled_hours": {
+          "description": "Total scheduled hours for the year.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "available_hours": {
+          "description": "Total available hours for the year.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "overload_hours": {
+          "description": "Total overload hours for the year (negative = underutilization, positive = overload).",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        }
+      }
+    },
+    "mill_capacity": {
+      "description": "Daily mill capacity data showing available hours and maintenance status for each mill by date.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date of the capacity record.",
+          "type": "date",
+          "semantic_role": "capacity_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "mill_id": {
+          "description": "Mill identifier. Format: M1, M2, M3. Join with mill_master for mill details.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "available_hours": {
+          "description": "Hours available for production on this date (may be 0 if under maintenance).",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "is_maintenance": {
+          "description": "Boolean flag indicating if the mill was under maintenance (True/False).",
+          "type": "boolean",
+          "semantic_role": "maintenance_indicator",
+          "allowed_values": [true, false]
+        }
+      }
+    },
+    "mill_recipe_schedule": {
+      "description": "Detailed daily production schedule showing which recipes were run on which mills, with timing, duration, changeover time, tons produced, and cost information.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date of the production schedule.",
+          "type": "date",
+          "semantic_role": "schedule_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "mill_id": {
+          "description": "Mill identifier where the recipe was run. Format: M1, M2, M3.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "recipe_id": {
+          "description": "Recipe identifier that was run. Format: R1, R2, etc. Join with recipe_master for recipe details.",
+          "type": "string",
+          "semantic_role": "recipe_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["R1", "R2", "R3", "R4", "R5"]
+        },
+        "start_hour": {
+          "description": "Start hour of the production run (0.0 to 24.0).",
+          "type": "real",
+          "example_values": [0.0, 9.39, 15.99]
+        },
+        "end_hour": {
+          "description": "End hour of the production run (0.0 to 24.0).",
+          "type": "real",
+          "example_values": [8.89, 15.49, 19.57]
+        },
+        "duration_hours": {
+          "description": "Duration of the production run in hours.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "changeover_hours": {
+          "description": "Changeover time between recipes in hours.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "tons_produced": {
+          "description": "Tons of product produced in this run.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        },
+        "recipe_cost_index": {
+          "description": "Cost index for this recipe run (from recipe_master).",
+          "type": "real",
+          "example_values": [1.05, 1.1, 1.02]
+        }
+      }
+    },
+    "mill_recipe_rates": {
+      "description": "Production rates (tons per hour) for each recipe at each mill. Different mills may have different rates for the same recipe.",
+      "writable": false,
+      "columns": {
+        "mill_id": {
+          "description": "Mill identifier. Format: M1, M2, M3. Join with mill_master for mill details.",
+          "type": "string",
+          "semantic_role": "mill_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["M1", "M2", "M3"]
+        },
+        "recipe_id": {
+          "description": "Recipe identifier. Format: R1, R2, etc. Join with recipe_master for recipe details.",
+          "type": "string",
+          "semantic_role": "recipe_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["R1", "R2", "R3", "R4", "R5"]
+        },
+        "tons_per_hour": {
+          "description": "Production rate in tons per hour for this recipe at this mill.",
+          "type": "real",
+          "example_values": [10.24, 13.08, 8.89, 11.22, 9.78]
+        }
+      }
+    },
+    "bulk_flour_demand": {
+      "description": "Daily bulk flour demand aggregated by flour type. Shows total required tons for each flour type by date.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date of the demand record.",
+          "type": "date",
+          "semantic_role": "demand_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "flour_type": {
+          "description": "Type of flour (Superior, Bakery, Patent, Brown, Superior Brown).",
+          "type": "string",
+          "semantic_role": "flour_type",
+          "matching_rule": "Use case-insensitive partial match",
+          "sql_rule_sqlite": "LOWER(flour_type) LIKE '%value%'",
+          "example_values": ["Superior", "Bakery", "Patent", "Brown", "Superior Brown"]
+        },
+        "required_bulk_tons": {
+          "description": "Total required tons of this flour type for the date.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        }
+      }
+    },
+    "recipe_demand": {
+      "description": "Daily recipe demand showing how much of each recipe is required to meet flour demand, including allocation percentages and required tons.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date of the recipe demand record.",
+          "type": "date",
+          "semantic_role": "demand_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "flour_type": {
+          "description": "Type of flour that this recipe helps produce. Format: Superior, Bakery, Patent, Brown, Superior Brown.",
+          "type": "string",
+          "semantic_role": "flour_type",
+          "matching_rule": "Use case-insensitive partial match",
+          "sql_rule_sqlite": "LOWER(flour_type) LIKE '%value%'",
+          "example_values": ["Superior", "Bakery", "Patent", "Brown", "Superior Brown"]
+        },
+        "recipe_id": {
+          "description": "Recipe identifier required to produce this flour type. Format: R1, R2, etc.",
+          "type": "string",
+          "semantic_role": "recipe_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["R1", "R2", "R3", "R4", "R5"]
+        },
+        "allocation_pct": {
+          "description": "Allocation percentage for this recipe-flour combination (0.0 to 1.0).",
+          "type": "real",
+          "example_values": [0.4, 0.5, 0.6, 0.7, 1.0]
+        },
+        "recipe_required_tons": {
+          "description": "Required tons of this recipe to meet the flour demand.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        }
+      }
+    },
+    "recipe_mix": {
+      "description": "Daily recipe mix showing allocation percentages for each recipe-flour combination by date. Similar to recipe_demand but without the required tons.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date of the recipe mix record.",
+          "type": "date",
+          "semantic_role": "mix_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "flour_type": {
+          "description": "Type of flour. Format: Superior, Bakery, Patent, Brown, Superior Brown.",
+          "type": "string",
+          "semantic_role": "flour_type",
+          "matching_rule": "Use case-insensitive partial match",
+          "sql_rule_sqlite": "LOWER(flour_type) LIKE '%value%'",
+          "example_values": ["Superior", "Bakery", "Patent", "Brown", "Superior Brown"]
+        },
+        "recipe_id": {
+          "description": "Recipe identifier. Format: R1, R2, etc.",
+          "type": "string",
+          "semantic_role": "recipe_identifier",
+          "matching_rule": "Use exact match",
+          "example_values": ["R1", "R2", "R3", "R4", "R5"]
+        },
+        "allocation_pct": {
+          "description": "Allocation percentage for this recipe-flour combination (0.0 to 1.0).",
+          "type": "real",
+          "example_values": [0.4, 0.5, 0.6, 0.7, 1.0]
+        }
+      }
+    },
+    "raw_material": {
+      "description": "Daily raw material (wheat) data showing price and availability by country and date. Used for supply chain planning.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date of the raw material record.",
+          "type": "date",
+          "semantic_role": "material_date",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "country": {
+          "description": "Country of origin for the wheat supply.",
+          "type": "string",
+          "semantic_role": "country_identifier",
+          "matching_rule": "Use case-insensitive partial match",
+          "sql_rule_sqlite": "LOWER(country) LIKE '%value%'",
+          "example_values": ["Saudi Arabia", "Egypt", "Pakistan", "Turkey"]
+        },
+        "wheat_price_sar_per_ton": {
+          "description": "Wheat price in Saudi Riyal (SAR) per ton.",
+          "type": "real",
+          "aggregation_rule": "AVG for price analysis, SUM not appropriate for prices"
+        },
+        "availability_tons": {
+          "description": "Available wheat quantity in tons from this country.",
+          "type": "real",
+          "aggregation_rule": "SUM"
+        }
+      }
+    },
+    "time_dimension": {
+      "description": "Time dimension table providing date hierarchies and special date flags (weekend, Ramadan, Hajj, Eid). Use this for time-based filtering and grouping.",
+      "writable": false,
+      "columns": {
+        "date": {
+          "description": "Date in YYYY-MM-DD format. Primary key for joining with other date-based tables.",
+          "type": "date",
+          "semantic_role": "date_dimension",
+          "example_values": ["2020-01-01", "2020-01-02"]
+        },
+        "week": {
+          "description": "Week identifier in format YYYY-W## (e.g., 2020-W01).",
+          "type": "string",
+          "semantic_role": "week_identifier",
+          "example_values": ["2020-W01", "2020-W02"]
+        },
+        "month": {
+          "description": "Month identifier in format YYYY-MM (e.g., 2020-01).",
+          "type": "string",
+          "semantic_role": "month_identifier",
+          "example_values": ["2020-01", "2020-02"]
+        },
+        "year": {
+          "description": "Year (e.g., 2020, 2021, 2022).",
+          "type": "integer",
+          "semantic_role": "year_identifier",
+          "example_values": [2020, 2021, 2022]
+        },
+        "quarter": {
+          "description": "Quarter number (1, 2, 3, or 4).",
+          "type": "integer",
+          "semantic_role": "quarter_identifier",
+          "example_values": [1, 2, 3, 4]
+        },
+        "day_of_week": {
+          "description": "Day of week number (0=Sunday, 1=Monday, ..., 6=Saturday).",
+          "type": "integer",
+          "semantic_role": "day_of_week",
+          "example_values": [0, 1, 2, 3, 4, 5, 6]
+        },
+        "is_weekend": {
+          "description": "Boolean flag indicating if the date is a weekend (True/False).",
+          "type": "boolean",
+          "semantic_role": "weekend_indicator",
+          "allowed_values": [true, false]
+        },
+        "is_ramadan": {
+          "description": "Boolean flag indicating if the date falls during Ramadan (True/False).",
+          "type": "boolean",
+          "semantic_role": "ramadan_indicator",
+          "allowed_values": [true, false]
+        },
+        "is_hajj": {
+          "description": "Boolean flag indicating if the date falls during Hajj (True/False).",
+          "type": "boolean",
+          "semantic_role": "hajj_indicator",
+          "allowed_values": [true, false]
+        },
+        "is_eid": {
+          "description": "Boolean flag indicating if the date is an Eid holiday (True/False).",
+          "type": "boolean",
+          "semantic_role": "eid_indicator",
+          "allowed_values": [true, false]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+wheat_type_id,country_id,supply_pct,cost_multiplier
+WT001,US,0.5,1.0
+WT001,CA,0.3,1.05
+WT001,AU,0.2,1.08
+WT002,AU,0.75,1.0
+WT002,AR,0.25,0.92
+WT003,CA,0.85,1.0
+WT003,US,0.15,1.05
+WT004,AR,0.7,1.0
+WT004,DE,0.3,1.1
+WT005,RO,0.55,1.0
+WT005,DE,0.45,1.08

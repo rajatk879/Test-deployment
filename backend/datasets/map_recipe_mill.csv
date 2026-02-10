@@ -1,0 +1,16 @@
+recipe_id,mill_id,max_rate_tph,allowed
+R1,M1,47.1,True
+R2,M1,55.2,True
+R3,M1,44.4,True
+R4,M1,50.3,True
+R5,M1,42.8,True
+R1,M2,39.1,True
+R2,M2,44.0,True
+R3,M2,37.6,True
+R4,M2,42.3,True
+R5,M2,37.2,True
+R1,M3,20.3,True
+R2,M3,24.3,True
+R3,M3,19.6,True
+R4,M3,21.6,True
+R5,M3,18.9,True

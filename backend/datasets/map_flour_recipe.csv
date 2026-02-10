@@ -1,0 +1,9 @@
+flour_type_id,recipe_id,yield_pct,quality_ok,default_allocation_pct
+FT001,R1,76.0,True,0.6
+FT001,R2,78.0,True,0.4
+FT002,R2,78.0,True,0.5
+FT002,R4,75.0,True,0.5
+FT003,R2,72.0,True,0.7
+FT003,R5,72.0,True,0.3
+FT004,R3,88.0,True,1.0
+FT005,R3,86.0,True,1.0

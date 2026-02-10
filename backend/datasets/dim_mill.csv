@@ -1,0 +1,4 @@
+mill_id,mill_name,location,wheat_capacity_tpd,max_hours_per_day,planned_days_per_month,max_monthly_hours,is_active,energy_efficiency_index,water_efficiency_index,silo_capacity_tons,feed_capacity_tpd
+M1,Dammam Mill,Eastern Region,1350,22,28,616,True,85,82,80000,450
+M2,Medina Mill,Medina,1200,22,28,616,True,80,76,60000,0
+M3,Al-Kharj Mill,Central Region,600,20,26,520,True,72,70,10000,0

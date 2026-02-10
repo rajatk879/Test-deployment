@@ -1,0 +1,6 @@
+recipe_id,recipe_name,description,milling_rate_tph,avg_yield,avg_waste_pct,changeover_time_hrs,allowed_split_day,is_active
+R1,Patent Blend,High-quality patent flour blend,38,76.0,2.0,1.5,True,True
+R2,Bakery Standard,"Fast throughput, standard bakery quality",43,78.0,1.8,1.0,True,True
+R3,Brown Flour,"Whole grain, higher extraction rate",35,88.0,2.8,2.5,True,True
+R4,Standard Blend,Balanced bakery-grade blend,40,75.0,2.2,1.5,True,True
+R5,Premium Patent,Premium low-extraction patent flour,35,72.0,1.5,2.0,True,True

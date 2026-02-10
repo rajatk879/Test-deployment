@@ -1,0 +1,7 @@
+country_id,country_name,region,geopolitical_risk,logistics_risk,is_active
+US,United States,North America,0.1,0.35,True
+AU,Australia,Oceania,0.08,0.3,True
+CA,Canada,North America,0.05,0.4,True
+AR,Argentina,South America,0.35,0.4,True
+DE,Germany,Europe,0.08,0.25,True
+RO,Romania,Europe/Black Sea,0.3,0.22,True

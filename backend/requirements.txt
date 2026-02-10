@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+prophet
+cmdstanpy
+statsmodels
+scikit-learn
+python-dotenv
+pydantic
+matplotlib
+langchain
+langchain-openai
+langchain-google-genai
+sendgrid
+certifi

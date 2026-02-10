@@ -1,0 +1,6 @@
+flour_type_id,flour_name,protein_min,protein_max,ash_max,quality_spec,is_active
+FT001,Fortified Patent,12.0,14.0,0.45,Premium white flour for retail — MC4 flagship,True
+FT002,Fortified Bakery,10.0,12.0,0.65,Standard bakery grade for commercial bakers,True
+FT003,Premium Artisan,13.0,15.0,0.5,High-gluten specialty flour for artisan bakers,True
+FT004,Fortified Brown,10.0,12.0,1.0,Whole wheat brown flour — MC4 brown line,True
+FT005,Superior Brown,11.0,13.0,0.85,Premium brown flour — MC4 superior brown line,True
