@@ -1,0 +1,15 @@
+sku_id,sku_name,flour_type_id,pack_size_kg,region,channel,is_active
+SKU001,FOOM Patent Flour 45kg,FT001,45,Central,wholesale,True
+SKU002,FOOM Patent Flour 10kg,FT001,10,Central,retail,True
+SKU003,FOOM Patent Flour 1kg,FT001,1,Central,retail,True
+SKU004,FOOM Bakery Flour 45kg,FT002,45,Eastern,wholesale,True
+SKU005,FOOM Bakery Flour 10kg,FT002,10,Eastern,retail,True
+SKU006,FOOM Artisan Flour 45kg,FT003,45,Western,wholesale,True
+SKU007,FOOM Artisan Flour 10kg,FT003,10,Western,retail,True
+SKU008,FOOM Brown Flour 45kg,FT004,45,Central,wholesale,True
+SKU009,FOOM Brown Flour 10kg,FT004,10,Central,retail,True
+SKU010,FOOM Superior Brown 45kg,FT005,45,Southern,wholesale,True
+SKU011,Miller Patent Flour 45kg,FT001,45,Eastern,wholesale,True
+SKU012,Miller Patent Flour 10kg,FT001,10,Eastern,retail,True
+SKU013,Miller Bakery Flour 45kg,FT002,45,Northern,wholesale,True
+SKU014,Miller Bakery Flour 10kg,FT002,10,Northern,retail,True

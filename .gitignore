@@ -10,8 +10,6 @@ ENV/
 .venv
 *.sqlite
 *.sqlite3
-models/*.pkl
-datasets/*.csv
 .env
 *.log
 

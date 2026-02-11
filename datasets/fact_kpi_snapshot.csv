@@ -1,0 +1,2977 @@
+kpi_name,period,value,delta,driver,status,scenario_id
+total_demand_tons,2020-01,60747.17,0.0,SKU forecast,positive,base
+total_recipe_hours,2020-01,1545.15,0.0,Recipe demand,neutral,base
+slack_shortfall_hours,2020-01,632.42,0.0,Capacity balance,positive,base
+available_mill_hours,2020-01,1788.5,0.0,Capacity,neutral,base
+planned_recipe_hours,2020-01,1156.08,0.0,Schedule,neutral,base
+seasonality_index,2020-01,1.0216,0.0,Calendar,neutral,base
+forecast_confidence_pct,2020-01,87.4654,0.0,Model accuracy,positive,base
+recipe_time_utilization_pct,2020-01,64.6396,0.0,Time constraint,positive,base
+bulk_flour_required_tons,2020-01,60747.17,0.0,Flour demand,neutral,base
+vision_2030_index,2020-01,85.5,0.0,Sustainability,positive,base
+waste_rate_pct,2020-01,2.0267,0.0,Recipe mix,positive,base
+avg_cost_per_ton,2020-01,906.7121,0.0,Wheat price,neutral,base
+capacity_violations_count,2020-01,0.0,0.0,Overload,positive,base
+wheat_cost_index,2020-01,890.6192,0.0,Raw material,neutral,base
+avg_changeovers,2020-01,116.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2020-01,3654165.0,0.0,Forecast,neutral,base
+waste_impact_pct,2020-01,2.0267,0.0,Waste,positive,base
+total_wheat_requirement_tons,2020-01,60747.21,0.0,Procurement,neutral,base
+water_per_ton,2020-01,0.7781,0.0,Conservation,neutral,base
+energy_per_ton,2020-01,69.195,0.0,Efficiency,neutral,base
+waste_rate_vs_target,2020-01,-0.47,0.0,Gap to target,positive,base
+yield_variability_index,2020-01,0.096,0.0,Quality,neutral,base
+high_risk_supply_pct,2020-01,40.3,0.0,Geopolitics,negative,base
+import_dependency_pct,2020-01,100.0,0.0,Supply chain,negative,base
+vision_2030_compliance,2020-01,85.5,0.0,Composite,positive,base
+downtime_risk_score,2020-01,32.3,0.0,Risk model,positive,base
+avg_run_length_days,2020-01,0.2,0.0,Continuity,neutral,base
+recipe_switch_count,2020-01,199.0,0.0,Scheduling,neutral,base
+overload_hours,2020-01,0.0,0.0,Capacity,positive,base
+mill_utilization_pct,2020-01,64.6396,0.0,Utilization,positive,base
+avg_wheat_cost_sar,2020-01,906.7121,0.0,Market,neutral,base
+wheat_cost_index,2020-02,890.6059,0.0,Raw material,neutral,base
+recipe_time_utilization_pct,2020-02,65.4439,0.8043,Time constraint,positive,base
+capacity_violations_count,2020-02,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-02,921.0948,14.3827,Wheat price,neutral,base
+waste_rate_pct,2020-02,1.965,-0.0617,Recipe mix,positive,base
+vision_2030_index,2020-02,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2020-02,3521239.0,0.0,Forecast,neutral,base
+forecast_confidence_pct,2020-02,87.7414,0.0,Model accuracy,positive,base
+total_recipe_hours,2020-02,1481.9,0.0,Recipe demand,neutral,base
+seasonality_index,2020-02,1.0562,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-02,1120.4,0.0,Schedule,neutral,base
+available_mill_hours,2020-02,1712.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-02,591.6,0.0,Capacity balance,positive,base
+total_demand_tons,2020-02,58278.77,-4.0634,SKU forecast,negative,base
+avg_changeovers,2020-02,107.0,0.0,Recipe switches,neutral,base
+yield_variability_index,2020-02,0.08,0.0,Quality,neutral,base
+waste_impact_pct,2020-02,1.965,0.0,Waste,positive,base
+bulk_flour_required_tons,2020-02,58278.77,0.0,Flour demand,neutral,base
+overload_hours,2020-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-02,186.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-02,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-02,32.7,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2020-02,58278.72,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2020-02,921.0948,0.0,Market,neutral,base
+mill_utilization_pct,2020-02,65.4439,0.0,Utilization,positive,base
+high_risk_supply_pct,2020-02,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2020-02,-0.54,0.0,Gap to target,positive,base
+energy_per_ton,2020-02,70.69,0.0,Efficiency,neutral,base
+water_per_ton,2020-02,0.7961,0.0,Conservation,neutral,base
+vision_2030_compliance,2020-02,85.5,0.0,Composite,positive,base
+import_dependency_pct,2020-02,100.0,0.0,Supply chain,negative,base
+recipe_time_utilization_pct,2020-03,65.1225,-0.3214,Time constraint,positive,base
+capacity_violations_count,2020-03,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-03,930.3551,9.2602,Wheat price,neutral,base
+waste_rate_pct,2020-03,2.2687,0.3037,Recipe mix,positive,base
+vision_2030_index,2020-03,85.5,0.0,Sustainability,positive,base
+total_demand_tons,2020-03,64071.89,9.9404,SKU forecast,positive,base
+forecast_confidence_pct,2020-03,87.1912,0.0,Model accuracy,positive,base
+total_recipe_hours,2020-03,1629.81,0.0,Recipe demand,neutral,base
+slack_shortfall_hours,2020-03,631.98,0.0,Capacity balance,positive,base
+seasonality_index,2020-03,1.0768,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-03,1180.02,0.0,Schedule,neutral,base
+available_mill_hours,2020-03,1812.0,0.0,Capacity,neutral,base
+bulk_flour_required_tons,2020-03,64071.89,0.0,Flour demand,neutral,base
+avg_changeovers,2020-03,112.0,0.0,Recipe switches,neutral,base
+total_wheat_requirement_tons,2020-03,64071.88,0.0,Procurement,neutral,base
+total_sku_forecast_units,2020-03,3879254.0,0.0,Forecast,neutral,base
+import_dependency_pct,2020-03,100.0,0.0,Supply chain,negative,base
+overload_hours,2020-03,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-03,194.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-03,32.6,0.0,Risk model,positive,base
+avg_wheat_cost_sar,2020-03,930.3551,0.0,Market,neutral,base
+yield_variability_index,2020-03,0.079,0.0,Quality,neutral,base
+mill_utilization_pct,2020-03,65.1225,0.0,Utilization,positive,base
+wheat_cost_index,2020-03,890.5972,0.0,Raw material,neutral,base
+waste_impact_pct,2020-03,2.2687,0.0,Waste,positive,base
+waste_rate_vs_target,2020-03,-0.23,0.0,Gap to target,positive,base
+energy_per_ton,2020-03,69.2163,0.0,Efficiency,neutral,base
+water_per_ton,2020-03,0.7849,0.0,Conservation,neutral,base
+vision_2030_compliance,2020-03,85.5,0.0,Composite,positive,base
+high_risk_supply_pct,2020-03,40.3,0.0,Geopolitics,negative,base
+total_demand_tons,2020-04,67050.2,4.6484,SKU forecast,positive,base
+recipe_time_utilization_pct,2020-04,65.4639,0.3414,Time constraint,positive,base
+capacity_violations_count,2020-04,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-04,940.2299,9.8749,Wheat price,neutral,base
+waste_rate_pct,2020-04,1.995,-0.2737,Recipe mix,positive,base
+vision_2030_index,2020-04,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2020-04,87.5143,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2020-04,67050.2,0.0,Flour demand,neutral,base
+total_recipe_hours,2020-04,1703.36,0.0,Recipe demand,neutral,base
+seasonality_index,2020-04,1.165,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-04,1160.02,0.0,Schedule,neutral,base
+available_mill_hours,2020-04,1772.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-04,611.98,0.0,Capacity balance,positive,base
+avg_changeovers,2020-04,112.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2020-04,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2020-04,4055695.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2020-04,940.2299,0.0,Market,neutral,base
+mill_utilization_pct,2020-04,65.4639,0.0,Utilization,positive,base
+overload_hours,2020-04,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-04,193.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-04,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-04,32.7,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2020-04,67050.14,0.0,Procurement,neutral,base
+wheat_cost_index,2020-04,890.1191,0.0,Raw material,neutral,base
+import_dependency_pct,2020-04,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2020-04,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2020-04,-0.51,0.0,Gap to target,positive,base
+energy_per_ton,2020-04,69.248,0.0,Efficiency,neutral,base
+water_per_ton,2020-04,0.7848,0.0,Conservation,neutral,base
+waste_impact_pct,2020-04,1.995,0.0,Waste,positive,base
+yield_variability_index,2020-04,0.07,0.0,Quality,neutral,base
+avg_changeovers,2020-05,114.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2020-05,79107.78,17.9829,SKU forecast,positive,base
+recipe_time_utilization_pct,2020-05,65.0091,-0.4548,Time constraint,positive,base
+capacity_violations_count,2020-05,0.0,0.0,Overload,positive,base
+waste_rate_pct,2020-05,2.3,0.305,Recipe mix,positive,base
+vision_2030_index,2020-05,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2020-05,87.47,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2020-05,79107.78,0.0,Flour demand,neutral,base
+total_recipe_hours,2020-05,2004.31,0.0,Recipe demand,neutral,base
+seasonality_index,2020-05,1.3306,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-05,1175.04,0.0,Schedule,neutral,base
+available_mill_hours,2020-05,1807.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-05,632.46,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2020-05,948.2569,8.027,Wheat price,neutral,base
+total_sku_forecast_units,2020-05,4768417.0,0.0,Forecast,neutral,base
+wheat_cost_index,2020-05,889.3648,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2020-05,948.2569,0.0,Market,neutral,base
+vision_2030_compliance,2020-05,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2020-05,65.0091,0.0,Utilization,positive,base
+overload_hours,2020-05,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-05,195.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2020-05,32.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2020-05,79107.76,0.0,Procurement,neutral,base
+avg_run_length_days,2020-05,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2020-05,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2020-05,39.8,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2020-05,-0.2,0.0,Gap to target,positive,base
+energy_per_ton,2020-05,70.372,0.0,Efficiency,neutral,base
+water_per_ton,2020-05,0.8023,0.0,Conservation,neutral,base
+waste_impact_pct,2020-05,2.3,0.0,Waste,positive,base
+yield_variability_index,2020-05,0.057,0.0,Quality,neutral,base
+vision_2030_index,2020-06,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2020-06,65.5611,0.5519,Time constraint,positive,base
+capacity_violations_count,2020-06,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-06,907.5605,-40.6964,Wheat price,neutral,base
+waste_rate_pct,2020-06,2.219,-0.081,Recipe mix,positive,base
+total_demand_tons,2020-06,58904.17,-25.5393,SKU forecast,negative,base
+avg_changeovers,2020-06,113.0,0.0,Recipe switches,neutral,base
+forecast_confidence_pct,2020-06,87.6714,0.0,Model accuracy,positive,base
+seasonality_index,2020-06,1.0203,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-06,1165.02,0.0,Schedule,neutral,base
+available_mill_hours,2020-06,1777.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-06,611.98,0.0,Capacity balance,positive,base
+wheat_cost_index,2020-06,890.619,0.0,Raw material,neutral,base
+total_recipe_hours,2020-06,1497.81,0.0,Recipe demand,neutral,base
+bulk_flour_required_tons,2020-06,58904.17,0.0,Flour demand,neutral,base
+total_sku_forecast_units,2020-06,3564348.0,0.0,Forecast,neutral,base
+import_dependency_pct,2020-06,100.0,0.0,Supply chain,negative,base
+total_wheat_requirement_tons,2020-06,58904.16,0.0,Procurement,neutral,base
+overload_hours,2020-06,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-06,195.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-06,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-06,32.8,0.0,Risk model,positive,base
+avg_wheat_cost_sar,2020-06,907.5605,0.0,Market,neutral,base
+mill_utilization_pct,2020-06,65.5611,0.0,Utilization,positive,base
+waste_impact_pct,2020-06,2.219,0.0,Waste,positive,base
+yield_variability_index,2020-06,0.111,0.0,Quality,neutral,base
+waste_rate_vs_target,2020-06,-0.28,0.0,Gap to target,positive,base
+energy_per_ton,2020-06,68.349,0.0,Efficiency,neutral,base
+water_per_ton,2020-06,0.7873,0.0,Conservation,neutral,base
+vision_2030_compliance,2020-06,85.5,0.0,Composite,positive,base
+high_risk_supply_pct,2020-06,40.2,0.0,Geopolitics,negative,base
+bulk_flour_required_tons,2020-07,73271.92,0.0,Flour demand,neutral,base
+recipe_time_utilization_pct,2020-07,64.4833,-1.0778,Time constraint,positive,base
+capacity_violations_count,2020-07,0.0,0.0,Overload,positive,base
+waste_rate_pct,2020-07,2.0187,-0.2003,Recipe mix,positive,base
+vision_2030_index,2020-07,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2020-07,4421770.0,0.0,Forecast,neutral,base
+total_demand_tons,2020-07,73271.92,24.3917,SKU forecast,positive,base
+seasonality_index,2020-07,1.2242,0.0,Calendar,neutral,base
+forecast_confidence_pct,2020-07,87.5853,0.0,Model accuracy,positive,base
+avg_changeovers,2020-07,111.0,0.0,Recipe switches,neutral,base
+planned_recipe_hours,2020-07,1147.48,0.0,Schedule,neutral,base
+available_mill_hours,2020-07,1779.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-07,632.02,0.0,Capacity balance,positive,base
+total_recipe_hours,2020-07,1865.49,0.0,Recipe demand,neutral,base
+wheat_cost_index,2020-07,890.2027,0.0,Raw material,neutral,base
+avg_cost_per_ton,2020-07,917.3494,9.7889,Wheat price,neutral,base
+import_dependency_pct,2020-07,100.0,0.0,Supply chain,negative,base
+waste_impact_pct,2020-07,2.0187,0.0,Waste,positive,base
+recipe_switch_count,2020-07,192.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-07,32.2,0.0,Risk model,positive,base
+overload_hours,2020-07,0.0,0.0,Capacity,positive,base
+avg_wheat_cost_sar,2020-07,917.3494,0.0,Market,neutral,base
+waste_rate_vs_target,2020-07,-0.48,0.0,Gap to target,positive,base
+total_wheat_requirement_tons,2020-07,73271.92,0.0,Procurement,neutral,base
+yield_variability_index,2020-07,0.119,0.0,Quality,neutral,base
+energy_per_ton,2020-07,69.6975,0.0,Efficiency,neutral,base
+water_per_ton,2020-07,0.7904,0.0,Conservation,neutral,base
+vision_2030_compliance,2020-07,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2020-07,64.4833,0.0,Utilization,positive,base
+high_risk_supply_pct,2020-07,40.4,0.0,Geopolitics,negative,base
+recipe_time_utilization_pct,2020-08,64.897,0.4137,Time constraint,positive,base
+capacity_violations_count,2020-08,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-08,876.6618,-40.6876,Wheat price,neutral,base
+waste_rate_pct,2020-08,2.18,0.1613,Recipe mix,positive,base
+vision_2030_index,2020-08,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2020-08,114.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2020-08,3419494.0,0.0,Forecast,neutral,base
+total_recipe_hours,2020-08,1441.56,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2020-08,87.4147,0.0,Model accuracy,positive,base
+seasonality_index,2020-08,0.9432,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-08,1169.12,0.0,Schedule,neutral,base
+available_mill_hours,2020-08,1801.5,0.0,Capacity,neutral,base
+total_demand_tons,2020-08,56668.23,-22.6604,SKU forecast,negative,base
+bulk_flour_required_tons,2020-08,56668.23,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2020-08,632.38,0.0,Capacity balance,positive,base
+downtime_risk_score,2020-08,32.4,0.0,Risk model,positive,base
+wheat_cost_index,2020-08,890.5638,0.0,Raw material,neutral,base
+vision_2030_compliance,2020-08,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2020-08,64.897,0.0,Utilization,positive,base
+overload_hours,2020-08,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-08,196.0,0.0,Scheduling,neutral,base
+total_wheat_requirement_tons,2020-08,56668.3,0.0,Procurement,neutral,base
+yield_variability_index,2020-08,0.116,0.0,Quality,neutral,base
+avg_run_length_days,2020-08,0.2,0.0,Continuity,neutral,base
+high_risk_supply_pct,2020-08,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2020-08,-0.32,0.0,Gap to target,positive,base
+energy_per_ton,2020-08,69.258,0.0,Efficiency,neutral,base
+water_per_ton,2020-08,0.7933,0.0,Conservation,neutral,base
+waste_impact_pct,2020-08,2.18,0.0,Waste,positive,base
+avg_wheat_cost_sar,2020-08,876.6618,0.0,Market,neutral,base
+import_dependency_pct,2020-08,100.0,0.0,Supply chain,negative,base
+waste_rate_pct,2020-09,2.1575,-0.0225,Recipe mix,positive,base
+total_demand_tons,2020-09,53770.89,-5.1128,SKU forecast,negative,base
+recipe_time_utilization_pct,2020-09,65.846,0.949,Time constraint,positive,base
+capacity_violations_count,2020-09,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-09,872.9332,-3.7286,Wheat price,neutral,base
+vision_2030_index,2020-09,85.5,0.0,Sustainability,positive,base
+slack_shortfall_hours,2020-09,612.04,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2020-09,53770.89,0.0,Flour demand,neutral,base
+total_recipe_hours,2020-09,1367.68,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2020-09,87.4643,0.0,Model accuracy,positive,base
+seasonality_index,2020-09,0.923,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-09,1179.96,0.0,Schedule,neutral,base
+available_mill_hours,2020-09,1792.0,0.0,Capacity,neutral,base
+avg_changeovers,2020-09,112.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2020-09,3231180.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2020-09,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2020-09,872.9332,0.0,Market,neutral,base
+mill_utilization_pct,2020-09,65.846,0.0,Utilization,positive,base
+overload_hours,2020-09,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-09,194.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-09,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-09,32.9,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2020-09,53770.85,0.0,Procurement,neutral,base
+wheat_cost_index,2020-09,890.6322,0.0,Raw material,neutral,base
+import_dependency_pct,2020-09,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2020-09,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2020-09,-0.34,0.0,Gap to target,positive,base
+energy_per_ton,2020-09,69.2425,0.0,Efficiency,neutral,base
+water_per_ton,2020-09,0.7994,0.0,Conservation,neutral,base
+waste_impact_pct,2020-09,2.1575,0.0,Waste,positive,base
+yield_variability_index,2020-09,0.062,0.0,Quality,neutral,base
+avg_changeovers,2020-10,112.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2020-10,55267.41,2.7831,SKU forecast,positive,base
+recipe_time_utilization_pct,2020-10,64.071,-1.775,Time constraint,positive,base
+capacity_violations_count,2020-10,0.0,0.0,Overload,positive,base
+waste_rate_pct,2020-10,1.882,-0.2755,Recipe mix,positive,base
+vision_2030_index,2020-10,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2020-10,87.182,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2020-10,55267.41,0.0,Flour demand,neutral,base
+total_recipe_hours,2020-10,1405.51,0.0,Recipe demand,neutral,base
+seasonality_index,2020-10,0.9235,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-10,1127.65,0.0,Schedule,neutral,base
+available_mill_hours,2020-10,1760.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-10,632.35,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2020-10,874.0062,1.073,Wheat price,neutral,base
+wheat_cost_index,2020-10,890.6934,0.0,Raw material,neutral,base
+total_sku_forecast_units,2020-10,3355097.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2020-10,874.0062,0.0,Market,neutral,base
+mill_utilization_pct,2020-10,64.071,0.0,Utilization,positive,base
+overload_hours,2020-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-10,193.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-10,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-10,32.0,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2020-10,55267.4,0.0,Procurement,neutral,base
+vision_2030_compliance,2020-10,85.5,0.0,Composite,positive,base
+import_dependency_pct,2020-10,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2020-10,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2020-10,-0.62,0.0,Gap to target,positive,base
+energy_per_ton,2020-10,70.277,0.0,Efficiency,neutral,base
+water_per_ton,2020-10,0.7932,0.0,Conservation,neutral,base
+waste_impact_pct,2020-10,1.882,0.0,Waste,positive,base
+yield_variability_index,2020-10,0.079,0.0,Quality,neutral,base
+recipe_time_utilization_pct,2020-11,65.4249,1.3538,Time constraint,positive,base
+capacity_violations_count,2020-11,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-11,879.4329,5.4268,Wheat price,neutral,base
+waste_rate_pct,2020-11,1.9422,0.0602,Recipe mix,positive,base
+vision_2030_index,2020-11,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2020-11,3348712.0,0.0,Forecast,neutral,base
+forecast_confidence_pct,2020-11,87.2905,0.0,Model accuracy,positive,base
+avg_changeovers,2020-11,111.0,0.0,Recipe switches,neutral,base
+total_recipe_hours,2020-11,1407.64,0.0,Recipe demand,neutral,base
+seasonality_index,2020-11,0.9453,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-11,1158.02,0.0,Schedule,neutral,base
+available_mill_hours,2020-11,1770.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-11,611.98,0.0,Capacity balance,positive,base
+total_demand_tons,2020-11,55326.83,0.1075,SKU forecast,positive,base
+bulk_flour_required_tons,2020-11,55326.83,0.0,Flour demand,neutral,base
+total_wheat_requirement_tons,2020-11,55326.83,0.0,Procurement,neutral,base
+import_dependency_pct,2020-11,100.0,0.0,Supply chain,negative,base
+wheat_cost_index,2020-11,890.5547,0.0,Raw material,neutral,base
+downtime_risk_score,2020-11,32.7,0.0,Risk model,positive,base
+mill_utilization_pct,2020-11,65.4249,0.0,Utilization,positive,base
+overload_hours,2020-11,0.0,0.0,Capacity,positive,base
+avg_run_length_days,2020-11,0.2,0.0,Continuity,neutral,base
+avg_wheat_cost_sar,2020-11,879.4329,0.0,Market,neutral,base
+recipe_switch_count,2020-11,191.0,0.0,Scheduling,neutral,base
+high_risk_supply_pct,2020-11,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2020-11,0.07,0.0,Quality,neutral,base
+waste_rate_vs_target,2020-11,-0.56,0.0,Gap to target,positive,base
+energy_per_ton,2020-11,70.3633,0.0,Efficiency,neutral,base
+water_per_ton,2020-11,0.8202,0.0,Conservation,neutral,base
+vision_2030_compliance,2020-11,85.5,0.0,Composite,positive,base
+waste_impact_pct,2020-11,1.9422,0.0,Waste,positive,base
+vision_2030_index,2020-12,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2020-12,65.0999,-0.325,Time constraint,positive,base
+capacity_violations_count,2020-12,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2020-12,890.4185,10.9856,Wheat price,neutral,base
+waste_rate_pct,2020-12,2.085,0.1428,Recipe mix,positive,base
+total_demand_tons,2020-12,59282.95,7.1505,SKU forecast,positive,base
+avg_changeovers,2020-12,114.0,0.0,Recipe switches,neutral,base
+forecast_confidence_pct,2020-12,87.5714,0.0,Model accuracy,positive,base
+seasonality_index,2020-12,0.981,0.0,Calendar,neutral,base
+planned_recipe_hours,2020-12,1179.61,0.0,Schedule,neutral,base
+available_mill_hours,2020-12,1812.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2020-12,632.39,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2020-12,59282.95,0.0,Flour demand,neutral,base
+total_recipe_hours,2020-12,1508.05,0.0,Recipe demand,neutral,base
+wheat_cost_index,2020-12,890.5701,0.0,Raw material,neutral,base
+total_sku_forecast_units,2020-12,3591982.0,0.0,Forecast,neutral,base
+import_dependency_pct,2020-12,100.0,0.0,Supply chain,negative,base
+overload_hours,2020-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2020-12,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2020-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2020-12,32.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2020-12,59282.85,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2020-12,890.4185,0.0,Market,neutral,base
+waste_rate_vs_target,2020-12,-0.42,0.0,Gap to target,positive,base
+waste_impact_pct,2020-12,2.085,0.0,Waste,positive,base
+yield_variability_index,2020-12,0.074,0.0,Quality,neutral,base
+energy_per_ton,2020-12,69.431,0.0,Efficiency,neutral,base
+water_per_ton,2020-12,0.7932,0.0,Conservation,neutral,base
+vision_2030_compliance,2020-12,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2020-12,65.0999,0.0,Utilization,positive,base
+high_risk_supply_pct,2020-12,40.3,0.0,Geopolitics,negative,base
+total_sku_forecast_units,2021-01,3708849.0,0.0,Forecast,neutral,base
+total_demand_tons,2021-01,61507.74,3.7528,SKU forecast,positive,base
+recipe_time_utilization_pct,2021-01,64.9451,-0.1548,Time constraint,positive,base
+avg_cost_per_ton,2021-01,1108.7085,218.29,Wheat price,neutral,base
+waste_rate_pct,2021-01,2.0222,-0.0628,Recipe mix,positive,base
+vision_2030_index,2021-01,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2021-01,114.0,0.0,Recipe switches,neutral,base
+forecast_confidence_pct,2021-01,87.7558,0.0,Model accuracy,positive,base
+total_recipe_hours,2021-01,1564.13,0.0,Recipe demand,neutral,base
+slack_shortfall_hours,2021-01,632.39,0.0,Capacity balance,positive,base
+seasonality_index,2021-01,1.0216,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-01,1171.61,0.0,Schedule,neutral,base
+available_mill_hours,2021-01,1804.0,0.0,Capacity,neutral,base
+bulk_flour_required_tons,2021-01,61507.74,0.0,Flour demand,neutral,base
+vision_2030_compliance,2021-01,85.5,0.0,Composite,positive,base
+capacity_violations_count,2021-01,0.0,0.0,Overload,positive,base
+avg_wheat_cost_sar,2021-01,1108.7085,0.0,Market,neutral,base
+wheat_cost_index,2021-01,1088.4873,0.0,Raw material,neutral,base
+overload_hours,2021-01,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-01,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-01,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2021-01,32.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-01,61507.88,0.0,Procurement,neutral,base
+yield_variability_index,2021-01,0.073,0.0,Quality,neutral,base
+mill_utilization_pct,2021-01,64.9451,0.0,Utilization,positive,base
+high_risk_supply_pct,2021-01,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-01,-0.48,0.0,Gap to target,positive,base
+energy_per_ton,2021-01,69.2456,0.0,Efficiency,neutral,base
+water_per_ton,2021-01,0.7849,0.0,Conservation,neutral,base
+waste_impact_pct,2021-01,2.0222,0.0,Waste,positive,base
+import_dependency_pct,2021-01,100.0,0.0,Supply chain,negative,base
+recipe_time_utilization_pct,2021-02,64.3332,-0.6119,Time constraint,positive,base
+capacity_violations_count,2021-02,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-02,1117.5646,8.8561,Wheat price,neutral,base
+waste_rate_pct,2021-02,1.9755,-0.0468,Recipe mix,positive,base
+vision_2030_index,2021-02,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2021-02,100.0,0.0,Recipe switches,neutral,base
+forecast_confidence_pct,2021-02,87.4617,0.0,Model accuracy,positive,base
+total_recipe_hours,2021-02,1474.62,0.0,Recipe demand,neutral,base
+seasonality_index,2021-02,1.0557,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-02,1023.22,0.0,Schedule,neutral,base
+available_mill_hours,2021-02,1590.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2021-02,3484156.0,0.0,Forecast,neutral,base
+total_demand_tons,2021-02,57977.01,-5.7403,SKU forecast,negative,base
+bulk_flour_required_tons,2021-02,57977.01,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2021-02,567.28,0.0,Capacity balance,positive,base
+downtime_risk_score,2021-02,32.2,0.0,Risk model,positive,base
+wheat_cost_index,2021-02,1088.5967,0.0,Raw material,neutral,base
+mill_utilization_pct,2021-02,64.3332,0.0,Utilization,positive,base
+overload_hours,2021-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-02,172.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-02,0.2,0.0,Continuity,neutral,base
+vision_2030_compliance,2021-02,85.5,0.0,Composite,positive,base
+total_wheat_requirement_tons,2021-02,57976.93,0.0,Procurement,neutral,base
+yield_variability_index,2021-02,0.115,0.0,Quality,neutral,base
+high_risk_supply_pct,2021-02,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-02,-0.52,0.0,Gap to target,positive,base
+energy_per_ton,2021-02,67.8982,0.0,Efficiency,neutral,base
+water_per_ton,2021-02,0.7923,0.0,Conservation,neutral,base
+waste_impact_pct,2021-02,1.9755,0.0,Waste,positive,base
+avg_wheat_cost_sar,2021-02,1117.5646,0.0,Market,neutral,base
+import_dependency_pct,2021-02,100.0,0.0,Supply chain,negative,base
+vision_2030_index,2021-03,85.5,0.0,Sustainability,positive,base
+waste_rate_pct,2021-03,2.0733,0.0979,Recipe mix,positive,base
+total_demand_tons,2021-03,65693.03,13.3088,SKU forecast,positive,base
+avg_cost_per_ton,2021-03,1129.6412,12.0765,Wheat price,neutral,base
+capacity_violations_count,2021-03,0.0,0.0,Overload,positive,base
+bulk_flour_required_tons,2021-03,65693.03,0.0,Flour demand,neutral,base
+recipe_time_utilization_pct,2021-03,65.6184,1.2851,Time constraint,positive,base
+forecast_confidence_pct,2021-03,87.1705,0.0,Model accuracy,positive,base
+seasonality_index,2021-03,1.0765,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-03,1207.05,0.0,Schedule,neutral,base
+available_mill_hours,2021-03,1839.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2021-03,3956092.0,0.0,Forecast,neutral,base
+avg_changeovers,2021-03,116.0,0.0,Recipe switches,neutral,base
+total_recipe_hours,2021-03,1670.63,0.0,Recipe demand,neutral,base
+slack_shortfall_hours,2021-03,632.45,0.0,Capacity balance,positive,base
+wheat_cost_index,2021-03,1088.4947,0.0,Raw material,neutral,base
+vision_2030_compliance,2021-03,85.5,0.0,Composite,positive,base
+overload_hours,2021-03,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-03,200.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2021-03,32.8,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-03,65693.0,0.0,Procurement,neutral,base
+yield_variability_index,2021-03,0.116,0.0,Quality,neutral,base
+mill_utilization_pct,2021-03,65.6184,0.0,Utilization,positive,base
+high_risk_supply_pct,2021-03,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-03,-0.43,0.0,Gap to target,positive,base
+energy_per_ton,2021-03,68.2367,0.0,Efficiency,neutral,base
+water_per_ton,2021-03,0.7772,0.0,Conservation,neutral,base
+waste_impact_pct,2021-03,2.0733,0.0,Waste,positive,base
+avg_wheat_cost_sar,2021-03,1129.6412,0.0,Market,neutral,base
+import_dependency_pct,2021-03,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2021-04,76442.93,16.3638,SKU forecast,positive,base
+recipe_time_utilization_pct,2021-04,63.3088,-2.3096,Time constraint,positive,base
+capacity_violations_count,2021-04,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-04,1153.5842,23.943,Wheat price,neutral,base
+waste_rate_pct,2021-04,2.0727,-0.0006,Recipe mix,positive,base
+vision_2030_index,2021-04,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2021-04,87.5571,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2021-04,76442.93,0.0,Flour demand,neutral,base
+total_recipe_hours,2021-04,1938.31,0.0,Recipe demand,neutral,base
+seasonality_index,2021-04,1.3027,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-04,1055.99,0.0,Schedule,neutral,base
+available_mill_hours,2021-04,1668.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2021-04,612.01,0.0,Capacity balance,positive,base
+avg_changeovers,2021-04,107.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2021-04,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2021-04,4628622.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2021-04,1153.5842,0.0,Market,neutral,base
+downtime_risk_score,2021-04,31.7,0.0,Risk model,positive,base
+mill_utilization_pct,2021-04,63.3088,0.0,Utilization,positive,base
+overload_hours,2021-04,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-04,183.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-04,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2021-04,76443.0,0.0,Procurement,neutral,base
+wheat_cost_index,2021-04,1087.1269,0.0,Raw material,neutral,base
+import_dependency_pct,2021-04,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2021-04,39.9,0.0,Geopolitics,negative,base
+yield_variability_index,2021-04,0.053,0.0,Quality,neutral,base
+waste_rate_vs_target,2021-04,-0.43,0.0,Gap to target,positive,base
+energy_per_ton,2021-04,68.9364,0.0,Efficiency,neutral,base
+water_per_ton,2021-04,0.7935,0.0,Conservation,neutral,base
+waste_impact_pct,2021-04,2.0727,0.0,Waste,positive,base
+total_demand_tons,2021-05,73315.37,-4.0914,SKU forecast,negative,base
+recipe_time_utilization_pct,2021-05,64.5322,1.2235,Time constraint,positive,base
+capacity_violations_count,2021-05,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-05,1133.9665,-19.6177,Wheat price,neutral,base
+waste_rate_pct,2021-05,2.1783,0.1056,Recipe mix,positive,base
+vision_2030_index,2021-05,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2021-05,87.394,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2021-05,73315.37,0.0,Flour demand,neutral,base
+total_recipe_hours,2021-05,1861.2,0.0,Recipe demand,neutral,base
+seasonality_index,2021-05,1.2006,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-05,1150.61,0.0,Schedule,neutral,base
+available_mill_hours,2021-05,1783.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2021-05,632.39,0.0,Capacity balance,positive,base
+avg_changeovers,2021-05,116.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2021-05,4425373.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2021-05,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2021-05,1133.9665,0.0,Market,neutral,base
+wheat_cost_index,2021-05,1087.6099,0.0,Raw material,neutral,base
+mill_utilization_pct,2021-05,64.5322,0.0,Utilization,positive,base
+overload_hours,2021-05,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-05,196.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2021-05,32.3,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-05,73315.55,0.0,Procurement,neutral,base
+avg_run_length_days,2021-05,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2021-05,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2021-05,40.1,0.0,Geopolitics,negative,base
+waste_impact_pct,2021-05,2.1783,0.0,Waste,positive,base
+waste_rate_vs_target,2021-05,-0.32,0.0,Gap to target,positive,base
+energy_per_ton,2021-05,70.085,0.0,Efficiency,neutral,base
+water_per_ton,2021-05,0.7924,0.0,Conservation,neutral,base
+yield_variability_index,2021-05,0.088,0.0,Quality,neutral,base
+waste_rate_pct,2021-06,1.9027,-0.2756,Recipe mix,positive,base
+avg_changeovers,2021-06,111.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2021-06,60543.58,-17.4203,SKU forecast,negative,base
+recipe_time_utilization_pct,2021-06,64.2842,-0.248,Time constraint,positive,base
+capacity_violations_count,2021-06,0.0,0.0,Overload,positive,base
+vision_2030_index,2021-06,85.5,0.0,Sustainability,positive,base
+slack_shortfall_hours,2021-06,611.99,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2021-06,60543.58,0.0,Flour demand,neutral,base
+total_recipe_hours,2021-06,1539.82,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2021-06,87.45,0.0,Model accuracy,positive,base
+seasonality_index,2021-06,1.0217,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-06,1101.51,0.0,Schedule,neutral,base
+available_mill_hours,2021-06,1713.5,0.0,Capacity,neutral,base
+avg_cost_per_ton,2021-06,1107.6146,-26.3519,Wheat price,neutral,base
+total_sku_forecast_units,2021-06,3659347.0,0.0,Forecast,neutral,base
+wheat_cost_index,2021-06,1088.5208,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2021-06,1107.6146,0.0,Market,neutral,base
+mill_utilization_pct,2021-06,64.2842,0.0,Utilization,positive,base
+overload_hours,2021-06,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-06,189.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-06,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2021-06,32.1,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-06,60543.65,0.0,Procurement,neutral,base
+vision_2030_compliance,2021-06,85.5,0.0,Composite,positive,base
+import_dependency_pct,2021-06,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2021-06,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-06,-0.6,0.0,Gap to target,positive,base
+energy_per_ton,2021-06,69.9645,0.0,Efficiency,neutral,base
+water_per_ton,2021-06,0.7782,0.0,Conservation,neutral,base
+waste_impact_pct,2021-06,1.9027,0.0,Waste,positive,base
+yield_variability_index,2021-06,0.096,0.0,Quality,neutral,base
+total_demand_tons,2021-07,74796.96,23.5423,SKU forecast,positive,base
+recipe_time_utilization_pct,2021-07,64.6105,0.3263,Time constraint,positive,base
+capacity_violations_count,2021-07,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-07,1116.4103,8.7958,Wheat price,neutral,base
+waste_rate_pct,2021-07,1.9808,0.0781,Recipe mix,positive,base
+vision_2030_index,2021-07,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2021-07,87.7535,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2021-07,74796.96,0.0,Flour demand,neutral,base
+total_recipe_hours,2021-07,1904.12,0.0,Recipe demand,neutral,base
+slack_shortfall_hours,2021-07,632.41,0.0,Capacity balance,positive,base
+seasonality_index,2021-07,1.2258,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-07,1154.59,0.0,Schedule,neutral,base
+available_mill_hours,2021-07,1787.0,0.0,Capacity,neutral,base
+avg_changeovers,2021-07,114.0,0.0,Recipe switches,neutral,base
+wheat_cost_index,2021-07,1088.1237,0.0,Raw material,neutral,base
+total_sku_forecast_units,2021-07,4525973.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2021-07,1116.4103,0.0,Market,neutral,base
+mill_utilization_pct,2021-07,64.6105,0.0,Utilization,positive,base
+overload_hours,2021-07,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-07,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2021-07,32.3,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-07,74796.89,0.0,Procurement,neutral,base
+waste_impact_pct,2021-07,1.9808,0.0,Waste,positive,base
+import_dependency_pct,2021-07,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2021-07,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-07,-0.52,0.0,Gap to target,positive,base
+energy_per_ton,2021-07,69.6258,0.0,Efficiency,neutral,base
+water_per_ton,2021-07,0.787,0.0,Conservation,neutral,base
+vision_2030_compliance,2021-07,85.5,0.0,Composite,positive,base
+yield_variability_index,2021-07,0.067,0.0,Quality,neutral,base
+total_demand_tons,2021-08,58329.92,-22.0157,SKU forecast,negative,base
+recipe_time_utilization_pct,2021-08,65.2044,0.5939,Time constraint,positive,base
+capacity_violations_count,2021-08,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-08,1080.2591,-36.1512,Wheat price,neutral,base
+waste_rate_pct,2021-08,2.17,0.1892,Recipe mix,positive,base
+vision_2030_index,2021-08,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2021-08,87.0899,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2021-08,58329.92,0.0,Flour demand,neutral,base
+total_recipe_hours,2021-08,1483.04,0.0,Recipe demand,neutral,base
+seasonality_index,2021-08,0.9442,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-08,1185.09,0.0,Schedule,neutral,base
+available_mill_hours,2021-08,1817.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2021-08,632.41,0.0,Capacity balance,positive,base
+avg_changeovers,2021-08,115.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2021-08,3510348.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2021-08,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2021-08,1080.2591,0.0,Market,neutral,base
+wheat_cost_index,2021-08,1088.5257,0.0,Raw material,neutral,base
+mill_utilization_pct,2021-08,65.2044,0.0,Utilization,positive,base
+overload_hours,2021-08,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-08,198.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2021-08,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-08,58329.87,0.0,Procurement,neutral,base
+avg_run_length_days,2021-08,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2021-08,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2021-08,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-08,-0.33,0.0,Gap to target,positive,base
+energy_per_ton,2021-08,69.51,0.0,Efficiency,neutral,base
+water_per_ton,2021-08,0.7868,0.0,Conservation,neutral,base
+waste_impact_pct,2021-08,2.17,0.0,Waste,positive,base
+yield_variability_index,2021-08,0.054,0.0,Quality,neutral,base
+avg_changeovers,2021-09,110.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2021-09,55359.51,-5.0924,SKU forecast,negative,base
+recipe_time_utilization_pct,2021-09,63.8926,-1.3118,Time constraint,positive,base
+capacity_violations_count,2021-09,0.0,0.0,Overload,positive,base
+waste_rate_pct,2021-09,2.0173,-0.1527,Recipe mix,positive,base
+vision_2030_index,2021-09,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2021-09,87.2929,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2021-09,55359.51,0.0,Flour demand,neutral,base
+total_recipe_hours,2021-09,1408.2,0.0,Recipe demand,neutral,base
+seasonality_index,2021-09,0.9233,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-09,1082.98,0.0,Schedule,neutral,base
+available_mill_hours,2021-09,1695.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2021-09,3337137.0,0.0,Forecast,neutral,base
+avg_cost_per_ton,2021-09,1072.1108,-8.1483,Wheat price,neutral,base
+slack_shortfall_hours,2021-09,612.02,0.0,Capacity balance,positive,base
+wheat_cost_index,2021-09,1088.4437,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2021-09,1072.1108,0.0,Market,neutral,base
+mill_utilization_pct,2021-09,63.8926,0.0,Utilization,positive,base
+overload_hours,2021-09,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-09,185.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-09,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2021-09,31.9,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-09,55359.52,0.0,Procurement,neutral,base
+vision_2030_compliance,2021-09,85.5,0.0,Composite,positive,base
+import_dependency_pct,2021-09,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2021-09,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-09,-0.48,0.0,Gap to target,positive,base
+energy_per_ton,2021-09,70.1791,0.0,Efficiency,neutral,base
+water_per_ton,2021-09,0.7899,0.0,Conservation,neutral,base
+waste_impact_pct,2021-09,2.0173,0.0,Waste,positive,base
+yield_variability_index,2021-09,0.055,0.0,Quality,neutral,base
+recipe_time_utilization_pct,2021-10,64.4719,0.5793,Time constraint,positive,base
+capacity_violations_count,2021-10,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-10,1069.6689,-2.442,Wheat price,neutral,base
+waste_rate_pct,2021-10,2.0711,0.0538,Recipe mix,positive,base
+vision_2030_index,2021-10,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2021-10,3420984.0,0.0,Forecast,neutral,base
+seasonality_index,2021-10,0.9232,0.0,Calendar,neutral,base
+total_recipe_hours,2021-10,1445.75,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2021-10,87.2949,0.0,Model accuracy,positive,base
+planned_recipe_hours,2021-10,1147.6,0.0,Schedule,neutral,base
+available_mill_hours,2021-10,1780.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2021-10,632.4,0.0,Capacity balance,positive,base
+avg_changeovers,2021-10,112.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2021-10,56836.45,2.6679,SKU forecast,positive,base
+bulk_flour_required_tons,2021-10,56836.45,0.0,Flour demand,neutral,base
+wheat_cost_index,2021-10,1088.4616,0.0,Raw material,neutral,base
+import_dependency_pct,2021-10,100.0,0.0,Supply chain,negative,base
+total_wheat_requirement_tons,2021-10,56836.4,0.0,Procurement,neutral,base
+overload_hours,2021-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-10,191.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-10,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2021-10,32.2,0.0,Risk model,positive,base
+avg_wheat_cost_sar,2021-10,1069.6689,0.0,Market,neutral,base
+waste_impact_pct,2021-10,2.0711,0.0,Waste,positive,base
+high_risk_supply_pct,2021-10,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2021-10,0.102,0.0,Quality,neutral,base
+waste_rate_vs_target,2021-10,-0.43,0.0,Gap to target,positive,base
+energy_per_ton,2021-10,69.4311,0.0,Efficiency,neutral,base
+water_per_ton,2021-10,0.7903,0.0,Conservation,neutral,base
+vision_2030_compliance,2021-10,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2021-10,64.4719,0.0,Utilization,positive,base
+recipe_time_utilization_pct,2021-11,65.8482,1.3763,Time constraint,positive,base
+capacity_violations_count,2021-11,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-11,1079.5627,9.8939,Wheat price,neutral,base
+waste_rate_pct,2021-11,2.0371,-0.034,Recipe mix,positive,base
+vision_2030_index,2021-11,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2021-11,3405428.0,0.0,Forecast,neutral,base
+seasonality_index,2021-11,0.9443,0.0,Calendar,neutral,base
+total_recipe_hours,2021-11,1436.03,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2021-11,87.4952,0.0,Model accuracy,positive,base
+planned_recipe_hours,2021-11,1180.0,0.0,Schedule,neutral,base
+available_mill_hours,2021-11,1792.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2021-11,612.0,0.0,Capacity balance,positive,base
+avg_changeovers,2021-11,112.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2021-11,56457.09,-0.6675,SKU forecast,negative,base
+bulk_flour_required_tons,2021-11,56457.09,0.0,Flour demand,neutral,base
+wheat_cost_index,2021-11,1088.5406,0.0,Raw material,neutral,base
+import_dependency_pct,2021-11,100.0,0.0,Supply chain,negative,base
+waste_impact_pct,2021-11,2.0371,0.0,Waste,positive,base
+overload_hours,2021-11,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-11,194.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-11,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2021-11,56457.18,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2021-11,1079.5627,0.0,Market,neutral,base
+downtime_risk_score,2021-11,32.9,0.0,Risk model,positive,base
+high_risk_supply_pct,2021-11,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2021-11,0.076,0.0,Quality,neutral,base
+energy_per_ton,2021-11,69.5871,0.0,Efficiency,neutral,base
+water_per_ton,2021-11,0.8044,0.0,Conservation,neutral,base
+vision_2030_compliance,2021-11,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2021-11,65.8482,0.0,Utilization,positive,base
+waste_rate_vs_target,2021-11,-0.46,0.0,Gap to target,positive,base
+waste_rate_pct,2021-12,1.87,-0.1671,Recipe mix,positive,base
+total_demand_tons,2021-12,60846.44,7.7747,SKU forecast,positive,base
+recipe_time_utilization_pct,2021-12,65.2544,-0.5938,Time constraint,positive,base
+capacity_violations_count,2021-12,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2021-12,1094.5227,14.96,Wheat price,neutral,base
+avg_changeovers,2021-12,115.0,0.0,Recipe switches,neutral,base
+slack_shortfall_hours,2021-12,632.37,0.0,Capacity balance,positive,base
+total_recipe_hours,2021-12,1547.6,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2021-12,87.2949,0.0,Model accuracy,positive,base
+seasonality_index,2021-12,0.9797,0.0,Calendar,neutral,base
+planned_recipe_hours,2021-12,1187.63,0.0,Schedule,neutral,base
+available_mill_hours,2021-12,1820.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2021-12,3660419.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2021-12,60846.44,0.0,Flour demand,neutral,base
+vision_2030_compliance,2021-12,85.5,0.0,Composite,positive,base
+vision_2030_index,2021-12,85.5,0.0,Sustainability,positive,base
+avg_wheat_cost_sar,2021-12,1094.5227,0.0,Market,neutral,base
+mill_utilization_pct,2021-12,65.2544,0.0,Utilization,positive,base
+overload_hours,2021-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2021-12,199.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2021-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2021-12,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2021-12,60846.46,0.0,Procurement,neutral,base
+yield_variability_index,2021-12,0.089,0.0,Quality,neutral,base
+wheat_cost_index,2021-12,1088.4333,0.0,Raw material,neutral,base
+high_risk_supply_pct,2021-12,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2021-12,-0.63,0.0,Gap to target,positive,base
+energy_per_ton,2021-12,70.0478,0.0,Efficiency,neutral,base
+water_per_ton,2021-12,0.7784,0.0,Conservation,neutral,base
+waste_impact_pct,2021-12,1.87,0.0,Waste,positive,base
+import_dependency_pct,2021-12,100.0,0.0,Supply chain,negative,base
+total_sku_forecast_units,2022-01,3803247.0,0.0,Forecast,neutral,base
+total_demand_tons,2022-01,62961.92,3.4768,SKU forecast,positive,base
+recipe_time_utilization_pct,2022-01,64.0279,-1.2265,Time constraint,positive,base
+avg_cost_per_ton,2022-01,1408.0888,313.5661,Wheat price,negative,base
+waste_rate_pct,2022-01,2.049,0.179,Recipe mix,positive,base
+vision_2030_index,2022-01,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2022-01,111.0,0.0,Recipe switches,neutral,base
+forecast_confidence_pct,2022-01,87.3641,0.0,Model accuracy,positive,base
+total_recipe_hours,2022-01,1601.77,0.0,Recipe demand,neutral,base
+slack_shortfall_hours,2022-01,632.39,0.0,Capacity balance,positive,base
+seasonality_index,2022-01,1.0216,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-01,1125.61,0.0,Schedule,neutral,base
+available_mill_hours,2022-01,1758.0,0.0,Capacity,neutral,base
+bulk_flour_required_tons,2022-01,62961.92,0.0,Flour demand,neutral,base
+vision_2030_compliance,2022-01,85.5,0.0,Composite,positive,base
+capacity_violations_count,2022-01,0.0,0.0,Overload,positive,base
+avg_wheat_cost_sar,2022-01,1408.0888,0.0,Market,neutral,base
+wheat_cost_index,2022-01,1385.1253,0.0,Raw material,neutral,base
+overload_hours,2022-01,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-01,189.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-01,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-01,32.0,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-01,62962.01,0.0,Procurement,neutral,base
+yield_variability_index,2022-01,0.072,0.0,Quality,neutral,base
+mill_utilization_pct,2022-01,64.0279,0.0,Utilization,positive,base
+high_risk_supply_pct,2022-01,40.4,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-01,-0.45,0.0,Gap to target,positive,base
+energy_per_ton,2022-01,69.869,0.0,Efficiency,neutral,base
+water_per_ton,2022-01,0.8001,0.0,Conservation,neutral,base
+waste_impact_pct,2022-01,2.049,0.0,Waste,positive,base
+import_dependency_pct,2022-01,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2022-02,59339.79,-5.7529,SKU forecast,negative,base
+recipe_time_utilization_pct,2022-02,64.5346,0.5067,Time constraint,positive,base
+capacity_violations_count,2022-02,0.0,0.0,Overload,positive,base
+waste_rate_pct,2022-02,2.1727,0.1237,Recipe mix,positive,base
+vision_2030_index,2022-02,85.5,0.0,Sustainability,positive,base
+avg_cost_per_ton,2022-02,1420.5686,12.4798,Wheat price,negative,base
+forecast_confidence_pct,2022-02,87.9643,0.0,Model accuracy,positive,base
+total_recipe_hours,2022-02,1509.27,0.0,Recipe demand,neutral,base
+seasonality_index,2022-02,1.0557,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-02,1039.33,0.0,Schedule,neutral,base
+available_mill_hours,2022-02,1610.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2022-02,3573486.0,0.0,Forecast,neutral,base
+avg_changeovers,2022-02,104.0,0.0,Recipe switches,neutral,base
+bulk_flour_required_tons,2022-02,59339.79,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2022-02,571.17,0.0,Capacity balance,positive,base
+downtime_risk_score,2022-02,32.3,0.0,Risk model,positive,base
+vision_2030_compliance,2022-02,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2022-02,64.5346,0.0,Utilization,positive,base
+overload_hours,2022-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-02,178.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-02,0.2,0.0,Continuity,neutral,base
+wheat_cost_index,2022-02,1385.3266,0.0,Raw material,neutral,base
+total_wheat_requirement_tons,2022-02,59339.73,0.0,Procurement,neutral,base
+yield_variability_index,2022-02,0.107,0.0,Quality,neutral,base
+high_risk_supply_pct,2022-02,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-02,-0.33,0.0,Gap to target,positive,base
+energy_per_ton,2022-02,68.6273,0.0,Efficiency,neutral,base
+water_per_ton,2022-02,0.799,0.0,Conservation,neutral,base
+waste_impact_pct,2022-02,2.1727,0.0,Waste,positive,base
+avg_wheat_cost_sar,2022-02,1420.5686,0.0,Market,neutral,base
+import_dependency_pct,2022-02,100.0,0.0,Supply chain,negative,base
+total_sku_forecast_units,2022-03,4069453.0,0.0,Forecast,neutral,base
+vision_2030_index,2022-03,85.5,0.0,Sustainability,positive,base
+capacity_violations_count,2022-03,0.0,0.0,Overload,positive,base
+total_demand_tons,2022-03,67289.63,13.3971,SKU forecast,positive,base
+waste_rate_pct,2022-03,2.045,-0.1277,Recipe mix,positive,base
+total_recipe_hours,2022-03,1711.39,0.0,Recipe demand,neutral,base
+avg_cost_per_ton,2022-03,1427.7602,7.1915,Wheat price,negative,base
+seasonality_index,2022-03,1.0765,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-03,1135.6,0.0,Schedule,neutral,base
+available_mill_hours,2022-03,1768.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2022-03,632.4,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2022-03,67289.63,0.0,Flour demand,neutral,base
+recipe_time_utilization_pct,2022-03,64.2308,-0.3038,Time constraint,positive,base
+forecast_confidence_pct,2022-03,87.6659,0.0,Model accuracy,positive,base
+avg_changeovers,2022-03,112.0,0.0,Recipe switches,neutral,base
+wheat_cost_index,2022-03,1385.1898,0.0,Raw material,neutral,base
+waste_impact_pct,2022-03,2.045,0.0,Waste,positive,base
+recipe_switch_count,2022-03,190.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-03,32.1,0.0,Risk model,positive,base
+avg_wheat_cost_sar,2022-03,1427.7602,0.0,Market,neutral,base
+mill_utilization_pct,2022-03,64.2308,0.0,Utilization,positive,base
+high_risk_supply_pct,2022-03,40.3,0.0,Geopolitics,negative,base
+overload_hours,2022-03,0.0,0.0,Capacity,positive,base
+waste_rate_vs_target,2022-03,-0.46,0.0,Gap to target,positive,base
+energy_per_ton,2022-03,69.08,0.0,Efficiency,neutral,base
+water_per_ton,2022-03,0.787,0.0,Conservation,neutral,base
+total_wheat_requirement_tons,2022-03,67289.6,0.0,Procurement,neutral,base
+vision_2030_compliance,2022-03,85.5,0.0,Composite,positive,base
+import_dependency_pct,2022-03,100.0,0.0,Supply chain,negative,base
+yield_variability_index,2022-03,0.057,0.0,Quality,neutral,base
+recipe_time_utilization_pct,2022-04,63.0986,-1.1322,Time constraint,positive,base
+capacity_violations_count,2022-04,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2022-04,1465.6851,37.9249,Wheat price,negative,base
+waste_rate_pct,2022-04,2.1283,0.0833,Recipe mix,positive,base
+vision_2030_index,2022-04,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2022-04,5231449.0,0.0,Forecast,neutral,base
+planned_recipe_hours,2022-04,1046.49,0.0,Schedule,neutral,base
+total_recipe_hours,2022-04,2197.26,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2022-04,87.8429,0.0,Model accuracy,positive,base
+available_mill_hours,2022-04,1658.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2022-04,612.01,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2022-04,86797.89,0.0,Flour demand,neutral,base
+avg_changeovers,2022-04,109.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2022-04,86797.89,28.9915,SKU forecast,positive,base
+wheat_cost_index,2022-04,1382.9504,0.0,Raw material,neutral,base
+seasonality_index,2022-04,1.442,0.0,Calendar,neutral,base
+import_dependency_pct,2022-04,100.0,0.0,Supply chain,negative,base
+waste_impact_pct,2022-04,2.1283,0.0,Waste,positive,base
+recipe_switch_count,2022-04,185.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-04,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-04,31.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-04,86797.83,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2022-04,1465.6851,0.0,Market,neutral,base
+overload_hours,2022-04,0.0,0.0,Capacity,positive,base
+high_risk_supply_pct,2022-04,39.7,0.0,Geopolitics,negative,base
+yield_variability_index,2022-04,0.051,0.0,Quality,neutral,base
+energy_per_ton,2022-04,69.1333,0.0,Efficiency,neutral,base
+water_per_ton,2022-04,0.791,0.0,Conservation,neutral,base
+vision_2030_compliance,2022-04,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2022-04,63.0986,0.0,Utilization,positive,base
+waste_rate_vs_target,2022-04,-0.37,0.0,Gap to target,positive,base
+recipe_time_utilization_pct,2022-05,63.1893,0.0907,Time constraint,positive,base
+capacity_violations_count,2022-05,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2022-05,1421.8892,-43.7959,Wheat price,negative,base
+waste_rate_pct,2022-05,2.0482,-0.0802,Recipe mix,positive,base
+vision_2030_index,2022-05,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2022-05,110.0,0.0,Recipe switches,neutral,base
+forecast_confidence_pct,2022-05,87.5484,0.0,Model accuracy,positive,base
+total_recipe_hours,2022-05,1700.82,0.0,Recipe demand,neutral,base
+seasonality_index,2022-05,1.0687,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-05,1084.96,0.0,Schedule,neutral,base
+available_mill_hours,2022-05,1717.0,0.0,Capacity,neutral,base
+total_demand_tons,2022-05,66883.71,-22.9432,SKU forecast,negative,base
+total_sku_forecast_units,2022-05,4024016.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2022-05,66883.71,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2022-05,632.04,0.0,Capacity balance,positive,base
+energy_per_ton,2022-05,69.4,0.0,Efficiency,neutral,base
+wheat_cost_index,2022-05,1385.2811,0.0,Raw material,neutral,base
+mill_utilization_pct,2022-05,63.1893,0.0,Utilization,positive,base
+overload_hours,2022-05,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-05,188.0,0.0,Scheduling,neutral,base
+vision_2030_compliance,2022-05,85.5,0.0,Composite,positive,base
+downtime_risk_score,2022-05,31.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-05,66883.61,0.0,Procurement,neutral,base
+avg_run_length_days,2022-05,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2022-05,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2022-05,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-05,-0.45,0.0,Gap to target,positive,base
+water_per_ton,2022-05,0.7797,0.0,Conservation,neutral,base
+waste_impact_pct,2022-05,2.0482,0.0,Waste,positive,base
+avg_wheat_cost_sar,2022-05,1421.8892,0.0,Market,neutral,base
+yield_variability_index,2022-05,0.081,0.0,Quality,neutral,base
+avg_changeovers,2022-06,111.0,0.0,Recipe switches,neutral,base
+recipe_time_utilization_pct,2022-06,65.0257,1.8364,Time constraint,positive,base
+avg_cost_per_ton,2022-06,1408.7495,-13.1397,Wheat price,negative,base
+waste_rate_pct,2022-06,1.99,-0.0582,Recipe mix,positive,base
+vision_2030_index,2022-06,85.5,0.0,Sustainability,positive,base
+bulk_flour_required_tons,2022-06,61987.39,0.0,Flour demand,neutral,base
+capacity_violations_count,2022-06,0.0,0.0,Overload,positive,base
+forecast_confidence_pct,2022-06,87.5286,0.0,Model accuracy,positive,base
+seasonality_index,2022-06,1.0217,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-06,1137.95,0.0,Schedule,neutral,base
+available_mill_hours,2022-06,1750.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2022-06,3735028.0,0.0,Forecast,neutral,base
+total_demand_tons,2022-06,61987.39,-7.3206,SKU forecast,negative,base
+total_recipe_hours,2022-06,1576.79,0.0,Recipe demand,neutral,base
+slack_shortfall_hours,2022-06,612.05,0.0,Capacity balance,positive,base
+vision_2030_compliance,2022-06,85.5,0.0,Composite,positive,base
+wheat_cost_index,2022-06,1385.2902,0.0,Raw material,neutral,base
+overload_hours,2022-06,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-06,190.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-06,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-06,32.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-06,61987.21,0.0,Procurement,neutral,base
+yield_variability_index,2022-06,0.078,0.0,Quality,neutral,base
+mill_utilization_pct,2022-06,65.0257,0.0,Utilization,positive,base
+high_risk_supply_pct,2022-06,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-06,-0.51,0.0,Gap to target,positive,base
+energy_per_ton,2022-06,69.2064,0.0,Efficiency,neutral,base
+water_per_ton,2022-06,0.8046,0.0,Conservation,neutral,base
+waste_impact_pct,2022-06,1.99,0.0,Waste,positive,base
+avg_wheat_cost_sar,2022-06,1408.7495,0.0,Market,neutral,base
+import_dependency_pct,2022-06,100.0,0.0,Supply chain,negative,base
+avg_changeovers,2022-07,113.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2022-07,76881.5,24.0276,SKU forecast,positive,base
+recipe_time_utilization_pct,2022-07,64.1711,-0.8546,Time constraint,positive,base
+capacity_violations_count,2022-07,0.0,0.0,Overload,positive,base
+waste_rate_pct,2022-07,2.0933,0.1033,Recipe mix,positive,base
+vision_2030_index,2022-07,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2022-07,87.3618,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2022-07,76881.5,0.0,Flour demand,neutral,base
+total_recipe_hours,2022-07,1957.83,0.0,Recipe demand,neutral,base
+seasonality_index,2022-07,1.2258,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-07,1132.62,0.0,Schedule,neutral,base
+available_mill_hours,2022-07,1765.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2022-07,632.38,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2022-07,1418.4396,9.6901,Wheat price,negative,base
+wheat_cost_index,2022-07,1384.9392,0.0,Raw material,neutral,base
+total_sku_forecast_units,2022-07,4660858.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2022-07,1418.4396,0.0,Market,neutral,base
+mill_utilization_pct,2022-07,64.1711,0.0,Utilization,positive,base
+overload_hours,2022-07,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-07,194.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-07,32.1,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-07,76881.46,0.0,Procurement,neutral,base
+vision_2030_compliance,2022-07,85.5,0.0,Composite,positive,base
+import_dependency_pct,2022-07,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2022-07,40.4,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-07,-0.41,0.0,Gap to target,positive,base
+energy_per_ton,2022-07,68.2192,0.0,Efficiency,neutral,base
+water_per_ton,2022-07,0.7698,0.0,Conservation,neutral,base
+waste_impact_pct,2022-07,2.0933,0.0,Waste,positive,base
+yield_variability_index,2022-07,0.051,0.0,Quality,neutral,base
+total_demand_tons,2022-08,59926.24,-22.0538,SKU forecast,negative,base
+recipe_time_utilization_pct,2022-08,64.889,0.7178,Time constraint,positive,base
+capacity_violations_count,2022-08,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2022-08,1379.6594,-38.7803,Wheat price,negative,base
+waste_rate_pct,2022-08,2.1509,0.0576,Recipe mix,positive,base
+vision_2030_index,2022-08,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2022-08,87.4217,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2022-08,59926.24,0.0,Flour demand,neutral,base
+total_recipe_hours,2022-08,1524.2,0.0,Recipe demand,neutral,base
+seasonality_index,2022-08,0.9442,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-08,1168.65,0.0,Schedule,neutral,base
+available_mill_hours,2022-08,1801.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2022-08,632.35,0.0,Capacity balance,positive,base
+avg_changeovers,2022-08,115.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2022-08,3605867.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2022-08,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2022-08,1379.6594,0.0,Market,neutral,base
+wheat_cost_index,2022-08,1385.3863,0.0,Raw material,neutral,base
+downtime_risk_score,2022-08,32.4,0.0,Risk model,positive,base
+mill_utilization_pct,2022-08,64.889,0.0,Utilization,positive,base
+overload_hours,2022-08,0.0,0.0,Capacity,positive,base
+avg_run_length_days,2022-08,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2022-08,59926.18,0.0,Procurement,neutral,base
+recipe_switch_count,2022-08,196.0,0.0,Scheduling,neutral,base
+import_dependency_pct,2022-08,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2022-08,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2022-08,0.108,0.0,Quality,neutral,base
+waste_rate_vs_target,2022-08,-0.35,0.0,Gap to target,positive,base
+energy_per_ton,2022-08,68.8309,0.0,Efficiency,neutral,base
+water_per_ton,2022-08,0.8026,0.0,Conservation,neutral,base
+waste_impact_pct,2022-08,2.1509,0.0,Waste,positive,base
+total_sku_forecast_units,2022-09,3392598.0,0.0,Forecast,neutral,base
+capacity_violations_count,2022-09,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2022-09,1371.0396,-8.6197,Wheat price,negative,base
+waste_rate_pct,2022-09,2.0856,-0.0654,Recipe mix,positive,base
+vision_2030_index,2022-09,85.5,0.0,Sustainability,positive,base
+total_demand_tons,2022-09,56348.72,-5.9699,SKU forecast,negative,base
+recipe_time_utilization_pct,2022-09,65.4237,0.5348,Time constraint,positive,base
+forecast_confidence_pct,2022-09,87.4452,0.0,Model accuracy,positive,base
+seasonality_index,2022-09,0.9233,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-09,1158.0,0.0,Schedule,neutral,base
+available_mill_hours,2022-09,1770.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2022-09,612.0,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2022-09,56348.72,0.0,Flour demand,neutral,base
+total_recipe_hours,2022-09,1433.4,0.0,Recipe demand,neutral,base
+avg_changeovers,2022-09,111.0,0.0,Recipe switches,neutral,base
+wheat_cost_index,2022-09,1385.297,0.0,Raw material,neutral,base
+waste_impact_pct,2022-09,2.0856,0.0,Waste,positive,base
+recipe_switch_count,2022-09,191.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-09,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-09,32.7,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-09,56348.67,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2022-09,1371.0396,0.0,Market,neutral,base
+waste_rate_vs_target,2022-09,-0.41,0.0,Gap to target,positive,base
+overload_hours,2022-09,0.0,0.0,Capacity,positive,base
+yield_variability_index,2022-09,0.088,0.0,Quality,neutral,base
+energy_per_ton,2022-09,70.1022,0.0,Efficiency,neutral,base
+water_per_ton,2022-09,0.8077,0.0,Conservation,neutral,base
+vision_2030_compliance,2022-09,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2022-09,65.4237,0.0,Utilization,positive,base
+import_dependency_pct,2022-09,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2022-09,40.3,0.0,Geopolitics,negative,base
+total_demand_tons,2022-10,58296.6,3.4568,SKU forecast,positive,base
+recipe_time_utilization_pct,2022-10,64.4719,-0.9518,Time constraint,positive,base
+capacity_violations_count,2022-10,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2022-10,1368.9234,-2.1162,Wheat price,negative,base
+waste_rate_pct,2022-10,2.222,0.1364,Recipe mix,positive,base
+vision_2030_index,2022-10,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2022-10,87.6475,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2022-10,58296.6,0.0,Flour demand,neutral,base
+total_recipe_hours,2022-10,1482.78,0.0,Recipe demand,neutral,base
+seasonality_index,2022-10,0.9232,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-10,1147.6,0.0,Schedule,neutral,base
+available_mill_hours,2022-10,1780.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2022-10,632.4,0.0,Capacity balance,positive,base
+avg_changeovers,2022-10,112.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2022-10,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2022-10,3512107.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2022-10,1368.9234,0.0,Market,neutral,base
+mill_utilization_pct,2022-10,64.4719,0.0,Utilization,positive,base
+overload_hours,2022-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-10,192.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-10,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-10,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-10,58296.61,0.0,Procurement,neutral,base
+wheat_cost_index,2022-10,1385.3496,0.0,Raw material,neutral,base
+import_dependency_pct,2022-10,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2022-10,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-10,-0.28,0.0,Gap to target,positive,base
+energy_per_ton,2022-10,70.233,0.0,Efficiency,neutral,base
+water_per_ton,2022-10,0.782,0.0,Conservation,neutral,base
+waste_impact_pct,2022-10,2.222,0.0,Waste,positive,base
+yield_variability_index,2022-10,0.109,0.0,Quality,neutral,base
+total_demand_tons,2022-11,58088.64,-0.3567,SKU forecast,negative,base
+recipe_time_utilization_pct,2022-11,64.3553,-0.1166,Time constraint,positive,base
+capacity_violations_count,2022-11,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2022-11,1379.0924,10.1691,Wheat price,negative,base
+waste_rate_pct,2022-11,2.1927,-0.0293,Recipe mix,positive,base
+vision_2030_index,2022-11,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2022-11,87.5643,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2022-11,58088.64,0.0,Flour demand,neutral,base
+total_recipe_hours,2022-11,1477.47,0.0,Recipe demand,neutral,base
+seasonality_index,2022-11,0.9443,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-11,1104.98,0.0,Schedule,neutral,base
+available_mill_hours,2022-11,1717.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2022-11,612.02,0.0,Capacity balance,positive,base
+avg_changeovers,2022-11,111.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2022-11,3505610.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2022-11,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2022-11,1379.0924,0.0,Market,neutral,base
+wheat_cost_index,2022-11,1385.3976,0.0,Raw material,neutral,base
+mill_utilization_pct,2022-11,64.3553,0.0,Utilization,positive,base
+overload_hours,2022-11,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-11,189.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2022-11,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-11,58088.58,0.0,Procurement,neutral,base
+avg_run_length_days,2022-11,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2022-11,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2022-11,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-11,-0.31,0.0,Gap to target,positive,base
+energy_per_ton,2022-11,69.4218,0.0,Efficiency,neutral,base
+water_per_ton,2022-11,0.7852,0.0,Conservation,neutral,base
+waste_impact_pct,2022-11,2.1927,0.0,Waste,positive,base
+yield_variability_index,2022-11,0.082,0.0,Quality,neutral,base
+waste_rate_pct,2022-12,2.0718,-0.1209,Recipe mix,positive,base
+avg_changeovers,2022-12,111.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2022-12,62014.63,6.7586,SKU forecast,positive,base
+recipe_time_utilization_pct,2022-12,62.6983,-1.657,Time constraint,positive,base
+capacity_violations_count,2022-12,0.0,0.0,Overload,positive,base
+vision_2030_index,2022-12,85.5,0.0,Sustainability,positive,base
+slack_shortfall_hours,2022-12,632.45,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2022-12,62014.63,0.0,Flour demand,neutral,base
+total_recipe_hours,2022-12,1577.49,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2022-12,87.5922,0.0,Model accuracy,positive,base
+seasonality_index,2022-12,0.9797,0.0,Calendar,neutral,base
+planned_recipe_hours,2022-12,1063.05,0.0,Schedule,neutral,base
+available_mill_hours,2022-12,1695.5,0.0,Capacity,neutral,base
+avg_cost_per_ton,2022-12,1393.2787,14.1863,Wheat price,negative,base
+total_sku_forecast_units,2022-12,3748397.0,0.0,Forecast,neutral,base
+wheat_cost_index,2022-12,1385.3697,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2022-12,1393.2787,0.0,Market,neutral,base
+mill_utilization_pct,2022-12,62.6983,0.0,Utilization,positive,base
+overload_hours,2022-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2022-12,187.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2022-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2022-12,31.3,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2022-12,62014.55,0.0,Procurement,neutral,base
+vision_2030_compliance,2022-12,85.5,0.0,Composite,positive,base
+import_dependency_pct,2022-12,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2022-12,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2022-12,-0.43,0.0,Gap to target,positive,base
+energy_per_ton,2022-12,70.3891,0.0,Efficiency,neutral,base
+water_per_ton,2022-12,0.7958,0.0,Conservation,neutral,base
+waste_impact_pct,2022-12,2.0718,0.0,Waste,positive,base
+yield_variability_index,2022-12,0.093,0.0,Quality,neutral,base
+total_demand_tons,2023-01,64860.37,4.5888,SKU forecast,positive,base
+recipe_time_utilization_pct,2023-01,64.8259,2.1276,Time constraint,positive,base
+avg_cost_per_ton,2023-01,1080.8105,-312.4682,Wheat price,neutral,base
+waste_rate_pct,2023-01,2.253,0.1812,Recipe mix,positive,base
+vision_2030_index,2023-01,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2023-01,114.0,0.0,Recipe switches,neutral,base
+seasonality_index,2023-01,1.0216,0.0,Calendar,neutral,base
+total_recipe_hours,2023-01,1650.03,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2023-01,87.6083,0.0,Model accuracy,positive,base
+slack_shortfall_hours,2023-01,632.43,0.0,Capacity balance,positive,base
+planned_recipe_hours,2023-01,1165.57,0.0,Schedule,neutral,base
+available_mill_hours,2023-01,1798.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2023-01,3911471.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2023-01,64860.37,0.0,Flour demand,neutral,base
+vision_2030_compliance,2023-01,85.5,0.0,Composite,positive,base
+capacity_violations_count,2023-01,0.0,0.0,Overload,positive,base
+avg_wheat_cost_sar,2023-01,1080.8105,0.0,Market,neutral,base
+wheat_cost_index,2023-01,1058.7019,0.0,Raw material,neutral,base
+mill_utilization_pct,2023-01,64.8259,0.0,Utilization,positive,base
+overload_hours,2023-01,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-01,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-01,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2023-01,64860.29,0.0,Procurement,neutral,base
+waste_impact_pct,2023-01,2.253,0.0,Waste,positive,base
+downtime_risk_score,2023-01,32.4,0.0,Risk model,positive,base
+high_risk_supply_pct,2023-01,40.4,0.0,Geopolitics,negative,base
+yield_variability_index,2023-01,0.052,0.0,Quality,neutral,base
+waste_rate_vs_target,2023-01,-0.25,0.0,Gap to target,positive,base
+energy_per_ton,2023-01,69.209,0.0,Efficiency,neutral,base
+water_per_ton,2023-01,0.8058,0.0,Conservation,neutral,base
+import_dependency_pct,2023-01,100.0,0.0,Supply chain,negative,base
+recipe_time_utilization_pct,2023-02,64.8594,0.0335,Time constraint,positive,base
+capacity_violations_count,2023-02,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-02,1092.6432,11.8327,Wheat price,neutral,base
+waste_rate_pct,2023-02,2.1536,-0.0994,Recipe mix,positive,base
+vision_2030_index,2023-02,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2023-02,103.0,0.0,Recipe switches,neutral,base
+forecast_confidence_pct,2023-02,87.2398,0.0,Model accuracy,positive,base
+total_recipe_hours,2023-02,1546.14,0.0,Recipe demand,neutral,base
+seasonality_index,2023-02,1.0557,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-02,1054.29,0.0,Schedule,neutral,base
+available_mill_hours,2023-02,1625.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2023-02,3664121.0,0.0,Forecast,neutral,base
+total_demand_tons,2023-02,60789.9,-6.2757,SKU forecast,negative,base
+bulk_flour_required_tons,2023-02,60789.9,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2023-02,571.21,0.0,Capacity balance,positive,base
+avg_run_length_days,2023-02,0.2,0.0,Continuity,neutral,base
+wheat_cost_index,2023-02,1058.8534,0.0,Raw material,neutral,base
+vision_2030_compliance,2023-02,85.5,0.0,Composite,positive,base
+overload_hours,2023-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-02,176.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2023-02,32.4,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-02,60789.78,0.0,Procurement,neutral,base
+yield_variability_index,2023-02,0.105,0.0,Quality,neutral,base
+mill_utilization_pct,2023-02,64.8594,0.0,Utilization,positive,base
+high_risk_supply_pct,2023-02,40.3,0.0,Geopolitics,negative,base
+waste_impact_pct,2023-02,2.1536,0.0,Waste,positive,base
+waste_rate_vs_target,2023-02,-0.35,0.0,Gap to target,positive,base
+energy_per_ton,2023-02,69.7445,0.0,Efficiency,neutral,base
+water_per_ton,2023-02,0.7745,0.0,Conservation,neutral,base
+avg_wheat_cost_sar,2023-02,1092.6432,0.0,Market,neutral,base
+import_dependency_pct,2023-02,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2023-03,76238.24,25.4127,SKU forecast,positive,base
+total_sku_forecast_units,2023-03,4592247.0,0.0,Forecast,neutral,base
+capacity_violations_count,2023-03,0.0,0.0,Overload,positive,base
+waste_rate_pct,2023-03,2.0545,-0.0991,Recipe mix,positive,base
+vision_2030_index,2023-03,85.5,0.0,Sustainability,positive,base
+avg_cost_per_ton,2023-03,1110.9857,18.3425,Wheat price,neutral,base
+forecast_confidence_pct,2023-03,87.7465,0.0,Model accuracy,positive,base
+total_recipe_hours,2023-03,1935.62,0.0,Recipe demand,neutral,base
+seasonality_index,2023-03,1.1868,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-03,1187.09,0.0,Schedule,neutral,base
+available_mill_hours,2023-03,1819.5,0.0,Capacity,neutral,base
+avg_changeovers,2023-03,116.0,0.0,Recipe switches,neutral,base
+bulk_flour_required_tons,2023-03,76238.24,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2023-03,632.41,0.0,Capacity balance,positive,base
+recipe_time_utilization_pct,2023-03,65.2426,0.3832,Time constraint,positive,base
+wheat_cost_index,2023-03,1058.0769,0.0,Raw material,neutral,base
+mill_utilization_pct,2023-03,65.2426,0.0,Utilization,positive,base
+overload_hours,2023-03,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-03,199.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2023-03,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-03,76238.16,0.0,Procurement,neutral,base
+yield_variability_index,2023-03,0.054,0.0,Quality,neutral,base
+vision_2030_compliance,2023-03,85.5,0.0,Composite,positive,base
+high_risk_supply_pct,2023-03,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2023-03,-0.45,0.0,Gap to target,positive,base
+energy_per_ton,2023-03,68.9009,0.0,Efficiency,neutral,base
+water_per_ton,2023-03,0.7873,0.0,Conservation,neutral,base
+waste_impact_pct,2023-03,2.0545,0.0,Waste,positive,base
+avg_wheat_cost_sar,2023-03,1110.9857,0.0,Market,neutral,base
+import_dependency_pct,2023-03,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2023-04,82815.36,8.6271,SKU forecast,positive,base
+recipe_time_utilization_pct,2023-04,64.3339,-0.9087,Time constraint,positive,base
+capacity_violations_count,2023-04,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-04,1126.6387,15.653,Wheat price,neutral,base
+waste_rate_pct,2023-04,2.13,0.0755,Recipe mix,positive,base
+vision_2030_index,2023-04,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2023-04,87.6667,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2023-04,82815.36,0.0,Flour demand,neutral,base
+total_recipe_hours,2023-04,2099.05,0.0,Recipe demand,neutral,base
+seasonality_index,2023-04,1.3407,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-04,1103.97,0.0,Schedule,neutral,base
+available_mill_hours,2023-04,1716.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2023-04,612.03,0.0,Capacity balance,positive,base
+avg_changeovers,2023-04,108.0,0.0,Recipe switches,neutral,base
+wheat_cost_index,2023-04,1057.3736,0.0,Raw material,neutral,base
+total_sku_forecast_units,2023-04,5003746.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2023-04,1126.6387,0.0,Market,neutral,base
+mill_utilization_pct,2023-04,64.3339,0.0,Utilization,positive,base
+overload_hours,2023-04,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-04,184.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-04,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2023-04,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-04,82815.41,0.0,Procurement,neutral,base
+waste_impact_pct,2023-04,2.13,0.0,Waste,positive,base
+import_dependency_pct,2023-04,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2023-04,39.9,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2023-04,-0.37,0.0,Gap to target,positive,base
+energy_per_ton,2023-04,71.0473,0.0,Efficiency,neutral,base
+water_per_ton,2023-04,0.8026,0.0,Conservation,neutral,base
+vision_2030_compliance,2023-04,85.5,0.0,Composite,positive,base
+yield_variability_index,2023-04,0.069,0.0,Quality,neutral,base
+total_demand_tons,2023-05,68112.4,-17.7539,SKU forecast,negative,base
+recipe_time_utilization_pct,2023-05,65.518,1.1841,Time constraint,positive,base
+capacity_violations_count,2023-05,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-05,1089.7209,-36.9178,Wheat price,neutral,base
+waste_rate_pct,2023-05,2.1633,0.0333,Recipe mix,positive,base
+vision_2030_index,2023-05,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2023-05,87.5576,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2023-05,68112.4,0.0,Flour demand,neutral,base
+total_recipe_hours,2023-05,1732.55,0.0,Recipe demand,neutral,base
+seasonality_index,2023-05,1.0568,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-05,1201.6,0.0,Schedule,neutral,base
+available_mill_hours,2023-05,1834.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2023-05,632.4,0.0,Capacity balance,positive,base
+avg_changeovers,2023-05,115.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2023-05,4107237.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2023-05,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2023-05,1089.7209,0.0,Market,neutral,base
+wheat_cost_index,2023-05,1058.8309,0.0,Raw material,neutral,base
+mill_utilization_pct,2023-05,65.518,0.0,Utilization,positive,base
+overload_hours,2023-05,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-05,199.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2023-05,32.8,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-05,68112.36,0.0,Procurement,neutral,base
+avg_run_length_days,2023-05,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2023-05,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2023-05,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2023-05,-0.34,0.0,Gap to target,positive,base
+energy_per_ton,2023-05,70.0611,0.0,Efficiency,neutral,base
+water_per_ton,2023-05,0.7783,0.0,Conservation,neutral,base
+waste_impact_pct,2023-05,2.1633,0.0,Waste,positive,base
+yield_variability_index,2023-05,0.083,0.0,Quality,neutral,base
+waste_rate_pct,2023-06,1.94,-0.2233,Recipe mix,positive,base
+avg_changeovers,2023-06,112.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2023-06,79569.87,16.8214,SKU forecast,positive,base
+recipe_time_utilization_pct,2023-06,65.1293,-0.3886,Time constraint,positive,base
+capacity_violations_count,2023-06,0.0,0.0,Overload,positive,base
+vision_2030_index,2023-06,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2023-06,4824496.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2023-06,79569.87,0.0,Flour demand,neutral,base
+total_recipe_hours,2023-06,2025.66,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2023-06,87.4667,0.0,Model accuracy,positive,base
+seasonality_index,2023-06,1.2767,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-06,1143.02,0.0,Schedule,neutral,base
+available_mill_hours,2023-06,1755.0,0.0,Capacity,neutral,base
+avg_cost_per_ton,2023-06,1104.943,15.2221,Wheat price,neutral,base
+slack_shortfall_hours,2023-06,611.98,0.0,Capacity balance,positive,base
+wheat_cost_index,2023-06,1058.377,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2023-06,1104.943,0.0,Market,neutral,base
+mill_utilization_pct,2023-06,65.1293,0.0,Utilization,positive,base
+overload_hours,2023-06,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-06,193.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-06,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2023-06,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-06,79569.83,0.0,Procurement,neutral,base
+vision_2030_compliance,2023-06,85.5,0.0,Composite,positive,base
+import_dependency_pct,2023-06,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2023-06,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2023-06,-0.56,0.0,Gap to target,positive,base
+energy_per_ton,2023-06,69.41,0.0,Efficiency,neutral,base
+water_per_ton,2023-06,0.7728,0.0,Conservation,neutral,base
+waste_impact_pct,2023-06,1.94,0.0,Waste,positive,base
+yield_variability_index,2023-06,0.068,0.0,Quality,neutral,base
+recipe_time_utilization_pct,2023-07,64.6094,-0.5199,Time constraint,positive,base
+capacity_violations_count,2023-07,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-07,1060.9095,-44.0335,Wheat price,neutral,base
+waste_rate_pct,2023-07,2.1233,0.1833,Recipe mix,positive,base
+vision_2030_index,2023-07,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2023-07,3805175.0,0.0,Forecast,neutral,base
+seasonality_index,2023-07,0.9803,0.0,Calendar,neutral,base
+total_recipe_hours,2023-07,1593.61,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2023-07,87.5346,0.0,Model accuracy,positive,base
+avg_changeovers,2023-07,114.0,0.0,Recipe switches,neutral,base
+planned_recipe_hours,2023-07,1154.57,0.0,Schedule,neutral,base
+available_mill_hours,2023-07,1787.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2023-07,632.43,0.0,Capacity balance,positive,base
+total_demand_tons,2023-07,62655.31,-21.2575,SKU forecast,negative,base
+wheat_cost_index,2023-07,1058.8345,0.0,Raw material,neutral,base
+bulk_flour_required_tons,2023-07,62655.31,0.0,Flour demand,neutral,base
+import_dependency_pct,2023-07,100.0,0.0,Supply chain,negative,base
+total_wheat_requirement_tons,2023-07,62655.33,0.0,Procurement,neutral,base
+overload_hours,2023-07,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-07,195.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2023-07,32.3,0.0,Risk model,positive,base
+avg_wheat_cost_sar,2023-07,1060.9095,0.0,Market,neutral,base
+waste_impact_pct,2023-07,2.1233,0.0,Waste,positive,base
+high_risk_supply_pct,2023-07,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2023-07,0.054,0.0,Quality,neutral,base
+waste_rate_vs_target,2023-07,-0.38,0.0,Gap to target,positive,base
+energy_per_ton,2023-07,69.4992,0.0,Efficiency,neutral,base
+water_per_ton,2023-07,0.7693,0.0,Conservation,neutral,base
+vision_2030_compliance,2023-07,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2023-07,64.6094,0.0,Utilization,positive,base
+recipe_time_utilization_pct,2023-08,65.2044,0.595,Time constraint,positive,base
+capacity_violations_count,2023-08,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-08,1049.598,-11.3116,Wheat price,neutral,base
+waste_rate_pct,2023-08,2.036,-0.0873,Recipe mix,positive,base
+vision_2030_index,2023-08,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2023-08,3694915.0,0.0,Forecast,neutral,base
+seasonality_index,2023-08,0.9442,0.0,Calendar,neutral,base
+total_recipe_hours,2023-08,1553.61,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2023-08,87.2604,0.0,Model accuracy,positive,base
+planned_recipe_hours,2023-08,1185.09,0.0,Schedule,neutral,base
+available_mill_hours,2023-08,1817.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2023-08,632.41,0.0,Capacity balance,positive,base
+avg_changeovers,2023-08,115.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2023-08,61071.17,-2.5283,SKU forecast,negative,base
+bulk_flour_required_tons,2023-08,61071.17,0.0,Flour demand,neutral,base
+wheat_cost_index,2023-08,1058.8436,0.0,Raw material,neutral,base
+import_dependency_pct,2023-08,100.0,0.0,Supply chain,negative,base
+waste_impact_pct,2023-08,2.036,0.0,Waste,positive,base
+overload_hours,2023-08,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-08,198.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-08,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2023-08,61071.13,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2023-08,1049.598,0.0,Market,neutral,base
+downtime_risk_score,2023-08,32.6,0.0,Risk model,positive,base
+high_risk_supply_pct,2023-08,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2023-08,0.099,0.0,Quality,neutral,base
+energy_per_ton,2023-08,70.337,0.0,Efficiency,neutral,base
+water_per_ton,2023-08,0.7929,0.0,Conservation,neutral,base
+vision_2030_compliance,2023-08,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2023-08,65.2044,0.0,Utilization,positive,base
+waste_rate_vs_target,2023-08,-0.46,0.0,Gap to target,positive,base
+total_demand_tons,2023-09,57746.52,-5.4439,SKU forecast,negative,base
+recipe_time_utilization_pct,2023-09,63.9056,-1.2988,Time constraint,positive,base
+capacity_violations_count,2023-09,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-09,1041.3746,-8.2234,Wheat price,neutral,base
+waste_rate_pct,2023-09,2.1418,0.1058,Recipe mix,positive,base
+vision_2030_index,2023-09,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2023-09,87.7619,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2023-09,57746.52,0.0,Flour demand,neutral,base
+total_recipe_hours,2023-09,1468.65,0.0,Recipe demand,neutral,base
+seasonality_index,2023-09,0.9233,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-09,1083.52,0.0,Schedule,neutral,base
+available_mill_hours,2023-09,1695.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2023-09,3486705.0,0.0,Forecast,neutral,base
+avg_changeovers,2023-09,109.0,0.0,Recipe switches,neutral,base
+slack_shortfall_hours,2023-09,611.98,0.0,Capacity balance,positive,base
+vision_2030_compliance,2023-09,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2023-09,1041.3746,0.0,Market,neutral,base
+mill_utilization_pct,2023-09,63.9056,0.0,Utilization,positive,base
+overload_hours,2023-09,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-09,187.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-09,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2023-09,32.0,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-09,57746.65,0.0,Procurement,neutral,base
+wheat_cost_index,2023-09,1058.8426,0.0,Raw material,neutral,base
+import_dependency_pct,2023-09,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2023-09,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2023-09,-0.36,0.0,Gap to target,positive,base
+energy_per_ton,2023-09,69.8136,0.0,Efficiency,neutral,base
+water_per_ton,2023-09,0.7943,0.0,Conservation,neutral,base
+waste_impact_pct,2023-09,2.1418,0.0,Waste,positive,base
+yield_variability_index,2023-09,0.078,0.0,Quality,neutral,base
+total_demand_tons,2023-10,59723.83,3.4241,SKU forecast,positive,base
+recipe_time_utilization_pct,2023-10,64.3902,0.4846,Time constraint,positive,base
+capacity_violations_count,2023-10,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-10,1037.1044,-4.2701,Wheat price,neutral,base
+waste_rate_pct,2023-10,2.1791,0.0373,Recipe mix,positive,base
+vision_2030_index,2023-10,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2023-10,87.6267,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2023-10,59723.83,0.0,Flour demand,neutral,base
+total_recipe_hours,2023-10,1519.45,0.0,Recipe demand,neutral,base
+seasonality_index,2023-10,0.9232,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-10,1143.57,0.0,Schedule,neutral,base
+available_mill_hours,2023-10,1776.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2023-10,632.43,0.0,Capacity balance,positive,base
+avg_changeovers,2023-10,113.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2023-10,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2023-10,3600815.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2023-10,1037.1044,0.0,Market,neutral,base
+mill_utilization_pct,2023-10,64.3902,0.0,Utilization,positive,base
+overload_hours,2023-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-10,193.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-10,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2023-10,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-10,59723.61,0.0,Procurement,neutral,base
+wheat_cost_index,2023-10,1058.6168,0.0,Raw material,neutral,base
+import_dependency_pct,2023-10,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2023-10,40.4,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2023-10,-0.32,0.0,Gap to target,positive,base
+energy_per_ton,2023-10,68.8891,0.0,Efficiency,neutral,base
+water_per_ton,2023-10,0.7733,0.0,Conservation,neutral,base
+waste_impact_pct,2023-10,2.1791,0.0,Waste,positive,base
+yield_variability_index,2023-10,0.102,0.0,Quality,neutral,base
+avg_changeovers,2023-11,112.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2023-11,59501.77,-0.3718,SKU forecast,negative,base
+recipe_time_utilization_pct,2023-11,65.5314,1.1412,Time constraint,positive,base
+capacity_violations_count,2023-11,0.0,0.0,Overload,positive,base
+waste_rate_pct,2023-11,2.114,-0.0651,Recipe mix,positive,base
+vision_2030_index,2023-11,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2023-11,87.4167,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2023-11,59501.77,0.0,Flour demand,neutral,base
+total_recipe_hours,2023-11,1513.25,0.0,Recipe demand,neutral,base
+seasonality_index,2023-11,0.9443,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-11,1163.51,0.0,Schedule,neutral,base
+available_mill_hours,2023-11,1775.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2023-11,611.99,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2023-11,1050.7069,13.6025,Wheat price,neutral,base
+total_sku_forecast_units,2023-11,3587400.0,0.0,Forecast,neutral,base
+wheat_cost_index,2023-11,1058.8131,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2023-11,1050.7069,0.0,Market,neutral,base
+vision_2030_compliance,2023-11,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2023-11,65.5314,0.0,Utilization,positive,base
+overload_hours,2023-11,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-11,193.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2023-11,32.8,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2023-11,59501.67,0.0,Procurement,neutral,base
+avg_run_length_days,2023-11,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2023-11,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2023-11,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2023-11,-0.39,0.0,Gap to target,positive,base
+energy_per_ton,2023-11,69.804,0.0,Efficiency,neutral,base
+water_per_ton,2023-11,0.7755,0.0,Conservation,neutral,base
+waste_impact_pct,2023-11,2.114,0.0,Waste,positive,base
+yield_variability_index,2023-11,0.067,0.0,Quality,neutral,base
+vision_2030_index,2023-12,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2023-12,64.9046,-0.6268,Time constraint,positive,base
+capacity_violations_count,2023-12,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2023-12,1061.6012,10.8943,Wheat price,neutral,base
+waste_rate_pct,2023-12,2.1122,-0.0018,Recipe mix,positive,base
+total_sku_forecast_units,2023-12,3838566.0,0.0,Forecast,neutral,base
+avg_changeovers,2023-12,113.0,0.0,Recipe switches,neutral,base
+total_recipe_hours,2023-12,1609.08,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2023-12,87.2581,0.0,Model accuracy,positive,base
+seasonality_index,2023-12,0.9797,0.0,Calendar,neutral,base
+planned_recipe_hours,2023-12,1169.58,0.0,Schedule,neutral,base
+available_mill_hours,2023-12,1802.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2023-12,632.42,0.0,Capacity balance,positive,base
+total_demand_tons,2023-12,63268.51,6.3305,SKU forecast,positive,base
+wheat_cost_index,2023-12,1058.8395,0.0,Raw material,neutral,base
+bulk_flour_required_tons,2023-12,63268.51,0.0,Flour demand,neutral,base
+import_dependency_pct,2023-12,100.0,0.0,Supply chain,negative,base
+total_wheat_requirement_tons,2023-12,63268.36,0.0,Procurement,neutral,base
+overload_hours,2023-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2023-12,195.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2023-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2023-12,32.5,0.0,Risk model,positive,base
+avg_wheat_cost_sar,2023-12,1061.6012,0.0,Market,neutral,base
+waste_impact_pct,2023-12,2.1122,0.0,Waste,positive,base
+high_risk_supply_pct,2023-12,40.2,0.0,Geopolitics,negative,base
+yield_variability_index,2023-12,0.083,0.0,Quality,neutral,base
+waste_rate_vs_target,2023-12,-0.39,0.0,Gap to target,positive,base
+energy_per_ton,2023-12,69.4378,0.0,Efficiency,neutral,base
+water_per_ton,2023-12,0.8019,0.0,Conservation,neutral,base
+vision_2030_compliance,2023-12,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2023-12,64.9046,0.0,Utilization,positive,base
+recipe_time_utilization_pct,2024-01,64.8075,-0.0971,Time constraint,positive,base
+capacity_violations_count,2024-01,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-01,967.8955,-93.7057,Wheat price,neutral,base
+waste_rate_pct,2024-01,2.155,0.0428,Recipe mix,positive,base
+vision_2030_index,2024-01,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2024-01,4024448.0,0.0,Forecast,neutral,base
+seasonality_index,2024-01,1.0216,0.0,Calendar,neutral,base
+total_recipe_hours,2024-01,1689.79,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2024-01,87.3157,0.0,Model accuracy,positive,base
+planned_recipe_hours,2024-01,1164.59,0.0,Schedule,neutral,base
+available_mill_hours,2024-01,1797.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-01,632.41,0.0,Capacity balance,positive,base
+avg_changeovers,2024-01,115.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2024-01,66431.65,4.9995,SKU forecast,positive,base
+wheat_cost_index,2024-01,949.9691,0.0,Raw material,neutral,base
+bulk_flour_required_tons,2024-01,66431.65,0.0,Flour demand,neutral,base
+import_dependency_pct,2024-01,100.0,0.0,Supply chain,negative,base
+overload_hours,2024-01,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-01,197.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-01,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2024-01,32.4,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-01,66431.67,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2024-01,967.8955,0.0,Market,neutral,base
+waste_impact_pct,2024-01,2.155,0.0,Waste,positive,base
+high_risk_supply_pct,2024-01,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2024-01,0.075,0.0,Quality,neutral,base
+energy_per_ton,2024-01,69.4092,0.0,Efficiency,neutral,base
+water_per_ton,2024-01,0.7741,0.0,Conservation,neutral,base
+vision_2030_compliance,2024-01,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2024-01,64.8075,0.0,Utilization,positive,base
+waste_rate_vs_target,2024-01,-0.34,0.0,Gap to target,positive,base
+total_demand_tons,2024-02,64637.97,-2.7,SKU forecast,negative,base
+recipe_time_utilization_pct,2024-02,63.4796,-1.3278,Time constraint,positive,base
+capacity_violations_count,2024-02,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-02,980.8731,12.9776,Wheat price,neutral,base
+waste_rate_pct,2024-02,2.349,0.194,Recipe mix,positive,base
+vision_2030_index,2024-02,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2024-02,87.4433,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2024-02,64637.97,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-02,1644.26,0.0,Recipe demand,neutral,base
+seasonality_index,2024-02,1.0562,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-02,1028.37,0.0,Schedule,neutral,base
+available_mill_hours,2024-02,1620.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-02,591.63,0.0,Capacity balance,positive,base
+avg_changeovers,2024-02,104.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2024-02,3900818.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2024-02,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2024-02,980.8731,0.0,Market,neutral,base
+wheat_cost_index,2024-02,949.9313,0.0,Raw material,neutral,base
+mill_utilization_pct,2024-02,63.4796,0.0,Utilization,positive,base
+overload_hours,2024-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-02,177.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2024-02,31.7,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-02,64637.93,0.0,Procurement,neutral,base
+avg_run_length_days,2024-02,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2024-02,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-02,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2024-02,-0.15,0.0,Gap to target,positive,base
+energy_per_ton,2024-02,70.335,0.0,Efficiency,neutral,base
+water_per_ton,2024-02,0.7972,0.0,Conservation,neutral,base
+waste_impact_pct,2024-02,2.349,0.0,Waste,positive,base
+yield_variability_index,2024-02,0.08,0.0,Quality,neutral,base
+vision_2030_index,2024-03,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2024-03,64.1801,0.7005,Time constraint,positive,base
+capacity_violations_count,2024-03,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-03,1014.0836,33.2105,Wheat price,neutral,base
+waste_rate_pct,2024-03,2.1917,-0.1573,Recipe mix,positive,base
+avg_changeovers,2024-03,113.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2024-03,86873.85,34.4006,SKU forecast,positive,base
+total_recipe_hours,2024-03,2202.34,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2024-03,87.5138,0.0,Model accuracy,positive,base
+seasonality_index,2024-03,1.3319,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-03,1133.1,0.0,Schedule,neutral,base
+available_mill_hours,2024-03,1765.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2024-03,5231034.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2024-03,86873.85,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2024-03,632.4,0.0,Capacity balance,positive,base
+vision_2030_compliance,2024-03,85.5,0.0,Composite,positive,base
+wheat_cost_index,2024-03,948.6363,0.0,Raw material,neutral,base
+overload_hours,2024-03,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-03,189.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2024-03,32.1,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-03,86873.75,0.0,Procurement,neutral,base
+yield_variability_index,2024-03,0.118,0.0,Quality,neutral,base
+mill_utilization_pct,2024-03,64.1801,0.0,Utilization,positive,base
+high_risk_supply_pct,2024-03,39.9,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2024-03,-0.31,0.0,Gap to target,positive,base
+energy_per_ton,2024-03,70.1308,0.0,Efficiency,neutral,base
+water_per_ton,2024-03,0.7917,0.0,Conservation,neutral,base
+waste_impact_pct,2024-03,2.1917,0.0,Waste,positive,base
+avg_wheat_cost_sar,2024-03,1014.0836,0.0,Market,neutral,base
+import_dependency_pct,2024-03,100.0,0.0,Supply chain,negative,base
+avg_changeovers,2024-04,111.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2024-04,75466.57,-13.1309,SKU forecast,negative,base
+recipe_time_utilization_pct,2024-04,64.2726,0.0925,Time constraint,positive,base
+capacity_violations_count,2024-04,0.0,0.0,Overload,positive,base
+waste_rate_pct,2024-04,2.0483,-0.1433,Recipe mix,positive,base
+vision_2030_index,2024-04,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2024-04,87.5595,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2024-04,75466.57,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-04,1916.47,0.0,Recipe demand,neutral,base
+seasonality_index,2024-04,1.1907,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-04,1100.99,0.0,Schedule,neutral,base
+available_mill_hours,2024-04,1713.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-04,612.01,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2024-04,1000.771,-13.3126,Wheat price,neutral,base
+wheat_cost_index,2024-04,949.2432,0.0,Raw material,neutral,base
+total_sku_forecast_units,2024-04,4531874.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2024-04,1000.771,0.0,Market,neutral,base
+mill_utilization_pct,2024-04,64.2726,0.0,Utilization,positive,base
+overload_hours,2024-04,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-04,189.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-04,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2024-04,32.1,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-04,75466.63,0.0,Procurement,neutral,base
+vision_2030_compliance,2024-04,85.5,0.0,Composite,positive,base
+import_dependency_pct,2024-04,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-04,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2024-04,-0.45,0.0,Gap to target,positive,base
+energy_per_ton,2024-04,69.2767,0.0,Efficiency,neutral,base
+water_per_ton,2024-04,0.7806,0.0,Conservation,neutral,base
+waste_impact_pct,2024-04,2.0483,0.0,Waste,positive,base
+yield_variability_index,2024-04,0.078,0.0,Quality,neutral,base
+total_demand_tons,2024-05,69239.1,-8.252,SKU forecast,negative,base
+recipe_time_utilization_pct,2024-05,65.2039,0.9312,Time constraint,positive,base
+capacity_violations_count,2024-05,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-05,981.2545,-19.5165,Wheat price,neutral,base
+waste_rate_pct,2024-05,2.112,0.0637,Recipe mix,positive,base
+vision_2030_index,2024-05,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2024-05,87.5046,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2024-05,69239.1,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-05,1761.06,0.0,Recipe demand,neutral,base
+seasonality_index,2024-05,1.0558,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-05,1185.08,0.0,Schedule,neutral,base
+available_mill_hours,2024-05,1817.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-05,632.42,0.0,Capacity balance,positive,base
+avg_changeovers,2024-05,115.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2024-05,4206091.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2024-05,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2024-05,981.2545,0.0,Market,neutral,base
+wheat_cost_index,2024-05,949.9986,0.0,Raw material,neutral,base
+downtime_risk_score,2024-05,32.6,0.0,Risk model,positive,base
+mill_utilization_pct,2024-05,65.2039,0.0,Utilization,positive,base
+overload_hours,2024-05,0.0,0.0,Capacity,positive,base
+avg_run_length_days,2024-05,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2024-05,69239.03,0.0,Procurement,neutral,base
+recipe_switch_count,2024-05,198.0,0.0,Scheduling,neutral,base
+import_dependency_pct,2024-05,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-05,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2024-05,0.086,0.0,Quality,neutral,base
+waste_rate_vs_target,2024-05,-0.39,0.0,Gap to target,positive,base
+energy_per_ton,2024-05,69.117,0.0,Efficiency,neutral,base
+water_per_ton,2024-05,0.796,0.0,Conservation,neutral,base
+waste_impact_pct,2024-05,2.112,0.0,Waste,positive,base
+total_sku_forecast_units,2024-06,4880022.0,0.0,Forecast,neutral,base
+capacity_violations_count,2024-06,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-06,991.3533,10.0988,Wheat price,neutral,base
+waste_rate_pct,2024-06,2.1355,0.0235,Recipe mix,positive,base
+vision_2030_index,2024-06,85.5,0.0,Sustainability,positive,base
+total_demand_tons,2024-06,80733.3,16.6007,SKU forecast,positive,base
+recipe_time_utilization_pct,2024-06,64.3749,-0.829,Time constraint,positive,base
+forecast_confidence_pct,2024-06,87.8905,0.0,Model accuracy,positive,base
+seasonality_index,2024-06,1.275,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-06,1105.96,0.0,Schedule,neutral,base
+available_mill_hours,2024-06,1718.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-06,612.04,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2024-06,80733.3,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-06,2055.52,0.0,Recipe demand,neutral,base
+avg_changeovers,2024-06,109.0,0.0,Recipe switches,neutral,base
+wheat_cost_index,2024-06,949.5783,0.0,Raw material,neutral,base
+waste_impact_pct,2024-06,2.1355,0.0,Waste,positive,base
+recipe_switch_count,2024-06,187.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-06,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2024-06,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-06,80733.27,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2024-06,991.3533,0.0,Market,neutral,base
+waste_rate_vs_target,2024-06,-0.36,0.0,Gap to target,positive,base
+overload_hours,2024-06,0.0,0.0,Capacity,positive,base
+yield_variability_index,2024-06,0.117,0.0,Quality,neutral,base
+energy_per_ton,2024-06,70.0636,0.0,Efficiency,neutral,base
+water_per_ton,2024-06,0.7924,0.0,Conservation,neutral,base
+vision_2030_compliance,2024-06,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2024-06,64.3749,0.0,Utilization,positive,base
+import_dependency_pct,2024-06,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-06,40.4,0.0,Geopolitics,negative,base
+total_demand_tons,2024-07,64710.38,-19.8467,SKU forecast,negative,base
+recipe_time_utilization_pct,2024-07,64.7109,0.3361,Time constraint,positive,base
+capacity_violations_count,2024-07,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-07,952.0682,-39.2851,Wheat price,neutral,base
+waste_rate_pct,2024-07,2.0255,-0.11,Recipe mix,positive,base
+vision_2030_index,2024-07,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2024-07,87.4908,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2024-07,64710.38,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-07,1645.84,0.0,Recipe demand,neutral,base
+seasonality_index,2024-07,0.979,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-07,1159.62,0.0,Schedule,neutral,base
+available_mill_hours,2024-07,1792.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-07,632.38,0.0,Capacity balance,positive,base
+avg_changeovers,2024-07,114.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2024-07,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2024-07,3902816.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2024-07,952.0682,0.0,Market,neutral,base
+mill_utilization_pct,2024-07,64.7109,0.0,Utilization,positive,base
+overload_hours,2024-07,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-07,195.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2024-07,32.4,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-07,64710.22,0.0,Procurement,neutral,base
+wheat_cost_index,2024-07,950.0043,0.0,Raw material,neutral,base
+import_dependency_pct,2024-07,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-07,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2024-07,-0.47,0.0,Gap to target,positive,base
+energy_per_ton,2024-07,69.9418,0.0,Efficiency,neutral,base
+water_per_ton,2024-07,0.7893,0.0,Conservation,neutral,base
+waste_impact_pct,2024-07,2.0255,0.0,Waste,positive,base
+yield_variability_index,2024-07,0.053,0.0,Quality,neutral,base
+total_demand_tons,2024-08,61792.04,-4.5098,SKU forecast,negative,base
+recipe_time_utilization_pct,2024-08,64.1688,-0.5421,Time constraint,positive,base
+capacity_violations_count,2024-08,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-08,939.4207,-12.6475,Wheat price,neutral,base
+waste_rate_pct,2024-08,2.1125,0.087,Recipe mix,positive,base
+vision_2030_index,2024-08,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2024-08,87.5553,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2024-08,61792.04,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-08,1571.07,0.0,Recipe demand,neutral,base
+seasonality_index,2024-08,0.9432,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-08,1132.58,0.0,Schedule,neutral,base
+available_mill_hours,2024-08,1765.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-08,632.42,0.0,Capacity balance,positive,base
+avg_changeovers,2024-08,114.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2024-08,3746788.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2024-08,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2024-08,939.4207,0.0,Market,neutral,base
+wheat_cost_index,2024-08,950.0154,0.0,Raw material,neutral,base
+mill_utilization_pct,2024-08,64.1688,0.0,Utilization,positive,base
+overload_hours,2024-08,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-08,195.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2024-08,32.1,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-08,61792.06,0.0,Procurement,neutral,base
+avg_run_length_days,2024-08,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2024-08,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-08,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2024-08,-0.39,0.0,Gap to target,positive,base
+energy_per_ton,2024-08,68.9975,0.0,Efficiency,neutral,base
+water_per_ton,2024-08,0.7787,0.0,Conservation,neutral,base
+waste_impact_pct,2024-08,2.1125,0.0,Waste,positive,base
+yield_variability_index,2024-08,0.072,0.0,Quality,neutral,base
+vision_2030_index,2024-09,85.5,0.0,Sustainability,positive,base
+total_demand_tons,2024-09,59253.45,-4.1083,SKU forecast,negative,base
+recipe_time_utilization_pct,2024-09,64.3229,0.1541,Time constraint,positive,base
+capacity_violations_count,2024-09,0.0,0.0,Overload,positive,base
+waste_rate_pct,2024-09,2.0818,-0.0307,Recipe mix,positive,base
+avg_cost_per_ton,2024-09,932.2807,-7.14,Wheat price,neutral,base
+avg_changeovers,2024-09,109.0,0.0,Recipe switches,neutral,base
+total_recipe_hours,2024-09,1506.6,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2024-09,87.1667,0.0,Model accuracy,positive,base
+seasonality_index,2024-09,0.923,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-09,1103.46,0.0,Schedule,neutral,base
+available_mill_hours,2024-09,1715.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2024-09,3564724.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2024-09,59253.45,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2024-09,612.04,0.0,Capacity balance,positive,base
+wheat_cost_index,2024-09,950.0288,0.0,Raw material,neutral,base
+vision_2030_compliance,2024-09,85.5,0.0,Composite,positive,base
+overload_hours,2024-09,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-09,186.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-09,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2024-09,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-09,59253.37,0.0,Procurement,neutral,base
+yield_variability_index,2024-09,0.064,0.0,Quality,neutral,base
+mill_utilization_pct,2024-09,64.3229,0.0,Utilization,positive,base
+high_risk_supply_pct,2024-09,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2024-09,-0.42,0.0,Gap to target,positive,base
+energy_per_ton,2024-09,69.2573,0.0,Efficiency,neutral,base
+water_per_ton,2024-09,0.7915,0.0,Conservation,neutral,base
+waste_impact_pct,2024-09,2.0818,0.0,Waste,positive,base
+avg_wheat_cost_sar,2024-09,932.2807,0.0,Market,neutral,base
+import_dependency_pct,2024-09,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2024-10,61243.68,3.3588,SKU forecast,positive,base
+recipe_time_utilization_pct,2024-10,64.8161,0.4932,Time constraint,positive,base
+capacity_violations_count,2024-10,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-10,931.6482,-0.6326,Wheat price,neutral,base
+waste_rate_pct,2024-10,1.9617,-0.1202,Recipe mix,positive,base
+vision_2030_index,2024-10,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2024-10,87.4171,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2024-10,61243.68,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-10,1557.86,0.0,Recipe demand,neutral,base
+seasonality_index,2024-10,0.9235,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-10,1165.07,0.0,Schedule,neutral,base
+available_mill_hours,2024-10,1797.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-10,632.43,0.0,Capacity balance,positive,base
+avg_changeovers,2024-10,115.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2024-10,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2024-10,3702040.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2024-10,931.6482,0.0,Market,neutral,base
+downtime_risk_score,2024-10,32.4,0.0,Risk model,positive,base
+mill_utilization_pct,2024-10,64.8161,0.0,Utilization,positive,base
+overload_hours,2024-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-10,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-10,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2024-10,61243.58,0.0,Procurement,neutral,base
+wheat_cost_index,2024-10,949.9267,0.0,Raw material,neutral,base
+import_dependency_pct,2024-10,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-10,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2024-10,0.082,0.0,Quality,neutral,base
+waste_rate_vs_target,2024-10,-0.54,0.0,Gap to target,positive,base
+energy_per_ton,2024-10,68.5458,0.0,Efficiency,neutral,base
+water_per_ton,2024-10,0.782,0.0,Conservation,neutral,base
+waste_impact_pct,2024-10,1.9617,0.0,Waste,positive,base
+total_demand_tons,2024-11,60257.5,-1.6103,SKU forecast,negative,base
+recipe_time_utilization_pct,2024-11,62.7749,-2.0412,Time constraint,positive,base
+capacity_violations_count,2024-11,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2024-11,940.1931,8.5449,Wheat price,neutral,base
+waste_rate_pct,2024-11,2.12,0.1583,Recipe mix,positive,base
+vision_2030_index,2024-11,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2024-11,87.75,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2024-11,60257.5,0.0,Flour demand,neutral,base
+total_recipe_hours,2024-11,1532.62,0.0,Recipe demand,neutral,base
+seasonality_index,2024-11,0.9453,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-11,1032.02,0.0,Schedule,neutral,base
+available_mill_hours,2024-11,1644.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2024-11,611.98,0.0,Capacity balance,positive,base
+avg_changeovers,2024-11,105.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2024-11,3640166.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2024-11,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2024-11,940.1931,0.0,Market,neutral,base
+wheat_cost_index,2024-11,949.9756,0.0,Raw material,neutral,base
+mill_utilization_pct,2024-11,62.7749,0.0,Utilization,positive,base
+overload_hours,2024-11,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-11,178.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2024-11,31.4,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-11,60257.47,0.0,Procurement,neutral,base
+avg_run_length_days,2024-11,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2024-11,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2024-11,40.3,0.0,Geopolitics,negative,base
+waste_impact_pct,2024-11,2.12,0.0,Waste,positive,base
+waste_rate_vs_target,2024-11,-0.38,0.0,Gap to target,positive,base
+energy_per_ton,2024-11,69.476,0.0,Efficiency,neutral,base
+water_per_ton,2024-11,0.7852,0.0,Conservation,neutral,base
+yield_variability_index,2024-11,0.058,0.0,Quality,neutral,base
+vision_2030_index,2024-12,85.5,0.0,Sustainability,positive,base
+total_demand_tons,2024-12,65302.23,8.372,SKU forecast,positive,base
+recipe_time_utilization_pct,2024-12,64.8965,2.1215,Time constraint,positive,base
+capacity_violations_count,2024-12,0.0,0.0,Overload,positive,base
+waste_rate_pct,2024-12,2.005,-0.115,Recipe mix,positive,base
+avg_cost_per_ton,2024-12,953.334,13.1409,Wheat price,neutral,base
+avg_changeovers,2024-12,114.0,0.0,Recipe switches,neutral,base
+total_recipe_hours,2024-12,1660.62,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2024-12,87.3364,0.0,Model accuracy,positive,base
+seasonality_index,2024-12,0.981,0.0,Calendar,neutral,base
+planned_recipe_hours,2024-12,1169.11,0.0,Schedule,neutral,base
+available_mill_hours,2024-12,1801.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2024-12,3937300.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2024-12,65302.23,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2024-12,632.39,0.0,Capacity balance,positive,base
+wheat_cost_index,2024-12,949.9717,0.0,Raw material,neutral,base
+vision_2030_compliance,2024-12,85.5,0.0,Composite,positive,base
+overload_hours,2024-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2024-12,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2024-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2024-12,32.4,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2024-12,65302.16,0.0,Procurement,neutral,base
+yield_variability_index,2024-12,0.082,0.0,Quality,neutral,base
+mill_utilization_pct,2024-12,64.8965,0.0,Utilization,positive,base
+high_risk_supply_pct,2024-12,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2024-12,-0.5,0.0,Gap to target,positive,base
+energy_per_ton,2024-12,70.056,0.0,Efficiency,neutral,base
+water_per_ton,2024-12,0.7737,0.0,Conservation,neutral,base
+waste_impact_pct,2024-12,2.005,0.0,Waste,positive,base
+avg_wheat_cost_sar,2024-12,953.334,0.0,Market,neutral,base
+import_dependency_pct,2024-12,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2025-01,68102.43,4.2881,SKU forecast,positive,base
+recipe_time_utilization_pct,2025-01,65.311,0.4146,Time constraint,positive,base
+capacity_violations_count,2025-01,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-01,1005.5291,52.1952,Wheat price,neutral,base
+waste_rate_pct,2025-01,2.132,0.127,Recipe mix,positive,base
+vision_2030_index,2025-01,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2025-01,87.5991,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2025-01,68102.43,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-01,1732.4,0.0,Recipe demand,neutral,base
+seasonality_index,2025-01,1.0216,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-01,1190.62,0.0,Schedule,neutral,base
+available_mill_hours,2025-01,1823.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-01,632.38,0.0,Capacity balance,positive,base
+avg_changeovers,2025-01,116.0,0.0,Recipe switches,neutral,base
+wheat_cost_index,2025-01,989.593,0.0,Raw material,neutral,base
+total_sku_forecast_units,2025-01,4133322.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2025-01,1005.5291,0.0,Market,neutral,base
+mill_utilization_pct,2025-01,65.311,0.0,Utilization,positive,base
+overload_hours,2025-01,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-01,199.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-01,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2025-01,32.7,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-01,68102.49,0.0,Procurement,neutral,base
+waste_impact_pct,2025-01,2.132,0.0,Waste,positive,base
+import_dependency_pct,2025-01,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2025-01,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-01,-0.37,0.0,Gap to target,positive,base
+energy_per_ton,2025-01,69.22,0.0,Efficiency,neutral,base
+water_per_ton,2025-01,0.7683,0.0,Conservation,neutral,base
+vision_2030_compliance,2025-01,85.5,0.0,Composite,positive,base
+yield_variability_index,2025-01,0.07,0.0,Quality,neutral,base
+total_demand_tons,2025-02,63535.58,-6.7059,SKU forecast,negative,base
+recipe_time_utilization_pct,2025-02,64.9045,-0.4066,Time constraint,positive,base
+capacity_violations_count,2025-02,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-02,1021.5848,16.0556,Wheat price,neutral,base
+waste_rate_pct,2025-02,2.0755,-0.0565,Recipe mix,positive,base
+vision_2030_index,2025-02,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2025-02,87.4005,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2025-02,63535.58,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-02,1616.03,0.0,Recipe demand,neutral,base
+seasonality_index,2025-02,1.0557,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-02,1056.32,0.0,Schedule,neutral,base
+available_mill_hours,2025-02,1627.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-02,571.18,0.0,Capacity balance,positive,base
+avg_changeovers,2025-02,104.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2025-02,3848163.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2025-02,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2025-02,1021.5848,0.0,Market,neutral,base
+wheat_cost_index,2025-02,989.5374,0.0,Raw material,neutral,base
+mill_utilization_pct,2025-02,64.9045,0.0,Utilization,positive,base
+overload_hours,2025-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-02,178.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2025-02,32.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-02,63535.67,0.0,Procurement,neutral,base
+avg_run_length_days,2025-02,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2025-02,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2025-02,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-02,-0.42,0.0,Gap to target,positive,base
+energy_per_ton,2025-02,70.2318,0.0,Efficiency,neutral,base
+water_per_ton,2025-02,0.815,0.0,Conservation,neutral,base
+waste_impact_pct,2025-02,2.0755,0.0,Waste,positive,base
+yield_variability_index,2025-02,0.118,0.0,Quality,neutral,base
+vision_2030_index,2025-03,85.5,0.0,Sustainability,positive,base
+total_demand_tons,2025-03,95694.22,50.6152,SKU forecast,positive,base
+recipe_time_utilization_pct,2025-03,64.473,-0.4314,Time constraint,positive,base
+capacity_violations_count,2025-03,0.0,0.0,Overload,positive,base
+waste_rate_pct,2025-03,2.103,0.0275,Recipe mix,positive,base
+avg_cost_per_ton,2025-03,1068.1848,46.6001,Wheat price,neutral,base
+avg_changeovers,2025-03,112.0,0.0,Recipe switches,neutral,base
+total_recipe_hours,2025-03,2422.81,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2025-03,87.6475,0.0,Model accuracy,positive,base
+seasonality_index,2025-03,1.441,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-03,1147.62,0.0,Schedule,neutral,base
+available_mill_hours,2025-03,1780.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2025-03,5808451.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2025-03,95694.22,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2025-03,632.38,0.0,Capacity balance,positive,base
+wheat_cost_index,2025-03,987.7928,0.0,Raw material,neutral,base
+vision_2030_compliance,2025-03,85.5,0.0,Composite,positive,base
+overload_hours,2025-03,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-03,190.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2025-03,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-03,95694.23,0.0,Procurement,neutral,base
+yield_variability_index,2025-03,0.061,0.0,Quality,neutral,base
+mill_utilization_pct,2025-03,64.473,0.0,Utilization,positive,base
+high_risk_supply_pct,2025-03,39.7,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-03,-0.4,0.0,Gap to target,positive,base
+energy_per_ton,2025-03,69.972,0.0,Efficiency,neutral,base
+water_per_ton,2025-03,0.8044,0.0,Conservation,neutral,base
+waste_impact_pct,2025-03,2.103,0.0,Waste,positive,base
+avg_wheat_cost_sar,2025-03,1068.1848,0.0,Market,neutral,base
+import_dependency_pct,2025-03,100.0,0.0,Supply chain,negative,base
+recipe_time_utilization_pct,2025-04,65.8477,1.3746,Time constraint,positive,base
+capacity_violations_count,2025-04,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-04,1027.1999,-40.9849,Wheat price,neutral,base
+waste_rate_pct,2025-04,2.07,-0.033,Recipe mix,positive,base
+vision_2030_index,2025-04,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2025-04,4196992.0,0.0,Forecast,neutral,base
+forecast_confidence_pct,2025-04,87.4381,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2025-04,69819.8,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-04,1776.14,0.0,Recipe demand,neutral,base
+seasonality_index,2025-04,1.077,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-04,1179.99,0.0,Schedule,neutral,base
+available_mill_hours,2025-04,1792.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-04,612.01,0.0,Capacity balance,positive,base
+total_demand_tons,2025-04,69819.8,-27.0386,SKU forecast,negative,base
+avg_wheat_cost_sar,2025-04,1027.1999,0.0,Market,neutral,base
+avg_changeovers,2025-04,112.0,0.0,Recipe switches,neutral,base
+import_dependency_pct,2025-04,100.0,0.0,Supply chain,negative,base
+downtime_risk_score,2025-04,32.9,0.0,Risk model,positive,base
+mill_utilization_pct,2025-04,65.8477,0.0,Utilization,positive,base
+overload_hours,2025-04,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-04,194.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-04,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2025-04,69819.77,0.0,Procurement,neutral,base
+wheat_cost_index,2025-04,989.4569,0.0,Raw material,neutral,base
+high_risk_supply_pct,2025-04,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2025-04,0.083,0.0,Quality,neutral,base
+waste_rate_vs_target,2025-04,-0.43,0.0,Gap to target,positive,base
+energy_per_ton,2025-04,69.7357,0.0,Efficiency,neutral,base
+water_per_ton,2025-04,0.7814,0.0,Conservation,neutral,base
+vision_2030_compliance,2025-04,85.5,0.0,Composite,positive,base
+waste_impact_pct,2025-04,2.07,0.0,Waste,positive,base
+recipe_time_utilization_pct,2025-05,65.214,-0.6337,Time constraint,positive,base
+capacity_violations_count,2025-05,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-05,1022.6169,-4.583,Wheat price,neutral,base
+waste_rate_pct,2025-05,2.34,0.27,Recipe mix,positive,base
+vision_2030_index,2025-05,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2025-05,4284243.0,0.0,Forecast,neutral,base
+seasonality_index,2025-05,1.0568,0.0,Calendar,neutral,base
+total_recipe_hours,2025-05,1807.48,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2025-05,87.3203,0.0,Model accuracy,positive,base
+planned_recipe_hours,2025-05,1185.59,0.0,Schedule,neutral,base
+available_mill_hours,2025-05,1818.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-05,632.41,0.0,Capacity balance,positive,base
+avg_changeovers,2025-05,114.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2025-05,71051.17,1.7636,SKU forecast,positive,base
+bulk_flour_required_tons,2025-05,71051.17,0.0,Flour demand,neutral,base
+wheat_cost_index,2025-05,989.4202,0.0,Raw material,neutral,base
+import_dependency_pct,2025-05,100.0,0.0,Supply chain,negative,base
+waste_impact_pct,2025-05,2.34,0.0,Waste,positive,base
+overload_hours,2025-05,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-05,198.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-05,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2025-05,71051.06,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2025-05,1022.6169,0.0,Market,neutral,base
+downtime_risk_score,2025-05,32.6,0.0,Risk model,positive,base
+high_risk_supply_pct,2025-05,40.3,0.0,Geopolitics,negative,base
+yield_variability_index,2025-05,0.098,0.0,Quality,neutral,base
+energy_per_ton,2025-05,70.37,0.0,Efficiency,neutral,base
+water_per_ton,2025-05,0.7927,0.0,Conservation,neutral,base
+vision_2030_compliance,2025-05,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2025-05,65.214,0.0,Utilization,positive,base
+waste_rate_vs_target,2025-05,-0.16,0.0,Gap to target,positive,base
+vision_2030_index,2025-06,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2025-06,63.7214,-1.4926,Time constraint,positive,base
+capacity_violations_count,2025-06,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-06,1032.9822,10.3652,Wheat price,neutral,base
+waste_rate_pct,2025-06,1.9717,-0.3683,Recipe mix,positive,base
+avg_changeovers,2025-06,112.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2025-06,82992.51,16.8067,SKU forecast,positive,base
+total_recipe_hours,2025-06,2112.54,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2025-06,87.5095,0.0,Model accuracy,positive,base
+seasonality_index,2025-06,1.2767,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-06,1074.98,0.0,Schedule,neutral,base
+available_mill_hours,2025-06,1687.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2025-06,5005624.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2025-06,82992.51,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2025-06,612.02,0.0,Capacity balance,positive,base
+vision_2030_compliance,2025-06,85.5,0.0,Composite,positive,base
+wheat_cost_index,2025-06,989.2211,0.0,Raw material,neutral,base
+overload_hours,2025-06,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-06,191.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-06,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2025-06,31.9,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-06,82992.53,0.0,Procurement,neutral,base
+yield_variability_index,2025-06,0.092,0.0,Quality,neutral,base
+mill_utilization_pct,2025-06,63.7214,0.0,Utilization,positive,base
+high_risk_supply_pct,2025-06,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-06,-0.53,0.0,Gap to target,positive,base
+energy_per_ton,2025-06,68.5917,0.0,Efficiency,neutral,base
+water_per_ton,2025-06,0.7853,0.0,Conservation,neutral,base
+waste_impact_pct,2025-06,1.9717,0.0,Waste,positive,base
+avg_wheat_cost_sar,2025-06,1032.9822,0.0,Market,neutral,base
+import_dependency_pct,2025-06,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2025-07,66245.29,-20.1792,SKU forecast,negative,base
+recipe_time_utilization_pct,2025-07,65.9256,2.2042,Time constraint,positive,base
+capacity_violations_count,2025-07,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-07,991.6184,-41.3638,Wheat price,neutral,base
+waste_rate_pct,2025-07,2.07,0.0983,Recipe mix,positive,base
+vision_2030_index,2025-07,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2025-07,87.5,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2025-07,66245.29,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-07,1684.92,0.0,Recipe demand,neutral,base
+seasonality_index,2025-07,0.9803,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-07,1223.58,0.0,Schedule,neutral,base
+available_mill_hours,2025-07,1856.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-07,632.42,0.0,Capacity balance,positive,base
+avg_changeovers,2025-07,116.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2025-07,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2025-07,3975634.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2025-07,991.6184,0.0,Market,neutral,base
+mill_utilization_pct,2025-07,65.9256,0.0,Utilization,positive,base
+overload_hours,2025-07,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-07,201.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2025-07,33.0,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-07,66245.23,0.0,Procurement,neutral,base
+wheat_cost_index,2025-07,989.5162,0.0,Raw material,neutral,base
+import_dependency_pct,2025-07,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2025-07,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-07,-0.43,0.0,Gap to target,positive,base
+energy_per_ton,2025-07,69.9229,0.0,Efficiency,neutral,base
+water_per_ton,2025-07,0.8079,0.0,Conservation,neutral,base
+waste_impact_pct,2025-07,2.07,0.0,Waste,positive,base
+yield_variability_index,2025-07,0.073,0.0,Quality,neutral,base
+avg_changeovers,2025-08,114.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2025-08,63028.9,-4.8553,SKU forecast,negative,base
+recipe_time_utilization_pct,2025-08,65.3295,-0.5962,Time constraint,positive,base
+capacity_violations_count,2025-08,0.0,0.0,Overload,positive,base
+waste_rate_pct,2025-08,2.03,-0.04,Recipe mix,positive,base
+vision_2030_index,2025-08,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2025-08,87.7235,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2025-08,63028.9,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-08,1603.28,0.0,Recipe demand,neutral,base
+seasonality_index,2025-08,0.9442,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-08,1191.61,0.0,Schedule,neutral,base
+available_mill_hours,2025-08,1824.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-08,632.39,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2025-08,978.1455,-13.4728,Wheat price,neutral,base
+total_sku_forecast_units,2025-08,3827825.0,0.0,Forecast,neutral,base
+wheat_cost_index,2025-08,989.606,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2025-08,978.1455,0.0,Market,neutral,base
+vision_2030_compliance,2025-08,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2025-08,65.3295,0.0,Utilization,positive,base
+overload_hours,2025-08,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-08,198.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2025-08,32.7,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-08,63028.88,0.0,Procurement,neutral,base
+avg_run_length_days,2025-08,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2025-08,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2025-08,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-08,-0.47,0.0,Gap to target,positive,base
+energy_per_ton,2025-08,68.7686,0.0,Efficiency,neutral,base
+water_per_ton,2025-08,0.7993,0.0,Conservation,neutral,base
+waste_impact_pct,2025-08,2.03,0.0,Waste,positive,base
+yield_variability_index,2025-08,0.069,0.0,Quality,neutral,base
+vision_2030_index,2025-09,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2025-09,64.2703,-1.0592,Time constraint,positive,base
+capacity_violations_count,2025-09,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-09,968.8782,-9.2674,Wheat price,neutral,base
+waste_rate_pct,2025-09,2.1209,0.0909,Recipe mix,positive,base
+avg_changeovers,2025-09,111.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2025-09,60967.75,-3.2702,SKU forecast,negative,base
+total_recipe_hours,2025-09,1550.34,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2025-09,87.6095,0.0,Model accuracy,positive,base
+seasonality_index,2025-09,0.9233,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-09,1100.95,0.0,Schedule,neutral,base
+available_mill_hours,2025-09,1713.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2025-09,3671354.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2025-09,60967.75,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2025-09,612.05,0.0,Capacity balance,positive,base
+vision_2030_compliance,2025-09,85.5,0.0,Composite,positive,base
+wheat_cost_index,2025-09,989.567,0.0,Raw material,neutral,base
+mill_utilization_pct,2025-09,64.2703,0.0,Utilization,positive,base
+overload_hours,2025-09,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-09,190.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-09,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2025-09,60967.69,0.0,Procurement,neutral,base
+waste_impact_pct,2025-09,2.1209,0.0,Waste,positive,base
+downtime_risk_score,2025-09,32.1,0.0,Risk model,positive,base
+high_risk_supply_pct,2025-09,40.2,0.0,Geopolitics,negative,base
+yield_variability_index,2025-09,0.079,0.0,Quality,neutral,base
+waste_rate_vs_target,2025-09,-0.38,0.0,Gap to target,positive,base
+energy_per_ton,2025-09,69.8218,0.0,Efficiency,neutral,base
+water_per_ton,2025-09,0.7854,0.0,Conservation,neutral,base
+avg_wheat_cost_sar,2025-09,968.8782,0.0,Market,neutral,base
+import_dependency_pct,2025-09,100.0,0.0,Supply chain,negative,base
+total_demand_tons,2025-10,62462.58,2.4518,SKU forecast,positive,base
+recipe_time_utilization_pct,2025-10,65.1389,0.8686,Time constraint,positive,base
+capacity_violations_count,2025-10,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-10,970.7897,1.9115,Wheat price,neutral,base
+waste_rate_pct,2025-10,2.096,-0.0249,Recipe mix,positive,base
+vision_2030_index,2025-10,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2025-10,87.8871,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2025-10,62462.58,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-10,1588.65,0.0,Recipe demand,neutral,base
+seasonality_index,2025-10,0.9232,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-10,1181.62,0.0,Schedule,neutral,base
+available_mill_hours,2025-10,1814.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-10,632.38,0.0,Capacity balance,positive,base
+avg_changeovers,2025-10,115.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2025-10,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2025-10,3770879.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2025-10,970.7897,0.0,Market,neutral,base
+mill_utilization_pct,2025-10,65.1389,0.0,Utilization,positive,base
+overload_hours,2025-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-10,198.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-10,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2025-10,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-10,62462.55,0.0,Procurement,neutral,base
+wheat_cost_index,2025-10,989.4182,0.0,Raw material,neutral,base
+import_dependency_pct,2025-10,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2025-10,40.3,0.0,Geopolitics,negative,base
+waste_impact_pct,2025-10,2.096,0.0,Waste,positive,base
+waste_rate_vs_target,2025-10,-0.4,0.0,Gap to target,positive,base
+energy_per_ton,2025-10,70.109,0.0,Efficiency,neutral,base
+water_per_ton,2025-10,0.7843,0.0,Conservation,neutral,base
+yield_variability_index,2025-10,0.055,0.0,Quality,neutral,base
+avg_changeovers,2025-11,108.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2025-11,61919.89,-0.8688,SKU forecast,negative,base
+recipe_time_utilization_pct,2025-11,64.3357,-0.8033,Time constraint,positive,base
+capacity_violations_count,2025-11,0.0,0.0,Overload,positive,base
+waste_rate_pct,2025-11,2.259,0.163,Recipe mix,positive,base
+vision_2030_index,2025-11,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2025-11,87.6071,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2025-11,61919.89,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-11,1574.85,0.0,Recipe demand,neutral,base
+seasonality_index,2025-11,0.9443,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-11,1104.0,0.0,Schedule,neutral,base
+available_mill_hours,2025-11,1716.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2025-11,612.0,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2025-11,979.3809,8.5912,Wheat price,neutral,base
+total_sku_forecast_units,2025-11,3714744.0,0.0,Forecast,neutral,base
+wheat_cost_index,2025-11,989.4825,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2025-11,979.3809,0.0,Market,neutral,base
+vision_2030_compliance,2025-11,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2025-11,64.3357,0.0,Utilization,positive,base
+overload_hours,2025-11,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-11,186.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2025-11,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-11,61919.86,0.0,Procurement,neutral,base
+avg_run_length_days,2025-11,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2025-11,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2025-11,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-11,-0.24,0.0,Gap to target,positive,base
+energy_per_ton,2025-11,69.725,0.0,Efficiency,neutral,base
+water_per_ton,2025-11,0.7859,0.0,Conservation,neutral,base
+waste_impact_pct,2025-11,2.259,0.0,Waste,positive,base
+yield_variability_index,2025-11,0.074,0.0,Quality,neutral,base
+waste_rate_pct,2025-12,2.1855,-0.0735,Recipe mix,positive,base
+total_demand_tons,2025-12,66746.73,7.7953,SKU forecast,positive,base
+recipe_time_utilization_pct,2025-12,64.7781,0.4424,Time constraint,positive,base
+capacity_violations_count,2025-12,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2025-12,990.8842,11.5033,Wheat price,neutral,base
+vision_2030_index,2025-12,85.5,0.0,Sustainability,positive,base
+slack_shortfall_hours,2025-12,632.41,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2025-12,66746.73,0.0,Flour demand,neutral,base
+total_recipe_hours,2025-12,1698.06,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2025-12,87.2005,0.0,Model accuracy,positive,base
+seasonality_index,2025-12,0.9797,0.0,Calendar,neutral,base
+planned_recipe_hours,2025-12,1163.09,0.0,Schedule,neutral,base
+available_mill_hours,2025-12,1795.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2025-12,4015264.0,0.0,Forecast,neutral,base
+wheat_cost_index,2025-12,989.5947,0.0,Raw material,neutral,base
+avg_changeovers,2025-12,114.0,0.0,Recipe switches,neutral,base
+avg_wheat_cost_sar,2025-12,990.8842,0.0,Market,neutral,base
+mill_utilization_pct,2025-12,64.7781,0.0,Utilization,positive,base
+overload_hours,2025-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2025-12,195.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2025-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2025-12,32.4,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2025-12,66746.7,0.0,Procurement,neutral,base
+waste_impact_pct,2025-12,2.1855,0.0,Waste,positive,base
+import_dependency_pct,2025-12,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2025-12,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2025-12,-0.31,0.0,Gap to target,positive,base
+energy_per_ton,2025-12,69.7291,0.0,Efficiency,neutral,base
+water_per_ton,2025-12,0.7967,0.0,Conservation,neutral,base
+vision_2030_compliance,2025-12,85.5,0.0,Composite,positive,base
+yield_variability_index,2025-12,0.092,0.0,Quality,neutral,base
+total_demand_tons,2026-01,69199.19,3.6743,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-01,64.4314,-0.3467,Time constraint,positive,base
+capacity_violations_count,2026-01,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-01,1028.9004,38.0162,Wheat price,neutral,base
+waste_rate_pct,2026-01,2.108,-0.0775,Recipe mix,positive,base
+vision_2030_index,2026-01,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2026-01,87.4032,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2026-01,69199.19,0.0,Flour demand,neutral,base
+total_recipe_hours,2026-01,1760.38,0.0,Recipe demand,neutral,base
+seasonality_index,2026-01,1.0216,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-01,1145.59,0.0,Schedule,neutral,base
+available_mill_hours,2026-01,1778.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-01,632.41,0.0,Capacity balance,positive,base
+avg_changeovers,2026-01,114.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2026-01,85.5,0.0,Composite,positive,base
+total_sku_forecast_units,2026-01,4178528.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2026-01,1028.9004,0.0,Market,neutral,base
+mill_utilization_pct,2026-01,64.4314,0.0,Utilization,positive,base
+overload_hours,2026-01,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-01,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-01,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-01,32.2,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-01,69199.24,0.0,Procurement,neutral,base
+wheat_cost_index,2026-01,1009.2469,0.0,Raw material,neutral,base
+import_dependency_pct,2026-01,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2026-01,40.3,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2026-01,-0.39,0.0,Gap to target,positive,base
+energy_per_ton,2026-01,69.718,0.0,Efficiency,neutral,base
+water_per_ton,2026-01,0.803,0.0,Conservation,neutral,base
+waste_impact_pct,2026-01,2.108,0.0,Waste,positive,base
+yield_variability_index,2026-01,0.119,0.0,Quality,neutral,base
+avg_changeovers,2026-02,100.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2026-02,669128.0,866.9593,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-02,65.2169,0.7855,Time constraint,positive,base
+capacity_violations_count,2026-02,0.0,0.0,Overload,positive,base
+waste_rate_pct,2026-02,1.9567,-0.1513,Recipe mix,positive,base
+vision_2030_index,2026-02,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2026-02,85.1063,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2026-02,669128.0,0.0,Flour demand,neutral,base
+total_recipe_hours,2026-02,16967.95,0.0,Recipe demand,neutral,base
+seasonality_index,2026-02,1.2192,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-02,1032.71,0.0,Schedule,neutral,base
+available_mill_hours,2026-02,1583.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-02,550.79,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2026-02,1069.5181,1069.5181,Wheat price,neutral,base
+total_sku_forecast_units,2026-02,40388685.0,0.0,Forecast,neutral,base
+wheat_cost_index,2026-02,1008.2515,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2026-02,1069.5181,0.0,Market,neutral,base
+vision_2030_compliance,2026-02,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2026-02,65.2169,0.0,Utilization,positive,base
+overload_hours,2026-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-02,173.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2026-02,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-02,646060.62,0.0,Procurement,neutral,base
+avg_run_length_days,2026-02,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2026-02,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2026-02,39.9,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2026-02,-0.54,0.0,Gap to target,positive,base
+energy_per_ton,2026-02,67.4956,0.0,Efficiency,neutral,base
+water_per_ton,2026-02,0.7838,0.0,Conservation,neutral,base
+waste_impact_pct,2026-02,1.9567,0.0,Waste,positive,base
+yield_variability_index,2026-02,0.115,0.0,Quality,neutral,base
+vision_2030_index,2026-03,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2026-03,64.5411,-0.6759,Time constraint,positive,base
+capacity_violations_count,2026-03,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-03,1074.6091,5.0909,Wheat price,neutral,base
+waste_rate_pct,2026-03,1.9245,-0.0321,Recipe mix,positive,base
+wheat_cost_index,2026-03,1008.6753,0.0,Raw material,neutral,base
+total_demand_tons,2026-03,1290985.08,92.9354,SKU forecast,positive,base
+forecast_confidence_pct,2026-03,85.0,0.0,Model accuracy,positive,base
+seasonality_index,2026-03,1.2145,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-03,1151.09,0.0,Schedule,neutral,base
+available_mill_hours,2026-03,1783.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-03,632.41,0.0,Capacity balance,positive,base
+total_sku_forecast_units,2026-03,77952112.0,0.0,Forecast,neutral,base
+total_recipe_hours,2026-03,32739.09,0.0,Recipe demand,neutral,base
+avg_changeovers,2026-03,115.0,0.0,Recipe switches,neutral,base
+bulk_flour_required_tons,2026-03,1290985.08,0.0,Flour demand,neutral,base
+waste_impact_pct,2026-03,1.9245,0.0,Waste,positive,base
+overload_hours,2026-03,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-03,194.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-03,32.3,0.0,Risk model,positive,base
+vision_2030_compliance,2026-03,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2026-03,64.5411,0.0,Utilization,positive,base
+total_wheat_requirement_tons,2026-03,1290985.0,0.0,Procurement,neutral,base
+high_risk_supply_pct,2026-03,39.9,0.0,Geopolitics,negative,base
+yield_variability_index,2026-03,0.114,0.0,Quality,neutral,base
+waste_rate_vs_target,2026-03,-0.58,0.0,Gap to target,positive,base
+energy_per_ton,2026-03,70.3555,0.0,Efficiency,neutral,base
+water_per_ton,2026-03,0.7861,0.0,Conservation,neutral,base
+avg_wheat_cost_sar,2026-03,1074.6091,0.0,Market,neutral,base
+import_dependency_pct,2026-03,100.0,0.0,Supply chain,negative,base
+recipe_time_utilization_pct,2026-04,64.5417,0.0006,Time constraint,positive,base
+capacity_violations_count,2026-04,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-04,1048.1296,-26.4795,Wheat price,neutral,base
+waste_rate_pct,2026-04,2.2067,0.2821,Recipe mix,positive,base
+vision_2030_index,2026-04,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2026-04,83835570.0,0.0,Forecast,neutral,base
+seasonality_index,2026-04,1.0,0.0,Calendar,neutral,base
+total_recipe_hours,2026-04,35301.76,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2026-04,85.0,0.0,Model accuracy,positive,base
+planned_recipe_hours,2026-04,1113.99,0.0,Schedule,neutral,base
+available_mill_hours,2026-04,1726.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-04,612.01,0.0,Capacity balance,positive,base
+avg_changeovers,2026-04,109.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2026-04,1388158.1,7.527,SKU forecast,positive,base
+wheat_cost_index,2026-04,1010.1398,0.0,Raw material,neutral,base
+bulk_flour_required_tons,2026-04,1388158.1,0.0,Flour demand,neutral,base
+import_dependency_pct,2026-04,100.0,0.0,Supply chain,negative,base
+overload_hours,2026-04,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-04,187.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-04,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-04,32.3,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-04,1388158.14,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2026-04,1048.1296,0.0,Market,neutral,base
+waste_impact_pct,2026-04,2.2067,0.0,Waste,positive,base
+high_risk_supply_pct,2026-04,40.2,0.0,Geopolitics,negative,base
+yield_variability_index,2026-04,0.087,0.0,Quality,neutral,base
+energy_per_ton,2026-04,69.1389,0.0,Efficiency,neutral,base
+water_per_ton,2026-04,0.7883,0.0,Conservation,neutral,base
+vision_2030_compliance,2026-04,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2026-04,64.5417,0.0,Utilization,positive,base
+waste_rate_vs_target,2026-04,-0.29,0.0,Gap to target,positive,base
+total_demand_tons,2026-05,1577874.9933,13.6668,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-05,64.1378,-0.4039,Time constraint,positive,base
+capacity_violations_count,2026-05,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-05,1064.2821,16.1525,Wheat price,neutral,base
+waste_rate_pct,2026-05,2.097,-0.1097,Recipe mix,positive,base
+vision_2030_index,2026-05,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2026-05,85.0,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2026-05,1577874.9933,0.0,Flour demand,neutral,base
+total_recipe_hours,2026-05,40158.66,0.0,Recipe demand,neutral,base
+seasonality_index,2026-05,1.25,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-05,1131.07,0.0,Schedule,neutral,base
+available_mill_hours,2026-05,1763.5,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-05,632.43,0.0,Capacity balance,positive,base
+avg_changeovers,2026-05,112.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2026-05,95307856.0,0.0,Forecast,neutral,base
+vision_2030_compliance,2026-05,85.5,0.0,Composite,positive,base
+avg_wheat_cost_sar,2026-05,1064.2821,0.0,Market,neutral,base
+wheat_cost_index,2026-05,1010.0823,0.0,Raw material,neutral,base
+mill_utilization_pct,2026-05,64.1378,0.0,Utilization,positive,base
+overload_hours,2026-05,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-05,192.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2026-05,32.1,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-05,1577875.08,0.0,Procurement,neutral,base
+avg_run_length_days,2026-05,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2026-05,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2026-05,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2026-05,-0.4,0.0,Gap to target,positive,base
+energy_per_ton,2026-05,69.92,0.0,Efficiency,neutral,base
+water_per_ton,2026-05,0.7883,0.0,Conservation,neutral,base
+waste_impact_pct,2026-05,2.097,0.0,Waste,positive,base
+yield_variability_index,2026-05,0.101,0.0,Quality,neutral,base
+vision_2030_index,2026-06,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2026-06,63.9334,-0.2044,Time constraint,positive,base
+capacity_violations_count,2026-06,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-06,1030.0428,-34.2393,Wheat price,neutral,base
+waste_rate_pct,2026-06,2.114,0.017,Recipe mix,positive,base
+avg_changeovers,2026-06,113.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2026-06,1665793.5,5.572,SKU forecast,positive,base
+total_recipe_hours,2026-06,42357.48,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2026-06,85.0,0.0,Model accuracy,positive,base
+seasonality_index,2026-06,1.0,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-06,1084.95,0.0,Schedule,neutral,base
+available_mill_hours,2026-06,1697.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2026-06,100631356.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2026-06,1665793.5,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2026-06,612.05,0.0,Capacity balance,positive,base
+vision_2030_compliance,2026-06,85.5,0.0,Composite,positive,base
+wheat_cost_index,2026-06,1010.6541,0.0,Raw material,neutral,base
+overload_hours,2026-06,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-06,187.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-06,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-06,32.0,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-06,1665793.35,0.0,Procurement,neutral,base
+yield_variability_index,2026-06,0.081,0.0,Quality,neutral,base
+mill_utilization_pct,2026-06,63.9334,0.0,Utilization,positive,base
+high_risk_supply_pct,2026-06,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2026-06,-0.39,0.0,Gap to target,positive,base
+energy_per_ton,2026-06,69.073,0.0,Efficiency,neutral,base
+water_per_ton,2026-06,0.7761,0.0,Conservation,neutral,base
+waste_impact_pct,2026-06,2.114,0.0,Waste,positive,base
+avg_wheat_cost_sar,2026-06,1030.0428,0.0,Market,neutral,base
+import_dependency_pct,2026-06,100.0,0.0,Supply chain,negative,base
+avg_changeovers,2026-07,116.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2026-07,1864764.9067,11.9445,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-07,65.2325,1.2991,Time constraint,positive,base
+capacity_violations_count,2026-07,0.0,0.0,Overload,positive,base
+waste_rate_pct,2026-07,2.0591,-0.0549,Recipe mix,positive,base
+vision_2030_index,2026-07,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2026-07,85.0,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2026-07,1864764.9067,0.0,Flour demand,neutral,base
+total_recipe_hours,2026-07,47414.75,0.0,Recipe demand,neutral,base
+seasonality_index,2026-07,1.0,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-07,1186.58,0.0,Schedule,neutral,base
+available_mill_hours,2026-07,1819.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-07,632.42,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2026-07,1011.1382,-18.9047,Wheat price,neutral,base
+wheat_cost_index,2026-07,1010.852,0.0,Raw material,neutral,base
+total_sku_forecast_units,2026-07,112663586.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2026-07,1011.1382,0.0,Market,neutral,base
+mill_utilization_pct,2026-07,65.2325,0.0,Utilization,positive,base
+overload_hours,2026-07,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-07,199.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-07,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-07,1864765.04,0.0,Procurement,neutral,base
+vision_2030_compliance,2026-07,85.5,0.0,Composite,positive,base
+import_dependency_pct,2026-07,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2026-07,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2026-07,-0.44,0.0,Gap to target,positive,base
+energy_per_ton,2026-07,68.8509,0.0,Efficiency,neutral,base
+water_per_ton,2026-07,0.7864,0.0,Conservation,neutral,base
+waste_impact_pct,2026-07,2.0591,0.0,Waste,positive,base
+yield_variability_index,2026-07,0.094,0.0,Quality,neutral,base
+total_demand_tons,2026-08,2010561.42,7.8185,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-08,64.3529,-0.8797,Time constraint,positive,base
+capacity_violations_count,2026-08,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-08,999.1859,-11.9523,Wheat price,neutral,base
+waste_rate_pct,2026-08,2.143,0.0839,Recipe mix,positive,base
+vision_2030_index,2026-08,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2026-08,85.0,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2026-08,2010561.42,0.0,Flour demand,neutral,base
+total_recipe_hours,2026-08,51119.97,0.0,Recipe demand,neutral,base
+seasonality_index,2026-08,1.0,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-08,1141.62,0.0,Schedule,neutral,base
+available_mill_hours,2026-08,1774.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-08,632.38,0.0,Capacity balance,positive,base
+avg_changeovers,2026-08,116.0,0.0,Recipe switches,neutral,base
+total_sku_forecast_units,2026-08,121483880.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2026-08,999.1859,0.0,Market,neutral,base
+vision_2030_compliance,2026-08,85.5,0.0,Composite,positive,base
+wheat_cost_index,2026-08,1011.0241,0.0,Raw material,neutral,base
+downtime_risk_score,2026-08,32.2,0.0,Risk model,positive,base
+mill_utilization_pct,2026-08,64.3529,0.0,Utilization,positive,base
+overload_hours,2026-08,0.0,0.0,Capacity,positive,base
+avg_run_length_days,2026-08,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2026-08,2010561.23,0.0,Procurement,neutral,base
+recipe_switch_count,2026-08,195.0,0.0,Scheduling,neutral,base
+import_dependency_pct,2026-08,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2026-08,40.1,0.0,Geopolitics,negative,base
+yield_variability_index,2026-08,0.074,0.0,Quality,neutral,base
+waste_rate_vs_target,2026-08,-0.36,0.0,Gap to target,positive,base
+energy_per_ton,2026-08,69.597,0.0,Efficiency,neutral,base
+water_per_ton,2026-08,0.7724,0.0,Conservation,neutral,base
+waste_impact_pct,2026-08,2.143,0.0,Waste,positive,base
+vision_2030_index,2026-09,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2026-09,65.5303,1.1774,Time constraint,positive,base
+capacity_violations_count,2026-09,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-09,989.5754,-9.6105,Wheat price,neutral,base
+waste_rate_pct,2026-09,2.2544,0.1114,Recipe mix,positive,base
+avg_changeovers,2026-09,112.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2026-09,2084522.3,3.6786,SKU forecast,positive,base
+total_recipe_hours,2026-09,52998.8,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2026-09,85.0,0.0,Model accuracy,positive,base
+seasonality_index,2026-09,1.0,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-09,1163.49,0.0,Schedule,neutral,base
+available_mill_hours,2026-09,1775.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2026-09,125962914.0,0.0,Forecast,neutral,base
+bulk_flour_required_tons,2026-09,2084522.3,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2026-09,612.01,0.0,Capacity balance,positive,base
+vision_2030_compliance,2026-09,85.5,0.0,Composite,positive,base
+wheat_cost_index,2026-09,1011.1708,0.0,Raw material,neutral,base
+overload_hours,2026-09,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-09,193.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-09,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-09,32.8,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-09,2084522.34,0.0,Procurement,neutral,base
+yield_variability_index,2026-09,0.071,0.0,Quality,neutral,base
+mill_utilization_pct,2026-09,65.5303,0.0,Utilization,positive,base
+high_risk_supply_pct,2026-09,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2026-09,-0.25,0.0,Gap to target,positive,base
+energy_per_ton,2026-09,69.0967,0.0,Efficiency,neutral,base
+water_per_ton,2026-09,0.755,0.0,Conservation,neutral,base
+waste_impact_pct,2026-09,2.2544,0.0,Waste,positive,base
+avg_wheat_cost_sar,2026-09,989.5754,0.0,Market,neutral,base
+import_dependency_pct,2026-09,100.0,0.0,Supply chain,negative,base
+avg_changeovers,2026-10,115.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2026-10,2297451.3333,10.2148,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-10,65.6288,0.0985,Time constraint,positive,base
+capacity_violations_count,2026-10,0.0,0.0,Overload,positive,base
+waste_rate_pct,2026-10,1.7843,-0.4702,Recipe mix,positive,base
+vision_2030_index,2026-10,85.5,0.0,Sustainability,positive,base
+forecast_confidence_pct,2026-10,85.0,0.0,Model accuracy,positive,base
+bulk_flour_required_tons,2026-10,2297451.3333,0.0,Flour demand,neutral,base
+total_recipe_hours,2026-10,58410.87,0.0,Recipe demand,neutral,base
+seasonality_index,2026-10,1.0,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-10,1207.57,0.0,Schedule,neutral,base
+available_mill_hours,2026-10,1840.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-10,632.43,0.0,Capacity balance,positive,base
+avg_cost_per_ton,2026-10,987.6431,-1.9323,Wheat price,neutral,base
+wheat_cost_index,2026-10,1011.2991,0.0,Raw material,neutral,base
+total_sku_forecast_units,2026-10,138839554.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2026-10,987.6431,0.0,Market,neutral,base
+mill_utilization_pct,2026-10,65.6288,0.0,Utilization,positive,base
+overload_hours,2026-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-10,200.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-10,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-10,32.8,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2026-10,2297451.41,0.0,Procurement,neutral,base
+vision_2030_compliance,2026-10,85.5,0.0,Composite,positive,base
+import_dependency_pct,2026-10,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2026-10,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2026-10,-0.72,0.0,Gap to target,positive,base
+energy_per_ton,2026-10,69.7586,0.0,Efficiency,neutral,base
+water_per_ton,2026-10,0.792,0.0,Conservation,neutral,base
+waste_impact_pct,2026-10,1.7843,0.0,Waste,positive,base
+yield_variability_index,2026-10,0.09,0.0,Quality,neutral,base
+total_demand_tons,2026-11,2362157.7,2.8164,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-11,63.8304,-1.7984,Time constraint,positive,base
+capacity_violations_count,2026-11,0.0,0.0,Overload,positive,base
+waste_rate_pct,2026-11,1.97,0.1857,Recipe mix,positive,base
+vision_2030_index,2026-11,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2026-11,142758700.0,0.0,Forecast,neutral,base
+planned_recipe_hours,2026-11,1080.01,0.0,Schedule,neutral,base
+forecast_confidence_pct,2026-11,85.0,0.0,Model accuracy,positive,base
+seasonality_index,2026-11,1.0,0.0,Calendar,neutral,base
+available_mill_hours,2026-11,1692.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2026-11,611.99,0.0,Capacity balance,positive,base
+total_recipe_hours,2026-11,60054.52,0.0,Recipe demand,neutral,base
+avg_changeovers,2026-11,111.0,0.0,Recipe switches,neutral,base
+avg_cost_per_ton,2026-11,999.4051,11.762,Wheat price,neutral,base
+wheat_cost_index,2026-11,1011.4123,0.0,Raw material,neutral,base
+bulk_flour_required_tons,2026-11,2362157.7,0.0,Flour demand,neutral,base
+avg_wheat_cost_sar,2026-11,999.4051,0.0,Market,neutral,base
+waste_impact_pct,2026-11,1.97,0.0,Waste,positive,base
+total_wheat_requirement_tons,2026-11,2362157.5,0.0,Procurement,neutral,base
+overload_hours,2026-11,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-11,186.0,0.0,Scheduling,neutral,base
+downtime_risk_score,2026-11,31.9,0.0,Risk model,positive,base
+vision_2030_compliance,2026-11,85.5,0.0,Composite,positive,base
+avg_run_length_days,2026-11,0.2,0.0,Continuity,neutral,base
+import_dependency_pct,2026-11,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2026-11,40.1,0.0,Geopolitics,negative,base
+yield_variability_index,2026-11,0.085,0.0,Quality,neutral,base
+waste_rate_vs_target,2026-11,-0.53,0.0,Gap to target,positive,base
+energy_per_ton,2026-11,69.9691,0.0,Efficiency,neutral,base
+water_per_ton,2026-11,0.8044,0.0,Conservation,neutral,base
+mill_utilization_pct,2026-11,63.8304,0.0,Utilization,positive,base
+avg_changeovers,2026-12,116.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2026-12,2584341.2467,9.406,SKU forecast,positive,base
+recipe_time_utilization_pct,2026-12,62.8908,-0.9395,Time constraint,positive,base
+capacity_violations_count,2026-12,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2026-12,1011.4369,12.0318,Wheat price,neutral,base
+vision_2030_index,2026-12,85.5,0.0,Sustainability,positive,base
+slack_shortfall_hours,2026-12,632.34,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2026-12,2584341.2467,0.0,Flour demand,neutral,base
+total_recipe_hours,2026-12,65701.81,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2026-12,85.0,0.0,Model accuracy,positive,base
+seasonality_index,2026-12,1.0,0.0,Calendar,neutral,base
+planned_recipe_hours,2026-12,1071.66,0.0,Schedule,neutral,base
+available_mill_hours,2026-12,1704.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2026-12,156195410.0,0.0,Forecast,neutral,base
+avg_wheat_cost_sar,2026-12,1011.4369,0.0,Market,neutral,base
+waste_rate_pct,2026-12,2.1527,0.1827,Recipe mix,positive,base
+import_dependency_pct,2026-12,100.0,0.0,Supply chain,negative,base
+total_wheat_requirement_tons,2026-12,2584341.32,0.0,Procurement,neutral,base
+mill_utilization_pct,2026-12,62.8908,0.0,Utilization,positive,base
+overload_hours,2026-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2026-12,191.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2026-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2026-12,31.4,0.0,Risk model,positive,base
+wheat_cost_index,2026-12,1011.513,0.0,Raw material,neutral,base
+high_risk_supply_pct,2026-12,40.0,0.0,Geopolitics,negative,base
+yield_variability_index,2026-12,0.091,0.0,Quality,neutral,base
+waste_rate_vs_target,2026-12,-0.35,0.0,Gap to target,positive,base
+energy_per_ton,2026-12,68.9355,0.0,Efficiency,neutral,base
+water_per_ton,2026-12,0.7792,0.0,Conservation,neutral,base
+waste_impact_pct,2026-12,2.1527,0.0,Waste,positive,base
+vision_2030_compliance,2026-12,85.5,0.0,Composite,positive,base
+planned_recipe_hours,2027-01,1149.58,0.0,Schedule,neutral,base
+seasonality_index,2027-01,1.0,0.0,Calendar,neutral,base
+forecast_confidence_pct,2027-01,85.0,0.0,Model accuracy,positive,base
+total_recipe_hours,2027-01,69407.0,0.0,Recipe demand,neutral,base
+total_sku_forecast_units,2027-01,165015480.0,0.0,Forecast,neutral,base
+vision_2030_index,2027-01,85.5,0.0,Sustainability,positive,base
+recipe_time_utilization_pct,2027-01,64.5107,1.6198,Time constraint,positive,base
+avg_cost_per_ton,2027-01,1006.4517,-4.9853,Wheat price,neutral,base
+capacity_violations_count,2027-01,0.0,0.0,Overload,positive,base
+total_demand_tons,2027-01,2730137.76,5.6415,SKU forecast,positive,base
+water_per_ton,2027-01,0.7985,0.0,Conservation,neutral,base
+avg_changeovers,2027-01,113.0,0.0,Recipe switches,neutral,base
+available_mill_hours,2027-01,1782.0,0.0,Capacity,neutral,base
+waste_rate_pct,2027-01,1.9712,-0.1815,Recipe mix,positive,base
+slack_shortfall_hours,2027-01,632.42,0.0,Capacity balance,positive,base
+vision_2030_compliance,2027-01,85.5,0.0,Composite,positive,base
+wheat_cost_index,2027-01,991.7691,0.0,Raw material,neutral,base
+mill_utilization_pct,2027-01,64.5107,0.0,Utilization,positive,base
+overload_hours,2027-01,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-01,195.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-01,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-01,32.3,0.0,Risk model,positive,base
+energy_per_ton,2027-01,69.6087,0.0,Efficiency,neutral,base
+bulk_flour_required_tons,2027-01,2730137.76,0.0,Flour demand,neutral,base
+import_dependency_pct,2027-01,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-01,40.0,0.0,Geopolitics,negative,base
+yield_variability_index,2027-01,0.07,0.0,Quality,neutral,base
+waste_rate_vs_target,2027-01,-0.53,0.0,Gap to target,positive,base
+waste_impact_pct,2027-01,1.9712,0.0,Waste,positive,base
+total_wheat_requirement_tons,2027-01,2730137.57,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2027-01,1006.4517,0.0,Market,neutral,base
+mill_utilization_pct,2027-02,65.2591,0.0,Utilization,positive,base
+overload_hours,2027-02,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-02,179.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-02,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-02,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2027-02,113894.06,0.0,Procurement,neutral,base
+yield_variability_index,2027-02,0.11,0.0,Quality,neutral,base
+import_dependency_pct,2027-02,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-02,39.5,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2027-02,-0.52,0.0,Gap to target,positive,base
+energy_per_ton,2027-02,69.2357,0.0,Efficiency,neutral,base
+water_per_ton,2027-02,0.7961,0.0,Conservation,neutral,base
+waste_impact_pct,2027-02,1.9814,0.0,Waste,positive,base
+avg_wheat_cost_sar,2027-02,1064.0359,0.0,Market,neutral,base
+vision_2030_compliance,2027-02,85.5,0.0,Composite,positive,base
+wheat_cost_index,2027-02,989.0086,0.0,Raw material,neutral,base
+slack_shortfall_hours,2027-02,571.14,0.0,Capacity balance,positive,base
+avg_changeovers,2027-02,104.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2027-02,1025684.8233,-62.431,SKU forecast,negative,base
+recipe_time_utilization_pct,2027-02,65.2591,0.7485,Time constraint,positive,base
+capacity_violations_count,2027-02,0.0,0.0,Overload,positive,base
+waste_rate_pct,2027-02,1.9814,0.0102,Recipe mix,positive,base
+vision_2030_index,2027-02,85.5,0.0,Sustainability,positive,base
+avg_cost_per_ton,2027-02,1064.0359,1064.0359,Wheat price,neutral,base
+bulk_flour_required_tons,2027-02,1025684.8233,0.0,Flour demand,neutral,base
+total_recipe_hours,2027-02,26011.29,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-02,83.8608,0.0,Model accuracy,positive,base
+seasonality_index,2027-02,1.1733,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-02,1072.86,0.0,Schedule,neutral,base
+available_mill_hours,2027-02,1644.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2027-02,61992926.0,0.0,Forecast,neutral,base
+total_wheat_requirement_tons,2027-03,161840.78,0.0,Procurement,neutral,base
+overload_hours,2027-03,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-03,201.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-03,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-03,33.0,0.0,Risk model,positive,base
+avg_wheat_cost_sar,2027-03,1039.4298,0.0,Market,neutral,base
+mill_utilization_pct,2027-03,65.9289,0.0,Utilization,positive,base
+high_risk_supply_pct,2027-03,39.9,0.0,Geopolitics,negative,base
+yield_variability_index,2027-03,0.106,0.0,Quality,neutral,base
+waste_rate_vs_target,2027-03,-0.19,0.0,Gap to target,positive,base
+energy_per_ton,2027-03,70.5186,0.0,Efficiency,neutral,base
+water_per_ton,2027-03,0.7821,0.0,Conservation,neutral,base
+vision_2030_compliance,2027-03,85.5,0.0,Composite,positive,base
+import_dependency_pct,2027-03,100.0,0.0,Supply chain,negative,base
+waste_impact_pct,2027-03,2.31,0.0,Waste,positive,base
+wheat_cost_index,2027-03,990.2995,0.0,Raw material,neutral,base
+avg_changeovers,2027-03,116.0,0.0,Recipe switches,neutral,base
+recipe_time_utilization_pct,2027-03,65.9289,0.6698,Time constraint,positive,base
+capacity_violations_count,2027-03,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2027-03,1039.4298,-24.6061,Wheat price,neutral,base
+waste_rate_pct,2027-03,2.31,0.3286,Recipe mix,positive,base
+vision_2030_index,2027-03,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2027-03,9777260.0,0.0,Forecast,neutral,base
+total_demand_tons,2027-03,161840.82,-84.2212,SKU forecast,negative,base
+total_recipe_hours,2027-03,4108.58,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-03,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-03,1.1735,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-03,1223.64,0.0,Schedule,neutral,base
+available_mill_hours,2027-03,1856.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2027-03,632.36,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2027-03,161840.82,0.0,Flour demand,neutral,base
+mill_utilization_pct,2027-04,63.9682,0.0,Utilization,positive,base
+overload_hours,2027-04,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-04,187.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-04,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-04,32.0,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2027-04,143956.52,0.0,Procurement,neutral,base
+yield_variability_index,2027-04,0.096,0.0,Quality,neutral,base
+import_dependency_pct,2027-04,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-04,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2027-04,-0.47,0.0,Gap to target,positive,base
+energy_per_ton,2027-04,68.739,0.0,Efficiency,neutral,base
+water_per_ton,2027-04,0.7684,0.0,Conservation,neutral,base
+waste_impact_pct,2027-04,2.028,0.0,Waste,positive,base
+avg_wheat_cost_sar,2027-04,1028.4313,0.0,Market,neutral,base
+wheat_cost_index,2027-04,990.9019,0.0,Raw material,neutral,base
+vision_2030_compliance,2027-04,85.5,0.0,Composite,positive,base
+slack_shortfall_hours,2027-04,612.0,0.0,Capacity balance,positive,base
+total_demand_tons,2027-04,143956.65,-11.0505,SKU forecast,negative,base
+recipe_time_utilization_pct,2027-04,63.9682,-1.9607,Time constraint,positive,base
+capacity_violations_count,2027-04,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2027-04,1028.4313,-10.9985,Wheat price,neutral,base
+waste_rate_pct,2027-04,2.028,-0.282,Recipe mix,positive,base
+vision_2030_index,2027-04,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2027-04,112.0,0.0,Recipe switches,neutral,base
+bulk_flour_required_tons,2027-04,143956.65,0.0,Flour demand,neutral,base
+total_recipe_hours,2027-04,3660.46,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-04,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-04,1.077,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-04,1086.5,0.0,Schedule,neutral,base
+available_mill_hours,2027-04,1698.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2027-04,8696843.0,0.0,Forecast,neutral,base
+mill_utilization_pct,2027-05,64.9612,0.0,Utilization,positive,base
+overload_hours,2027-05,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-05,195.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-05,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-05,32.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2027-05,181975.26,0.0,Procurement,neutral,base
+yield_variability_index,2027-05,0.073,0.0,Quality,neutral,base
+import_dependency_pct,2027-05,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-05,40.2,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2027-05,-0.48,0.0,Gap to target,positive,base
+energy_per_ton,2027-05,68.7978,0.0,Efficiency,neutral,base
+water_per_ton,2027-05,0.792,0.0,Conservation,neutral,base
+waste_impact_pct,2027-05,2.0233,0.0,Waste,positive,base
+avg_wheat_cost_sar,2027-05,1044.7108,0.0,Market,neutral,base
+vision_2030_compliance,2027-05,85.5,0.0,Composite,positive,base
+wheat_cost_index,2027-05,990.5787,0.0,Raw material,neutral,base
+slack_shortfall_hours,2027-05,632.1,0.0,Capacity balance,positive,base
+avg_changeovers,2027-05,114.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2027-05,181975.26,26.4098,SKU forecast,positive,base
+recipe_time_utilization_pct,2027-05,64.9612,0.993,Time constraint,positive,base
+capacity_violations_count,2027-05,0.0,0.0,Overload,positive,base
+waste_rate_pct,2027-05,2.0233,-0.0047,Recipe mix,positive,base
+vision_2030_index,2027-05,85.5,0.0,Sustainability,positive,base
+avg_cost_per_ton,2027-05,1044.7108,16.2795,Wheat price,neutral,base
+bulk_flour_required_tons,2027-05,181975.26,0.0,Flour demand,neutral,base
+total_recipe_hours,2027-05,4631.04,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-05,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-05,1.321,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-05,1171.9,0.0,Schedule,neutral,base
+available_mill_hours,2027-05,1804.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2027-05,10993669.0,0.0,Forecast,neutral,base
+downtime_risk_score,2027-06,32.3,0.0,Risk model,positive,base
+mill_utilization_pct,2027-06,64.5012,0.0,Utilization,positive,base
+overload_hours,2027-06,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-06,190.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-06,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2027-06,137057.72,0.0,Procurement,neutral,base
+waste_impact_pct,2027-06,2.18,0.0,Waste,positive,base
+import_dependency_pct,2027-06,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-06,40.1,0.0,Geopolitics,negative,base
+yield_variability_index,2027-06,0.086,0.0,Quality,neutral,base
+waste_rate_vs_target,2027-06,-0.32,0.0,Gap to target,positive,base
+energy_per_ton,2027-06,68.8264,0.0,Efficiency,neutral,base
+water_per_ton,2027-06,0.7799,0.0,Conservation,neutral,base
+vision_2030_compliance,2027-06,85.5,0.0,Composite,positive,base
+wheat_cost_index,2027-06,990.9019,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2027-06,1008.6402,0.0,Market,neutral,base
+slack_shortfall_hours,2027-06,612.0,0.0,Capacity balance,positive,base
+total_demand_tons,2027-06,137057.69,-24.6833,SKU forecast,negative,base
+recipe_time_utilization_pct,2027-06,64.5012,-0.46,Time constraint,positive,base
+capacity_violations_count,2027-06,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2027-06,1008.6402,-36.0706,Wheat price,neutral,base
+waste_rate_pct,2027-06,2.18,0.1567,Recipe mix,positive,base
+vision_2030_index,2027-06,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2027-06,113.0,0.0,Recipe switches,neutral,base
+bulk_flour_required_tons,2027-06,137057.69,0.0,Flour demand,neutral,base
+total_recipe_hours,2027-06,3485.08,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-06,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-06,1.0217,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-06,1112.0,0.0,Schedule,neutral,base
+available_mill_hours,2027-06,1724.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2027-06,8280046.0,0.0,Forecast,neutral,base
+mill_utilization_pct,2027-07,64.6012,0.0,Utilization,positive,base
+overload_hours,2027-07,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-07,197.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-07,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-07,32.3,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2027-07,135909.5,0.0,Procurement,neutral,base
+yield_variability_index,2027-07,0.081,0.0,Quality,neutral,base
+import_dependency_pct,2027-07,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-07,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2027-07,-0.4,0.0,Gap to target,positive,base
+energy_per_ton,2027-07,69.2836,0.0,Efficiency,neutral,base
+water_per_ton,2027-07,0.7732,0.0,Conservation,neutral,base
+waste_impact_pct,2027-07,2.0964,0.0,Waste,positive,base
+avg_wheat_cost_sar,2027-07,992.4911,0.0,Market,neutral,base
+wheat_cost_index,2027-07,990.9018,0.0,Raw material,neutral,base
+vision_2030_compliance,2027-07,85.5,0.0,Composite,positive,base
+slack_shortfall_hours,2027-07,632.4,0.0,Capacity balance,positive,base
+total_demand_tons,2027-07,135909.42,-0.8378,SKU forecast,negative,base
+recipe_time_utilization_pct,2027-07,64.6012,0.1,Time constraint,positive,base
+capacity_violations_count,2027-07,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2027-07,992.4911,-16.149,Wheat price,neutral,base
+waste_rate_pct,2027-07,2.0964,-0.0836,Recipe mix,positive,base
+vision_2030_index,2027-07,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2027-07,115.0,0.0,Recipe switches,neutral,base
+bulk_flour_required_tons,2027-07,135909.42,0.0,Flour demand,neutral,base
+total_recipe_hours,2027-07,3455.79,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-07,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-07,0.9803,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-07,1154.1,0.0,Schedule,neutral,base
+available_mill_hours,2027-07,1786.5,0.0,Capacity,neutral,base
+total_sku_forecast_units,2027-07,8210667.0,0.0,Forecast,neutral,base
+mill_utilization_pct,2027-08,65.2145,0.0,Utilization,positive,base
+overload_hours,2027-08,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-08,196.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-08,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-08,32.6,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2027-08,131119.21,0.0,Procurement,neutral,base
+yield_variability_index,2027-08,0.074,0.0,Quality,neutral,base
+import_dependency_pct,2027-08,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-08,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2027-08,-0.57,0.0,Gap to target,positive,base
+energy_per_ton,2027-08,70.18,0.0,Efficiency,neutral,base
+water_per_ton,2027-08,0.7846,0.0,Conservation,neutral,base
+waste_impact_pct,2027-08,1.9275,0.0,Waste,positive,base
+avg_wheat_cost_sar,2027-08,979.2539,0.0,Market,neutral,base
+vision_2030_compliance,2027-08,85.5,0.0,Composite,positive,base
+wheat_cost_index,2027-08,990.9018,0.0,Raw material,neutral,base
+slack_shortfall_hours,2027-08,632.4,0.0,Capacity balance,positive,base
+avg_changeovers,2027-08,114.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2027-08,131119.17,-3.5246,SKU forecast,negative,base
+recipe_time_utilization_pct,2027-08,65.2145,0.6133,Time constraint,positive,base
+capacity_violations_count,2027-08,0.0,0.0,Overload,positive,base
+waste_rate_pct,2027-08,1.9275,-0.1689,Recipe mix,positive,base
+vision_2030_index,2027-08,85.5,0.0,Sustainability,positive,base
+avg_cost_per_ton,2027-08,979.2539,-13.2373,Wheat price,neutral,base
+bulk_flour_required_tons,2027-08,131119.17,0.0,Flour demand,neutral,base
+total_recipe_hours,2027-08,3333.99,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-08,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-08,0.9442,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-08,1185.6,0.0,Schedule,neutral,base
+available_mill_hours,2027-08,1818.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2027-08,7921292.0,0.0,Forecast,neutral,base
+downtime_risk_score,2027-09,32.0,0.0,Risk model,positive,base
+mill_utilization_pct,2027-09,64.0845,0.0,Utilization,positive,base
+overload_hours,2027-09,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-09,184.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-09,0.2,0.0,Continuity,neutral,base
+total_wheat_requirement_tons,2027-09,124576.71,0.0,Procurement,neutral,base
+waste_impact_pct,2027-09,2.2244,0.0,Waste,positive,base
+import_dependency_pct,2027-09,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-09,40.1,0.0,Geopolitics,negative,base
+yield_variability_index,2027-09,0.109,0.0,Quality,neutral,base
+waste_rate_vs_target,2027-09,-0.28,0.0,Gap to target,positive,base
+energy_per_ton,2027-09,68.2422,0.0,Efficiency,neutral,base
+water_per_ton,2027-09,0.7858,0.0,Conservation,neutral,base
+vision_2030_compliance,2027-09,85.5,0.0,Composite,positive,base
+wheat_cost_index,2027-09,990.9017,0.0,Raw material,neutral,base
+avg_wheat_cost_sar,2027-09,972.687,0.0,Market,neutral,base
+slack_shortfall_hours,2027-09,612.0,0.0,Capacity balance,positive,base
+total_demand_tons,2027-09,124576.69,-4.9897,SKU forecast,negative,base
+recipe_time_utilization_pct,2027-09,64.0845,-1.13,Time constraint,positive,base
+capacity_violations_count,2027-09,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2027-09,972.687,-6.5669,Wheat price,neutral,base
+waste_rate_pct,2027-09,2.2244,0.2969,Recipe mix,positive,base
+vision_2030_index,2027-09,85.5,0.0,Sustainability,positive,base
+avg_changeovers,2027-09,108.0,0.0,Recipe switches,neutral,base
+bulk_flour_required_tons,2027-09,124576.69,0.0,Flour demand,neutral,base
+total_recipe_hours,2027-09,3167.61,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-09,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-09,0.9233,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-09,1092.0,0.0,Schedule,neutral,base
+available_mill_hours,2027-09,1704.0,0.0,Capacity,neutral,base
+total_sku_forecast_units,2027-09,7526056.0,0.0,Forecast,neutral,base
+overload_hours,2027-10,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-10,192.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-10,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-10,31.9,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2027-10,128372.21,0.0,Procurement,neutral,base
+avg_wheat_cost_sar,2027-10,972.0189,0.0,Market,neutral,base
+waste_rate_vs_target,2027-10,-0.52,0.0,Gap to target,positive,base
+high_risk_supply_pct,2027-10,40.1,0.0,Geopolitics,negative,base
+yield_variability_index,2027-10,0.084,0.0,Quality,neutral,base
+energy_per_ton,2027-10,67.8282,0.0,Efficiency,neutral,base
+water_per_ton,2027-10,0.7599,0.0,Conservation,neutral,base
+vision_2030_compliance,2027-10,85.5,0.0,Composite,positive,base
+mill_utilization_pct,2027-10,63.7593,0.0,Utilization,positive,base
+import_dependency_pct,2027-10,100.0,0.0,Supply chain,negative,base
+waste_impact_pct,2027-10,1.9845,0.0,Waste,positive,base
+wheat_cost_index,2027-10,990.9018,0.0,Raw material,neutral,base
+avg_changeovers,2027-10,113.0,0.0,Recipe switches,neutral,base
+recipe_time_utilization_pct,2027-10,63.7593,-0.3252,Time constraint,positive,base
+capacity_violations_count,2027-10,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2027-10,972.0189,-0.6681,Wheat price,neutral,base
+waste_rate_pct,2027-10,1.9845,-0.2399,Recipe mix,positive,base
+vision_2030_index,2027-10,85.5,0.0,Sustainability,positive,base
+total_sku_forecast_units,2027-10,7755337.0,0.0,Forecast,neutral,base
+total_demand_tons,2027-10,128372.18,3.0467,SKU forecast,positive,base
+total_recipe_hours,2027-10,3264.13,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-10,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-10,0.9232,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-10,1112.6,0.0,Schedule,neutral,base
+available_mill_hours,2027-10,1745.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2027-10,632.4,0.0,Capacity balance,positive,base
+bulk_flour_required_tons,2027-10,128372.18,0.0,Flour demand,neutral,base
+overload_hours,2027-11,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-11,190.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-11,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-11,32.5,0.0,Risk model,positive,base
+total_wheat_requirement_tons,2027-11,127795.49,0.0,Procurement,neutral,base
+vision_2030_compliance,2027-11,85.5,0.0,Composite,positive,base
+yield_variability_index,2027-11,0.108,0.0,Quality,neutral,base
+import_dependency_pct,2027-11,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-11,40.1,0.0,Geopolitics,negative,base
+waste_rate_vs_target,2027-11,-0.33,0.0,Gap to target,positive,base
+energy_per_ton,2027-11,69.9425,0.0,Efficiency,neutral,base
+water_per_ton,2027-11,0.7921,0.0,Conservation,neutral,base
+mill_utilization_pct,2027-11,64.9886,0.0,Utilization,positive,base
+avg_wheat_cost_sar,2027-11,977.3079,0.0,Market,neutral,base
+waste_impact_pct,2027-11,2.1725,0.0,Waste,positive,base
+bulk_flour_required_tons,2027-11,127795.49,0.0,Flour demand,neutral,base
+avg_changeovers,2027-11,110.0,0.0,Recipe switches,neutral,base
+total_demand_tons,2027-11,127795.49,-0.4492,SKU forecast,negative,base
+recipe_time_utilization_pct,2027-11,64.9886,1.2292,Time constraint,positive,base
+capacity_violations_count,2027-11,0.0,0.0,Overload,positive,base
+avg_cost_per_ton,2027-11,977.3079,5.289,Wheat price,neutral,base
+wheat_cost_index,2027-11,990.9019,0.0,Raw material,neutral,base
+vision_2030_index,2027-11,85.5,0.0,Sustainability,positive,base
+waste_rate_pct,2027-11,2.1725,0.188,Recipe mix,positive,base
+total_recipe_hours,2027-11,3249.61,0.0,Recipe demand,neutral,base
+forecast_confidence_pct,2027-11,75.0,0.0,Model accuracy,negative,base
+seasonality_index,2027-11,0.9443,0.0,Calendar,neutral,base
+planned_recipe_hours,2027-11,1136.0,0.0,Schedule,neutral,base
+available_mill_hours,2027-11,1748.0,0.0,Capacity,neutral,base
+slack_shortfall_hours,2027-11,612.0,0.0,Capacity balance,positive,base
+total_sku_forecast_units,2027-11,7720486.0,0.0,Forecast,neutral,base
+mill_utilization_pct,2027-12,64.0068,0.0,Utilization,positive,base
+overload_hours,2027-12,0.0,0.0,Capacity,positive,base
+recipe_switch_count,2027-12,191.0,0.0,Scheduling,neutral,base
+avg_run_length_days,2027-12,0.2,0.0,Continuity,neutral,base
+downtime_risk_score,2027-12,32.0,0.0,Risk model,positive,base
+energy_per_ton,2027-12,68.5878,0.0,Efficiency,neutral,base
+avg_wheat_cost_sar,2027-12,995.9738,0.0,Market,neutral,base
+import_dependency_pct,2027-12,100.0,0.0,Supply chain,negative,base
+high_risk_supply_pct,2027-12,40.1,0.0,Geopolitics,negative,base
+yield_variability_index,2027-12,0.057,0.0,Quality,neutral,base
+waste_rate_vs_target,2027-12,-0.47,0.0,Gap to target,positive,base
+waste_impact_pct,2027-12,2.0289,0.0,Waste,positive,base
+total_wheat_requirement_tons,2027-12,137384.11,0.0,Procurement,neutral,base
+wheat_cost_index,2027-12,990.9018,0.0,Raw material,neutral,base
+bulk_flour_required_tons,2027-12,137384.11,0.0,Flour demand,neutral,base
+slack_shortfall_hours,2027-12,632.4,0.0,Capacity balance,positive,base
+available_mill_hours,2027-12,1757.0,0.0,Capacity,neutral,base
+planned_recipe_hours,2027-12,1124.6,0.0,Schedule,neutral,base
+seasonality_index,2027-12,0.9797,0.0,Calendar,neutral,base
+forecast_confidence_pct,2027-12,75.0,0.0,Model accuracy,negative,base
+total_recipe_hours,2027-12,3493.35,0.0,Recipe demand,neutral,base
+total_sku_forecast_units,2027-12,8299769.0,0.0,Forecast,neutral,base
+vision_2030_index,2027-12,85.5,0.0,Sustainability,positive,base
+waste_rate_pct,2027-12,2.0289,-0.1436,Recipe mix,positive,base
+avg_cost_per_ton,2027-12,995.9738,18.6659,Wheat price,neutral,base
+capacity_violations_count,2027-12,0.0,0.0,Overload,positive,base
+recipe_time_utilization_pct,2027-12,64.0068,-0.9817,Time constraint,positive,base
+total_demand_tons,2027-12,137384.11,7.5031,SKU forecast,positive,base
+water_per_ton,2027-12,0.7869,0.0,Conservation,neutral,base
+avg_changeovers,2027-12,113.0,0.0,Recipe switches,neutral,base
+vision_2030_compliance,2027-12,85.5,0.0,Composite,positive,base

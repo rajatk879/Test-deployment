@@ -1,0 +1,4 @@
+mill_id,mill_name,region,hours_per_day,daily_capacity_tons,silo_capacity_tons
+M1,Dammam Mill,Eastern Region,20,1350,80000
+M2,Medina Mill,Medina,20,1200,60000
+M3,Al-Kharj Mill,Central Region,18,600,10000
