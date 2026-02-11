@@ -1,9 +1,0 @@
-flask
-pandas
-matplotlib
-langchain
-langchain-openai
-langchain-google-genai
-python-dotenv
-sendgrid
-certifi

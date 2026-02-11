@@ -1,6 +1,0 @@
-recipe_id,recipe_name,base_tons_per_hour,cost_index,notes
-R1,80/70 Blend,10.5,1.05,"High quality, slower"
-R2,80 Straight,12.0,1.1,"Faster, higher cost"
-R3,Brown Recipe,8.5,1.0,Standard brown
-R4,Standard Blend,11.0,1.02,Balanced bakery blend
-R5,Premium Blend,9.5,1.08,Premium patent blend
